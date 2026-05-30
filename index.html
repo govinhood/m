@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Wants to Be a Millionaire? - Pro Celebration Edition</title>
+    <style>
+        :root {
+            --bg-dark: #07091e;
+            --bg-panel: #0e1236;
+            --primary: #1b246b;
+            --accent: #ffd700;
+            --correct: #28a745;
+            --wrong: #dc3545;
+            --text-light: #ffffff;
+            --text-muted: #8b92b6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            padding: 15px 15px 85px 15px; 
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #celebrationCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            background: radial-gradient(circle, rgba(27,36,107,0.6) 0%, rgba(7,9,30,0) 70%);
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+            border-top: 1px solid rgba(255, 215, 0, 0.2);
+        }
+
+        header h1 {
+            color: #ffffff;
+            font-size: 2.3rem;
+            font-weight: 900;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            background: linear-gradient(180deg, #ffffff 30%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .tab-navigation {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #0b0e2b;
+            border-top: 3px solid var(--primary);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 12px;
+            z-index: 1000;
+            box-shadow: 0 -8px 25px rgba(0,0,0,0.8);
+        }
+
+        .tab-btn {
+            background-color: var(--bg-panel);
+            border: 1px solid #3546a3;
+            color: var(--text-muted);
+            padding: 10px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .tab-btn.active-tab {
+            background-color: var(--accent);
+            border-color: var(--accent);
+            color: var(--bg-dark);
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+        }
+
+        .app-window {
+            display: none;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            flex: 1;
+        }
+
+        .app-window.visible {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media (min-width: 992px) {
+            .app-window.visible-game {
+                grid-template-columns: 3fr 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--bg-panel);
+            border: 2px solid #232d80;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+        }
+
+        .game-arena {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 520px;
+            position: relative;
+        }
+
+        .lifelines-row {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .lifeline-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .lifeline-btn {
+            background: linear-gradient(180deg, var(--primary), #0a0d2a);
+            border: 2px solid var(--accent);
+            color: var(--text-light);
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .lifeline-btn:hover:not(:disabled) {
+            background: var(--accent);
+            color: var(--bg-dark);
+            transform: scale(1.05);
+        }
+
+        .lifeline-wrapper.used::after {
+            content: "✕";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(220, 53, 69, 0.25);
+            color: var(--wrong);
+            font-size: 2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            border: 2px solid var(--wrong);
+            text-shadow: 0 0 8px #000;
+            pointer-events: none;
+        }
+        
+        .lifeline-wrapper.used .lifeline-btn {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .display-screen {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-left: 5px solid var(--accent);
+            display: none;
+        }
+
+        .timer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            background: rgba(0,0,0,0.2);
+            padding: 8px;
+            border-radius: 50px;
+            max-width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .timer-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 4px solid #3b4ba3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: monospace;
+            color: var(--accent);
+            transition: all 0.3s;
+        }
+
+        .timer-circle.warning {
+            border-color: var(--wrong);
+            color: var(--wrong);
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.08); }
+        }
+
+        .question-box {
+            background: linear-gradient(90deg, #0e1236, var(--primary), #0e1236);
+            border: 2px solid #3546a3;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        @media (min-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .option-btn {
+            background: rgba(27, 36, 107, 0.4);
+            border: 2px solid #3546a3;
+            color: var(--text-light);
+            padding: 15px;
+            text-align: left;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            transition: all 0.2s ease;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background: rgba(255, 215, 0, 0.15);
+            border-color: var(--accent);
+        }
+
+        .option-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .option-btn .prefix {
+            color: var(--accent);
+            font-weight: bold;
+            margin-right: 12px;
+        }
+
+        .option-btn.correct { background-color: var(--correct) !important; border-color: #2bbf55 !important; opacity: 1 !important;}
+        .option-btn.wrong { background-color: var(--wrong) !important; border-color: #f03e4e !important; opacity: 1 !important;}
+        .option-btn.hidden { visibility: hidden; pointer-events: none; }
+
+        /* BRAND SPONSOR BADGE SYSTEM */
+        .sponsor-badge {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .sponsor-logo-box {
+            background: linear-gradient(90deg, transparent, rgba(255,215,0,0.05), transparent);
+            border: 1px solid rgba(255, 215, 0, 0.12);
+            padding: 8px 24px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sponsor-logo-img {
+            max-width: 180px;
+            max-height: 55px;
+            height: auto;
+            width: auto;
+            object-fit: contain;
+            image-rendering: -webkit-optimize-contrast;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .ladder-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            background: rgba(0,0,0,0.2);
+            line-height: 1;
+        }
+
+        .ladder-row.active {
+            background-color: var(--accent);
+            color: var(--bg-dark);
+            font-weight: bold;
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+        }
+
+        .ladder-row.milestone {
+            color: #fff;
+            font-weight: bold;
+            border-left: 3px solid var(--accent);
+        }
+
+        .leaderboard-box {
+            max-height: 120px;
+            overflow-y: auto;
+        }
+
+        .leaderboard-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            text-align: left;
+        }
+
+        .leaderboard-table th, .leaderboard-table td {
+            padding: 6px;
+            border-bottom: 1px solid var(--primary);
+        }
+        
+        .leaderboard-table th { color: var(--accent); }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        @media (min-width: 768px) {
+            .form-grid { grid-template-columns: 1fr 1fr; }
+            .form-group.full-width { grid-column: span 2; }
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .form-group label {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        input, select, textarea {
+            background-color: rgba(0,0,0,0.4);
+            border: 1px solid #3546a3;
+            padding: 12px;
+            color: white;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .action-btn {
+            background-color: var(--primary);
+            border: 2px solid var(--accent);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .action-btn:hover {
+            background-color: var(--accent);
+            color: var(--bg-dark);
+        }
+
+        .chart-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+            align-items: flex-end;
+            height: 90px;
+        }
+        .chart-bar-wrapper { display: flex; flex-direction: column; align-items: center; flex: 1; }
+        .chart-bar {
+            background: linear-gradient(to top, var(--primary), var(--accent));
+            width: 100%;
+            border-radius: 4px 4px 0 0;
+            transition: height 0.4s ease;
+        }
+
+        .welcome-screen, .game-over-screen, .intermission-screen {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .welcome-screen h2, .intermission-screen h2 { margin-bottom: 20px; color: var(--accent); }
+    </style>
+</head>
+<body>
+
+    <canvas id="celebrationCanvas"></canvas>
+
+    <header>
+        <h1>Who Wants To Be A Millionaire?</h1>
+    </header>
+
+    <!-- WINDOW TAB 1: GAME ARENA PANEL -->
+    <div class="app-window visible visible-game" id="window-game">
+        <main class="card game-arena" id="gamePanel">
+            <div id="gamePlayState">
+                <div class="lifelines-row">
+                    <div class="lifeline-wrapper" id="wrap-5050"><button class="lifeline-btn" id="lifeBtn-5050" onclick="useFiftyFifty()">50 : 50</button></div>
+                    <div class="lifeline-wrapper" id="wrap-friend"><button class="lifeline-btn" id="lifeBtn-friend" onclick="usePhoneAFriend()">Phone Friend</button></div>
+                    <div class="lifeline-wrapper" id="wrap-audience"><button class="lifeline-btn" id="lifeBtn-aud" onclick="useAskAudience()">Ask Audience</button></div>
+                    <div class="lifeline-wrapper" id="wrap-double"><button class="lifeline-btn" id="lifeBtn-double" onclick="useDoubleDip()">Double Dip</button></div>
+                </div>
+
+                <div class="display-screen" id="lifelineDisplay"></div>
+
+                <div class="timer-container" id="timerSection" style="display: none;">
+                    <div class="timer-circle" id="timerClock">60</div>
+                    <button class="action-btn" id="startTimerBtn" style="padding: 6px 14px; font-size: 0.85rem;" onclick="armAndStartTimer()">Start Timer</button>
+                </div>
+
+                <div id="quizStageUI">
+                    <div class="question-box" id="questionText">Loading Content Pool Profile Context...</div>
+                    <div class="options-grid">
+                        <button class="option-btn" id="opt-0" onclick="handleOptionSelection(0)"><span class="prefix">A:</span><span class="text"></span></button>
+                        <button class="option-btn" id="opt-1" onclick="handleOptionSelection(1)"><span class="prefix">B:</span><span class="text"></span></button>
+                        <button class="option-btn" id="opt-2" onclick="handleOptionSelection(2)"><span class="prefix">C:</span><span class="text"></span></button>
+                        <button class="option-btn" id="opt-3" onclick="handleOptionSelection(3)"><span class="prefix">D:</span><span class="text"></span></button>
+                    </div>
+                    
+                    <!-- ANCHOR POINT 3: SPONSOR IMAGE BELOW OPTIONS GRID -->
+                    <div class="sponsor-badge">
+                        <span>Sponsored By</span>
+                        <div class="sponsor-logo-box">
+                            <img src="logo.png" alt="Govinhood Photography" class="sponsor-logo-img" onerror="this.style.display='none'; this.parentNode.innerText='GOVINHOOD PHOTOGRAPHY';">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px; display: flex; justify-content: space-between; align-items: center;">
+                    <span id="doubleDipIndicator" style="color:var(--accent); font-weight:bold; display:none;">⚠️ DOUBLE DIP ACTIVE: 2 Attempts allowed. Walking away disabled!</span>
+                    <button class="action-btn" id="walkAwayBtn" style="margin-left: auto;" onclick="processWalkAway()">Walk Away</button>
+                </div>
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <div class="card" style="padding: 12px;">
+                <h3 style="color: var(--accent); text-align:center; padding-bottom:6px; margin-bottom:8px; border-bottom:1px solid #232d80; font-size:1rem;">Money Ladder</h3>
+                <div id="moneyLadderContainer" style="display: flex; flex-direction: column-reverse; gap: 3px;"></div>
+            </div>
+
+            <div class="card" style="padding: 12px;">
+                <h3 style="color: var(--accent); font-size: 0.95rem; margin-bottom: 6px; text-align: center;">Top Records</h3>
+                <div class="leaderboard-box">
+                    <table class="leaderboard-table">
+                        <thead><tr><th>Player</th><th>Prize</th><th>Lvl</th></tr></thead>
+                        <tbody id="leaderboardEntries"></tbody>
+                    </table>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- WINDOW TAB 2: SEPARATED CREATOR ENGINE SYSTEM -->
+    <div class="app-window" id="window-admin">
+        <div class="card" style="grid-column: 1 / -1;">
+            <h2 style="color: var(--accent); margin-bottom: 10px;">Custom Content Management System</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">Isolate configs here. Manual changes overwrite default storage nodes safely.</p>
+
+            <div style="background-color: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center; margin-bottom: 25px; border: 1px dashed var(--primary);">
+                <div>
+                    <strong style="display:block; font-size:0.9rem;">Backup Assets Database</strong>
+                    <button class="action-btn" style="margin-top:5px; padding: 8px 15px;" onclick="exportQuestionsToJSON()">Export Content Pool Sheet (.JSON)</button>
+                </div>
+                <div>
+                    <strong style="display:block; font-size:0.9rem;">Import Pre-made Asset Database</strong>
+                    <input type="file" id="importJsonFileInput" accept=".json" style="padding:4px; font-size:0.85rem; margin-top:5px;" onchange="importQuestionsFromJSON(event)">
+                </div>
+            </div>
+
+            <h3 style="border-bottom: 1px solid var(--primary); padding-bottom: 5px; margin-bottom: 15px;">Manual Question Injector Form</h3>
+            <form id="adminQuestionForm" onsubmit="executeQuestionFormInjection(event)">
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label>Question Prompt String Text</label>
+                        <input type="text" id="formQuestion" required placeholder="Type the question details here...">
+                    </div>
+                    <div class="form-group"><label>Option A</label><input type="text" id="formOptA" required></div>
+                    <div class="form-group"><label>Option B</label><input type="text" id="formOptB" required></div>
+                    <div class="form-group"><label>Option C</label><input type="text" id="formOptC" required></div>
+                    <div class="form-group"><label>Option D</label><input type="text" id="formOptD" required></div>
+                    <div class="form-group">
+                        <label>Target Correct Solution Index</label>
+                        <select id="formCorrectIndex" required>
+                            <option value="0">Option A</option>
+                            <option value="1">Option B</option>
+                            <option value="2">Option C</option>
+                            <option value="3">Option D</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label>Target Prize Level Index Layer</label><select id="formTreeLevel" required></select></div>
+                </div>
+                <div style="display: flex; gap: 15px; margin-top: 15px;">
+                    <button type="submit" class="action-btn">Compile & Inject Question into Live Memory</button>
+                    <button type="button" class="action-btn" style="background: var(--wrong); border-color:#900;" onclick="wipeDataDefaultsReset()">Revert Data Banks to Factory Defaults</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="tab-navigation">
+        <button class="tab-btn active-tab" id="nav-game" onclick="switchWindowTab('game')">Game Arena</button>
+        <button class="tab-btn" id="nav-admin" onclick="switchWindowTab('admin')">Database Management</button>
+    </div>
+
+    <script>
+        const moneyTree = [
+            { level: 1, prize: "$100", safeZone: false },
+            { level: 2, prize: "$200", safeZone: false },
+            { level: 3, prize: "$300", safeZone: false },
+            { level: 4, prize: "$500", safeZone: false },
+            { level: 5, prize: "$1,000", safeZone: true }, 
+            { level: 6, prize: "$2,000", safeZone: false },
+            { level: 7, prize: "$4,000", safeZone: false },
+            { level: 8, prize: "$8,000", safeZone: false },
+            { level: 9, prize: "$16,000", safeZone: false },
+            { level: 10, prize: "$32,000", safeZone: true }, 
+            { level: 11, prize: "$64,000", safeZone: false },
+            { level: 12, prize: "$125,000", safeZone: false },
+            { level: 13, prize: "$250,000", safeZone: false },
+            { level: 14, prize: "$500,000", safeZone: false },
+            { level: 15, prize: "$1,000,000", safeZone: true }
+        ];
+
+        const baseQuestions = [
+            { level: 1, question: "What is the traditional color of a stop sign?", options: ["Blue", "Green", "Yellow", "Red"], correct: 3 },
+            { level: 2, question: "How many elements are listed on the standard primary periodic table?", options: ["92", "118", "105", "50"], correct: 1 },
+            { level: 3, question: "Which technological hardware device is used to input text into computer screens?", options: ["Keyboard", "Mouse", "Printer", "Monitor"], correct: 0 },
+            { level: 4, question: "Which basic shape contains exactly three interior straight edges?", options: ["Square", "Circle", "Triangle", "Hexagon"], correct: 2 },
+            { level: 5, question: "Which core planetary body is situated closest to our solar system's Sun?", options: ["Venus", "Earth", "Mercury", "Mars"], correct: 2 },
+            { level: 6, question: "Which gas do trees pull out of the atmosphere to conduct internal photosynthesis?", options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], correct: 1 },
+            { level: 7, question: "What is the longest river running across the entire world globe?", options: ["Amazon", "Nile", "Mississippi", "Yangtze"], correct: 1 },
+            { level: 8, question: "In which European capital city would you locate the famous ancient Colosseum monument?", options: ["Paris", "Madrid", "Athens", "Rome"], correct: 3 },
+            { level: 9, question: "Which chemical component compound makes up roughly 71% of Earth's crust surface area?", options: ["Sand/Silica", "Water (H2O)", "Molten Iron", "Granite Rock"], correct: 1 },
+            { level: 10, question: "Who is widely historically recognized as the original lead inventor of the telephone?", options: ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Albert Einstein"], correct: 2 },
+            { level: 11, question: "Which unique flightless avian animal species is recognized as the national emblem symbol of New Zealand?", options: ["Kiwi", "Penguin", "Ostrich", "Eagle"], correct: 0 },
+            { level: 12, question: "What element does the absolute base scientific chemical symbol 'Fe' depict?", options: ["Fluorine", "Iron", "Gold", "Lead"], correct: 1 },
+            { level: 13, question: "Which deep ocean trench tracks down as the deepest structural point found anywhere on planet Earth?", options: ["Puerto Rico Trench", "Java Trench", "Mariana Trench", "Cayman Trough"], correct: 2 },
+            { level: 14, question: "What specific year did the catastrophic historic Titanic passenger ship sink in the Atlantic?", options: ["1912", "1905", "1920", "1898"], correct: 0 },
+            { level: 15, question: "How many total structural bones are found present within an anatomically adult human body structure?", options: ["150", "206", "300", "254"], correct: 1 }
+        ];
+
+        let activeQuestions = [];
+        let activeIndex = 0;
+        let isAnsweringBlocked = true; 
+        let playerName = "Challenger One";
+        let countdownTimerId = null;
+        let clockSecondsLeft = 60;
+        let usedLifelines = { ffty: false, phone: false, aud: false, doubleDip: false };
+        let isDoubleDipActiveState = false;
+        let doubleDipAttemptsCount = 0;
+        let arenaLayoutTemplateHTML = ""; 
+
+        const AudioEngine = {
+            ctx: null,
+            init() { 
+                if(!this.ctx) this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                if (this.ctx.state === 'suspended') this.ctx.resume();
+            },
+            playTone(freq, type, duration, volume=0.1) {
+                try {
+                    this.init();
+                    let osc = this.ctx.createOscillator();
+                    let gainNode = this.ctx.createGain();
+                    osc.type = type;
+                    osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+                    gainNode.gain.setValueAtTime(volume, this.ctx.currentTime);
+                    gainNode.gain.exponentialRampToValueAtTime(0.00001, this.ctx.currentTime + duration);
+                    osc.connect(gainNode);
+                    gainNode.connect(this.ctx.destination);
+                    osc.start();
+                    osc.stop(this.ctx.currentTime + duration);
+                } catch(e) {}
+            },
+            correctDing() {
+                this.playTone(523.25, 'sine', 0.15, 0.15);
+                setTimeout(() => this.playTone(659.25, 'sine', 0.4, 0.15), 100);
+            },
+            wrongBuzzer() { this.playTone(150, 'sawtooth', 0.5, 0.2); },
+            clockTick() { this.playTone(880, 'sine', 0.02, 0.05); },
+            suspenseIntro() { this.playTone(220, 'triangle', 0.6, 0.15); }
+        };
+
+        const GlitterEngine = {
+            canvas: null,
+            ctx: null,
+            particles: [],
+            animationId: null,
+            colors: ['#ffd700', '#ff007f', '#00f0ff', '#00ff66', '#ff9900', '#ffffff', '#b57edc'],
+
+            init() {
+                this.canvas = document.getElementById("celebrationCanvas");
+                this.ctx = this.canvas.getContext("2d");
+                this.resizeCanvas();
+                window.addEventListener('resize', () => this.resizeCanvas());
+            },
+            resizeCanvas() {
+                this.canvas.width = window.innerWidth;
+                this.canvas.height = window.innerHeight;
+            },
+            burst() {
+                for (let i = 0; i < 120; i++) {
+                    this.particles.push({
+                        x: Math.random() * this.canvas.width,
+                        y: Math.random() * -50 - 20,
+                        size: Math.random() * 6 + 4,
+                        color: this.colors[Math.floor(Math.random() * this.colors.length)],
+                        speedY: Math.random() * 3 + 2,
+                        speedX: Math.random() * 2 - 1,
+                        wobble: Math.random() * 10,
+                        wobbleSpeed: Math.random() * 0.05 + 0.02,
+                        rotation: Math.random() * Math.PI,
+                        rotationSpeed: Math.random() * 0.07 - 0.035
+                    });
+                }
+                if (!this.animationId) this.loop();
+            },
+            loop() {
+                GlitterEngine.ctx.clearRect(0, 0, GlitterEngine.canvas.width, GlitterEngine.canvas.height);
+                let alive = false;
+
+                for (let p of GlitterEngine.particles) {
+                    if (p.y < GlitterEngine.canvas.height) {
+                        alive = true;
+                        p.y += p.speedY;
+                        p.wobble += p.wobbleSpeed;
+                        p.x += p.speedX + Math.sin(p.wobble) * 0.5;
+                        p.rotation += p.rotationSpeed;
+
+                        GlitterEngine.ctx.save();
+                        GlitterEngine.ctx.translate(p.x, p.y);
+                        GlitterEngine.ctx.scale(Math.cos(p.rotation), 1);
+                        GlitterEngine.ctx.fillStyle = p.color;
+                        GlitterEngine.ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
+                        GlitterEngine.ctx.restore();
+                    }
+                }
+
+                if (alive) {
+                    GlitterEngine.animationId = requestAnimationFrame(GlitterEngine.loop);
+                } else {
+                    cancelAnimationFrame(GlitterEngine.animationId);
+                    GlitterEngine.animationId = null;
+                    GlitterEngine.particles = [];
+                }
+            }
+        };
+
+        window.onload = function() {
+            arenaLayoutTemplateHTML = document.getElementById("gamePanel").innerHTML; 
+            GlitterEngine.init();
+            populateAdminDropdownStructures();
+            syncQuestionDatabasePool();
+            renderMoneyTreeTemplate();
+            renderLeaderboardView();
+            displayWelcomeScreenUI();
+        };
+
+        function switchWindowTab(targetTabId) {
+            document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active-tab"));
+            document.querySelectorAll(".app-window").forEach(w => w.classList.remove("visible", "visible-game"));
+            if(targetTabId === 'game') {
+                document.getElementById("nav-game").classList.add("active-tab");
+                document.getElementById("window-game").classList.add("visible", "visible-game");
+            } else {
+                document.getElementById("nav-admin").classList.add("active-tab");
+                document.getElementById("window-admin").classList.add("visible");
+            }
+        }
+
+        function populateAdminDropdownStructures() {
+            const dropdown = document.getElementById("formTreeLevel");
+            dropdown.innerHTML = "";
+            moneyTree.forEach(item => {
+                let opt = document.createElement("option");
+                opt.value = item.level;
+                opt.innerText = `Level ${item.level} (${item.prize})`;
+                dropdown.appendChild(opt);
+            });
+        }
+
+        function syncQuestionDatabasePool() {
+            let localStore = localStorage.getItem("millionaire_v2_questions");
+            if (!localStore) {
+                activeQuestions = JSON.parse(JSON.stringify(baseQuestions));
+                localStorage.setItem("millionaire_v2_questions", JSON.stringify(activeQuestions));
+            } else {
+                activeQuestions = JSON.parse(localStore);
+            }
+            backfillMissingLevelsIntegrityCheck();
+        }
+
+        function backfillMissingLevelsIntegrityCheck() {
+            for(let l = 1; l <= 15; l++) {
+                if(!activeQuestions.some(q => q.level === l)) {
+                    activeQuestions.push(baseQuestions.find(bq => bq.level === l));
+                }
+            }
+            activeQuestions.sort((a,b) => a.level - b.level);
+        }
+
+        function renderMoneyTreeTemplate() {
+            const container = document.getElementById("moneyLadderContainer");
+            container.innerHTML = "";
+            moneyTree.forEach(item => {
+                let row = document.createElement("div");
+                row.className = `ladder-row level-${item.level}`;
+                if(item.safeZone) row.classList.add("milestone");
+                row.innerHTML = `<span>${item.level}</span> <span>${item.prize}</span>`;
+                container.appendChild(row);
+            });
+        }
+
+        function displayWelcomeScreenUI() {
+            clearInterval(countdownTimerId);
+            const container = document.getElementById("gamePanel");
+            
+            // ANCHOR POINT 1: SPONSOR IMAGE BELOW INITIALIZE LIVE SESSION BUTTON
+            container.innerHTML = `
+                <div class="welcome-screen">
+                    <h2>Prepare For Your Audition</h2>
+                    <div class="form-group" style="max-width:400px; margin: 0 auto 25px auto; text-align:left;">
+                        <label>Enter Challenger Name:</label>
+                        <input type="text" id="playerTagInput" value="Challenger One" style="text-align:center; font-weight:bold; color:var(--accent);">
+                    </div>
+                    <button class="action-btn" style="font-size:1.3rem; padding:15px 40px;" onclick="initializeLiveGameSession()">Initialize Live Session</button>
+                    
+                    <div class="sponsor-badge">
+                        <span>Sponsored By</span>
+                        <div class="sponsor-logo-box">
+                            <img src="logo.png" alt="Govinhood Photography" class="sponsor-logo-img" onerror="this.style.display='none'; this.parentNode.innerText='GOVINHOOD PHOTOGRAPHY';">
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function initializeLiveGameSession() {
+            AudioEngine.init();
+            AudioEngine.suspenseIntro();
+
+            let inputTag = document.getElementById("playerTagInput");
+            playerName = inputTag && inputTag.value.trim() ? inputTag.value.trim() : "Anonymous Challenger";
+            
+            activeIndex = 0;
+            usedLifelines = { ffty: false, phone: false, aud: false, doubleDip: false };
+            isDoubleDipActiveState = false;
+            doubleDipAttemptsCount = 0;
+
+            displayIntermissionScreen();
+        }
+
+        function displayIntermissionScreen() {
+            clearInterval(countdownTimerId);
+            const container = document.getElementById("gamePanel");
+            let nextPrize = moneyTree[activeIndex].prize;
+            
+            // ANCHOR POINT 2: SPONSOR IMAGE BELOW LOAD QUESTION BUTTON
+            container.innerHTML = `
+                <div class="intermission-screen">
+                    <h2>Level ${activeIndex + 1} Pending</h2>
+                    <p style="font-size:1.2rem; margin-bottom: 25px;">Challenger: <strong>${playerName}</strong><br>Playing for: <span style="color:var(--accent); font-weight:bold;">${nextPrize}</span></p>
+                    <button class="action-btn" style="font-size:1.2rem; padding:12px 35px;" onclick="loadNextQuestionLayout()">Load Question</button>
+                    
+                    <div class="sponsor-badge">
+                        <span>Sponsored By</span>
+                        <div class="sponsor-logo-box">
+                            <img src="logo.png" alt="Govinhood Photography" class="sponsor-logo-img" onerror="this.style.display='none'; this.parentNode.innerText='GOVINHOOD PHOTOGRAPHY';">
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function loadNextQuestionLayout() {
+            const panel = document.getElementById("gamePanel");
+            panel.innerHTML = arenaLayoutTemplateHTML;
+
+            document.querySelectorAll(".ladder-row").forEach(r => r.classList.remove("active"));
+            let currentLevel = activeIndex + 1;
+            let targetRow = document.querySelector(`.ladder-row.level-${currentLevel}`);
+            if(targetRow) targetRow.classList.add("active");
+
+            if (usedLifelines.ffty) document.getElementById("wrap-5050").classList.add("used");
+            if (usedLifelines.phone) document.getElementById("wrap-friend").classList.add("used");
+            if (usedLifelines.aud) document.getElementById("wrap-audience").classList.add("used");
+            if (usedLifelines.doubleDip) document.getElementById("wrap-double").classList.add("used");
+
+            if (isDoubleDipActiveState) {
+                document.getElementById("walkAwayBtn").style.display = "none";
+                document.getElementById("doubleDipIndicator").style.display = "inline-block";
+            }
+
+            let currentData = fetchActiveQuestionObject();
+            document.getElementById("questionText").innerText = currentData.question;
+            
+            for(let i=0; i<4; i++) {
+                let optBtn = document.getElementById(`opt-${i}`);
+                optBtn.className = "option-btn";
+                optBtn.querySelector(".text").innerText = currentData.options[i];
+            }
+
+            hideDisplayFeedbackArea();
+
+            const timerContainer = document.getElementById("timerSection");
+            const startTimerBtn = document.getElementById("startTimerBtn");
+            
+            if(currentLevel <= 5) {
+                isAnsweringBlocked = true; 
+                toggleLifelineButtonsState(true); 
+                timerContainer.style.display = "flex";
+                startTimerBtn.style.display = "inline-block";
+                
+                clockSecondsLeft = 60;
+                let clock = document.getElementById("timerClock");
+                clock.innerText = clockSecondsLeft;
+                clock.className = "timer-circle";
+                
+                for(let i=0; i<4; i++) {
+                    document.getElementById(`opt-${i}`).disabled = true;
+                }
+            } else {
+                isAnsweringBlocked = false;
+                toggleLifelineButtonsState(false);
+                timerContainer.style.display = "none";
+                for(let i=0; i<4; i++) {
+                    document.getElementById(`opt-${i}`).disabled = false;
+                }
+            }
+        }
+
+        function armAndStartTimer() {
+            AudioEngine.init();
+            isAnsweringBlocked = false;
+            toggleLifelineButtonsState(false);
+            
+            document.getElementById("startTimerBtn").style.display = "none";
+            
+            for(let i=0; i<4; i++) {
+                document.getElementById(`opt-${i}`).disabled = false;
+            }
+
+            const clock = document.getElementById("timerClock");
+            countdownTimerId = setInterval(() => {
+                clockSecondsLeft--;
+                clock.innerText = clockSecondsLeft;
+                
+                if(clockSecondsLeft <= 10) {
+                    clock.className = "timer-circle warning";
+                    AudioEngine.clockTick();
+                }
+
+                if(clockSecondsLeft <= 0) {
+                    clearInterval(countdownTimerId);
+                    AudioEngine.wrongBuzzer();
+                    processSessionTermination(false, true);
+                }
+            }, 1000);
+        }
+
+        function toggleLifelineButtonsState(shouldDisable) {
+            document.getElementById("lifeBtn-5050").disabled = shouldDisable;
+            document.getElementById("lifeBtn-friend").disabled = shouldDisable;
+            document.getElementById("lifeBtn-aud").disabled = shouldDisable;
+            document.getElementById("lifeBtn-double").disabled = shouldDisable;
+        }
+
+        function fetchActiveQuestionObject() {
+            let targetLvl = activeIndex + 1;
+            let sub = activeQuestions.filter(q => q.level === targetLvl);
+            return sub[sub.length - 1];
+        }
+
+        function handleOptionSelection(selectedIndex) {
+            if(isAnsweringBlocked) return;
+            
+            let dataRecord = fetchActiveQuestionObject();
+            let correctSolutionIndex = dataRecord.correct;
+
+            let chosenElement = document.getElementById(`opt-${selectedIndex}`);
+            let masterCorrectElement = document.getElementById(`opt-${correctSolutionIndex}`);
+
+            if(selectedIndex === correctSolutionIndex) {
+                clearInterval(countdownTimerId);
+                isAnsweringBlocked = true;
+                chosenElement.className = "option-btn correct";
+                
+                AudioEngine.correctDing();
+                GlitterEngine.burst(); 
+                
+                if(isDoubleDipActiveState) {
+                    isDoubleDipActiveState = false;
+                    doubleDipAttemptsCount = 0;
+                }
+
+                setTimeout(() => {
+                    if(activeIndex === 14) {
+                        processSessionTermination(true);
+                    } else {
+                        activeIndex++;
+                        displayIntermissionScreen(); 
+                    }
+                }, 6200);
+
+            } else {
+                if(isDoubleDipActiveState && doubleDipAttemptsCount === 0) {
+                    doubleDipAttemptsCount = 1;
+                    chosenElement.className = "option-btn hidden"; 
+                    AudioEngine.wrongBuzzer();
+                    return;
+                }
+
+                clearInterval(countdownTimerId);
+                isAnsweringBlocked = true;
+                chosenElement.className = "option-btn wrong";
+                masterCorrectElement.className = "option-btn correct";
+                AudioEngine.wrongBuzzer();
+
+                setTimeout(() => {
+                    processSessionTermination(false);
+                }, 10000);
+            }
+        }
+
+        function processWalkAway() {
+            clearInterval(countdownTimerId);
+            let targetPrize = activeIndex === 0 ? "$0" : moneyTree[activeIndex - 1].prize;
+            saveLeaderboardScore(targetPrize);
+            renderGameOverLayout(`Challenger voluntarily stepped away from the arena.<br>Final cash packet won: <span style="color:var(--accent);">${targetPrize}</span>`);
+        }
+
+        function processSessionTermination(isCompleteWin, isClockTimeout=false) {
+            clearInterval(countdownTimerId);
+            
+            if(isCompleteWin) {
+                saveLeaderboardScore("$1,000,000");
+                renderGameOverLayout(`ULTIMATE VICTORY! You completely cleared the tree board: <span style="color:var(--accent);">$1,000,000</span>!`);
+                return;
+            }
+
+            if(isClockTimeout) {
+                let fallbackCash = calculateSafeHavenEarningsFloor();
+                saveLeaderboardScore(fallbackCash);
+                renderGameOverLayout(`TIME OUT! The clock struck zero.<br>Guaranteed safety cash tracking value: <span style="color:var(--accent);">${fallbackCash}</span>`);
+                return;
+            }
+
+            let fallbackCash = calculateSafeHavenEarningsFloor();
+            saveLeaderboardScore(fallbackCash);
+            renderGameOverLayout(`INCORRECT SOLUTION!<br>Guaranteed milestone cash tracking floor value: <span style="color:var(--accent);">${fallbackCash}</span>`);
+        }
+
+        function calculateSafeHavenEarningsFloor() {
+            let floorCash = "$0";
+            for(let i = activeIndex; i >= 0; i--) {
+                if(moneyTree[i] && moneyTree[i].safeZone && i < activeIndex) {
+                    floorCash = moneyTree[i].prize;
+                    break;
+                }
+            }
+            return floorCash;
+        }
+
+        function renderGameOverLayout(messageHtmlString) {
+            const arena = document.getElementById("gamePanel");
+            arena.innerHTML = `
+                <div class="game-over-screen">
+                    <h2 style="color:var(--accent); font-size:2.4rem; margin-bottom:15px;">Session Adjourned</h2>
+                    <p style="font-size:1.25rem; line-height:1.6; margin-bottom:30px;">${messageHtmlString}</p>
+                    <button class="action-btn" style="padding:12px 35px;" onclick="displayWelcomeScreenUI()">Re-Enter Hot Seat</button>
+                </div>
+            `;
+        }
+
+        function hideDisplayFeedbackArea() {
+            const d = document.getElementById("lifelineDisplay");
+            if (d) { d.style.display = "none"; d.innerHTML = ""; }
+        }
+
+        function renderFeedbackContentString(html) {
+            const d = document.getElementById("lifelineDisplay");
+            d.style.display = "block"; d.innerHTML = html;
+        }
+
+        function useFiftyFifty() {
+            if(usedLifelines.ffty || isAnsweringBlocked) return;
+            usedLifelines.ffty = true;
+            document.getElementById("wrap-5050").classList.add("used");
+
+            let data = fetchActiveQuestionObject();
+            let cIdx = data.correct;
+            let wrongItems = [0,1,2,3].filter(idx => idx !== cIdx);
+            wrongItems.sort(() => 0.5 - Math.random());
+            
+            document.getElementById(`opt-${wrongItems[0]}`).classList.add("hidden");
+            document.getElementById(`opt-${wrongItems[1]}`).classList.add("hidden");
+        }
+
+        function usePhoneAFriend() {
+            if(usedLifelines.phone || isAnsweringBlocked) return;
+            usedLifelines.phone = true;
+            document.getElementById("wrap-friend").classList.add("used");
+
+            let data = fetchActiveQuestionObject();
+            let keys = ["A", "B", "C", "D"];
+            let solStr = keys[data.correct];
+            let dialog = "";
+
+            if(activeIndex < 5) {
+                dialog = `<strong>Your Friend reports:</strong> "Oh, that's simple. It's definitely <strong>${solStr}</strong>!"`;
+            } else if (activeIndex < 10) {
+                dialog = Math.random() > 0.25 ? 
+                    `<strong>Your Friend reports:</strong> "I'm fairly confident it's choice <strong>${solStr}</strong>."` :
+                    `<strong>Your Friend reports:</strong> "I have a hunch leaning towards option <strong>${keys[(data.correct+1)%4]}</strong>."`;
+            } else {
+                dialog = `<strong>Your Friend reports:</strong> "High stakes zone! I suspect it's <strong>${solStr}</strong>."`;
+            }
+            renderFeedbackContentString(dialog);
+        }
+
+        function useAskAudience() {
+            if(usedLifelines.aud || isAnsweringBlocked) return;
+            usedLifelines.aud = true;
+            document.getElementById("wrap-audience").classList.add("used");
+
+            let data = fetchActiveQuestionObject();
+            let targetCorrect = data.correct;
+            let graphValues = [0, 0, 0, 0];
+            let leftover = 100;
+
+            let curveBias = 80 - (activeIndex * 4);
+            if(curveBias < 35) curveBias = 35;
+
+            graphValues[targetCorrect] = Math.floor(curveBias);
+            leftover -= graphValues[targetCorrect];
+
+            for(let i=0; i<4; i++) {
+                if(i !== targetCorrect) {
+                    let slot = [0,1,2,3].findIndex((v,idx) => idx !== targetCorrect && graphValues[idx] === 0);
+                    let val = Math.floor(Math.random() * (leftover - 5));
+                    if(val < 0) val = 0;
+                    graphValues[slot] = val;
+                    leftover -= val;
+                }
+            }
+            let pointer = 0;
+            while(leftover > 0) {
+                graphValues[pointer]++;
+                leftover--;
+                pointer = (pointer + 1) % 4;
+            }
+
+            let labels = ["A", "B", "C", "D"];
+            let uiString = `<div style="font-weight:bold; margin-bottom:6px;">Audience Response Analytics Graph:</div><div class="chart-container">`;
+            for(let i=0; i<4; i++) {
+                uiString += `
+                    <div class="chart-bar-wrapper">
+                        <span style="font-size:0.75rem; color:var(--accent);">${graphValues[i]}%</span>
+                        <div class="chart-bar" style="height:${graphValues[i]}%;"></div>
+                        <span style="font-weight:bold; margin-top:3px; font-size:0.85rem;">${labels[i]}</span>
+                    </div>`;
+            }
+            uiString += `</div>`;
+            renderFeedbackContentString(uiString);
+        }
+
+        function useDoubleDip() {
+            if(usedLifelines.doubleDip || isAnsweringBlocked) return;
+            usedLifelines.doubleDip = true;
+            document.getElementById("wrap-double").classList.add("used");
+
+            isDoubleDipActiveState = true;
+            doubleDipAttemptsCount = 0;
+
+            document.getElementById("walkAwayBtn").style.display = "none"; 
+            document.getElementById("doubleDipIndicator").style.display = "inline-block";
+        }
+
+        function saveLeaderboardScore(prizeString) {
+            let entries = [];
+            let stored = localStorage.getItem("millionaire_leaderboard");
+            if(stored) entries = JSON.parse(stored);
+
+            entries.push({
+                name: playerName,
+                prize: prizeString,
+                levelReached: activeIndex + 1,
+                dateStamp: new Date().toLocaleDateString()
+            });
+
+            entries.sort((a,b) => b.levelReached - a.levelReached);
+            if(entries.length > 10) entries = entries.slice(0, 10);
+
+            localStorage.setItem("millionaire_leaderboard", JSON.stringify(entries));
+            renderLeaderboardView();
+        }
+
+        function renderLeaderboardView() {
+            const body = document.getElementById("leaderboardEntries");
+            body.innerHTML = "";
+            let stored = localStorage.getItem("millionaire_leaderboard");
+            if(!stored || JSON.parse(stored).length === 0) {
+                body.innerHTML = `<tr><td colspan="3" style="text-align:center; color:var(--text-muted);">No entries recorded yet.</td></tr>`;
+                return;
+            }
+            JSON.parse(stored).forEach(row => {
+                let tr = document.createElement("tr");
+                tr.innerHTML = `<td><strong>${row.name}</strong></td><td style="color:var(--accent); font-weight:bold;">${row.prize}</td><td>${row.levelReached}</td>`;
+                body.appendChild(tr);
+            });
+        }
+
+        function exportQuestionsToJSON() {
+            let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(activeQuestions, null, 2));
+            let dlAnchor = document.createElement('a');
+            dlAnchor.setAttribute("href", dataStr);
+            dlAnchor.setAttribute("download", "millionaire_custom_pool.json");
+            document.body.appendChild(dlAnchor);
+            dlAnchor.click();
+            dlAnchor.remove();
+        }
+
+        function importQuestionsFromJSON(event) {
+            const fileReader = new FileReader();
+            if(!event.target.files[0]) return;
+            
+            fileReader.onload = function(e) {
+                try {
+                    let parsedData = JSON.parse(e.target.result);
+                    if(Array.isArray(parsedData)) {
+                        activeQuestions = parsedData;
+                        backfillMissingLevelsIntegrityCheck();
+                        localStorage.setItem("millionaire_v2_questions", JSON.stringify(activeQuestions));
+                        alert("Database configuration updated successfully!");
+                    }
+                } catch(err) { alert("Error passing file configurations."); }
+            };
+            fileReader.readAsText(event.target.files[0]);
+        }
+
+        function executeQuestionFormInjection(e) {
+            e.preventDefault();
+
+            let txt = document.getElementById("formQuestion").value;
+            let a = document.getElementById("formOptA").value;
+            let b = document.getElementById("formOptB").value;
+            let c = document.getElementById("formOptC").value;
+            let d = document.getElementById("formOptD").value;
+            let correctIdx = parseInt(document.getElementById("formCorrectIndex").value);
+            let targetLvl = parseInt(document.getElementById("formTreeLevel").value);
+
+            let questionObject = {
+                level: targetLvl,
+                question: txt,
+                options: [a, b, c, d],
+                correct: correctIdx
+            };
+
+            activeQuestions = activeQuestions.filter(q => q.level !== targetLvl);
+            activeQuestions.push(questionObject);
+            activeQuestions.sort((x,y) => x.level - y.level);
+
+            localStorage.setItem("millionaire_v2_questions", JSON.stringify(activeQuestions));
+            alert(`Injected configuration successfully inside layer step ${targetLvl}.`);
+            document.getElementById("adminQuestionForm").reset();
+        }
+
+        function wipeDataDefaultsReset() {
+            if(confirm("Revert database back to defaults? All custom inputs will be cleared.")) {
+                localStorage.removeItem("millionaire_v2_questions");
+                syncQuestionDatabasePool();
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>
