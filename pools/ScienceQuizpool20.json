@@ -1,0 +1,3302 @@
+[
+  {
+    "level": 1,
+    "question": "Which of the following is a living thing?",
+    "options": [
+      "Stone",
+      "Cat",
+      "Pen",
+      "Chair"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What is the primary source of light and heat for Earth?",
+    "options": [
+      "The Moon",
+      "The Sun",
+      "Mars",
+      "The Ocean"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "Which part of a plant grows underground and absorbs water?",
+    "options": [
+      "Leaf",
+      "Flower",
+      "Root",
+      "Stem"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What state of matter is water when it freezes into ice?",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid",
+      "Plasma"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which organ do humans use to breathe air?",
+    "options": [
+      "Heart",
+      "Stomach",
+      "Lungs",
+      "Liver"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which animal can fly using wings?",
+    "options": [
+      "Frog",
+      "Pigeon",
+      "Fish",
+      "Cow"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What is the color of a common plant leaf due to chlorophyll?",
+    "options": [
+      "Blue",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "How many senses do humans traditionally have?",
+    "options": [
+      "Three",
+      "Five",
+      "Ten",
+      "Two"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What force causes an apple to fall from a tree to the ground?",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Electricity"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which body part is responsible for pumping blood?",
+    "options": [
+      "Brain",
+      "Heart",
+      "Lungs",
+      "Kidney"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What gas do we breathe in to survive?",
+    "options": [
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Oxygen",
+      "Helium"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": [
+      "Venus",
+      "Jupiter",
+      "Mars",
+      "Mercury"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What happens to liquid water when it is boiled?",
+    "options": [
+      "It turns into ice",
+      "It turns into water vapor",
+      "It disappears completely",
+      "It turns into solid rock"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "Which of these animals lives completely underwater?",
+    "options": [
+      "Monkey",
+      "Eagle",
+      "Fish",
+      "Tiger"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What is the hard, outer layer that covers our body?",
+    "options": [
+      "Muscle",
+      "Bone",
+      "Skin",
+      "Hair"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which celestial object orbits around the Earth?",
+    "options": [
+      "The Sun",
+      "The Moon",
+      "Polaris",
+      "Saturn"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What do bees collect from flowers to make honey?",
+    "options": [
+      "Water",
+      "Leaves",
+      "Nectar",
+      "Soil"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which of these is a non-living component of an ecosystem?",
+    "options": [
+      "Grass",
+      "Rabbit",
+      "Soil",
+      "Earthworm"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What energy form do we get from a burning candle?",
+    "options": [
+      "Sound energy",
+      "Light and Heat energy",
+      "Magnetic energy",
+      "Electrical energy"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What shape is the planet Earth?",
+    "options": [
+      "Flat square",
+      "Perfect pyramid",
+      "Spherical / Geoid",
+      "Cube"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Which instrument is used to measure body temperature?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Microscope",
+      "Speedometer"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Plants make their own food through which process?",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Evaporation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What is the chemical formula for water?",
+    "options": [
+      "CO2",
+      "NaCl",
+      "H2O",
+      "O2"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Which of these animals is a herbivore?",
+    "options": [
+      "Lion",
+      "Tiger",
+      "Deer",
+      "Wolf"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "How many planets are there in our solar system?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What type of energy is stored in a stretched rubber band?",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Thermal energy",
+      "Electrical energy"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which gas is released by plants during photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Oxygen",
+      "Argon"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What is the standard unit of mass in the metric system?",
+    "options": [
+      "Meter",
+      "Liter",
+      "Gram/Kilogram",
+      "Second"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Which part of the skeleton protects our brain?",
+    "options": [
+      "Ribcage",
+      "Skull",
+      "Backbone",
+      "Pelvis"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What kind of water is found in oceans?",
+    "options": [
+      "Fresh water",
+      "Salty water",
+      "Distilled water",
+      "Frozen water"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which of these is a physical change?",
+    "options": [
+      "Burning of wood",
+      "Rusting of iron",
+      "Melting of ice",
+      "Souring of milk"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What is the largest planet in our solar system?",
+    "options": [
+      "Earth",
+      "Saturn",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Which tiny organisms can only be seen clearly under a microscope?",
+    "options": [
+      "Ants",
+      "Microbes/Bacteria",
+      "Earthworms",
+      "Mosquitoes"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What material is an excellent conductor of electricity?",
+    "options": [
+      "Plastic",
+      "Wood",
+      "Copper",
+      "Glass"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Which component of the air is present in the highest percentage?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Water vapor"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What do we call animals that can live both on land and in water?",
+    "options": [
+      "Mammals",
+      "Amphibians",
+      "Reptiles",
+      "Pisces"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What is the movement of the Earth on its own axis called?",
+    "options": [
+      "Revolution",
+      "Rotation",
+      "Orbit",
+      "Precession"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which acid is naturally found in lemons?",
+    "options": [
+      "Hydrochloric acid",
+      "Citric acid",
+      "Acetic acid",
+      "Nitric acid"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What type of signal allows a remote control to operate a television?",
+    "options": [
+      "Sound waves",
+      "Infrared light",
+      "Visible light waves",
+      "X-rays"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which structure connects a human muscle to a bone?",
+    "options": [
+      "Ligament",
+      "Tendon",
+      "Nerve",
+      "Skin"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What is the basic structural and functional unit of all living organisms?",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Cell",
+      "Atom"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which instrument is used to measure atmospheric pressure?",
+    "options": [
+      "Thermometer",
+      "Anemometer",
+      "Barometer",
+      "Hydrometer"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "What element does the chemical symbol 'Na' represent?",
+    "options": [
+      "Nitrogen",
+      "Sodium",
+      "Neon",
+      "Nickel"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "How long does it take for the Earth to complete one full revolution around the Sun?",
+    "options": [
+      "24 hours",
+      "30 days",
+      "365.25 days",
+      "12 hours"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which component of blood is primarily responsible for fighting infections?",
+    "options": [
+      "Red Blood Cells",
+      "White Blood Cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What type of lens is thinner in the middle and thicker at the edges?",
+    "options": [
+      "Convex lens",
+      "Concave lens",
+      "Bifocal lens",
+      "Cylindrical lens"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What type of substance turns blue litmus paper into red?",
+    "options": [
+      "Base",
+      "Acid",
+      "Salt",
+      "Water"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which planet is famous for its distinct, bright rings made of ice and rock dust?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "What do we call the process by which liquid water changes into water vapor below its boiling point?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation",
+      "Precipitation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What is the green pigment in plants that traps sunlight?",
+    "options": [
+      "Hemoglobin",
+      "Chlorophyll",
+      "Carotene",
+      "Xanthophyll"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What type of mirror is used as a rear-view mirror in vehicles to get a wide field of view?",
+    "options": [
+      "Plane mirror",
+      "Concave mirror",
+      "Convex mirror",
+      "Inverted mirror"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which of these is a compound?",
+    "options": [
+      "Iron filing",
+      "Oxygen gas",
+      "Carbon dioxide",
+      "Gold ring"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "What is the primary function of the large intestine in humans?",
+    "options": [
+      "Digestion of proteins",
+      "Absorption of water",
+      "Production of bile",
+      "Absorption of amino acids"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which star is closest to planet Earth?",
+    "options": [
+      "Alpha Centauri",
+      "Proxima Centauri",
+      "The Sun",
+      "Sirius"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "What metric unit measures electrical resistance?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "What do we call an atom that has gained or lost electrons and carries a charge?",
+    "options": [
+      "Molecule",
+      "Ion",
+      "Isotope",
+      "Element"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which vitamin is produced in the human skin when exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "What is the galaxy that contains our Solar System called?",
+    "options": [
+      "Andromeda",
+      "Milky Way",
+      "Triangulum",
+      "Magellanic Cloud"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What state of matter has a definite volume but no definite shape?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which plant tissue transports water and minerals up from the roots?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cortex",
+      "Pith"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What type of energy is possessed by a body due to its motion?",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy",
+      "Nuclear energy"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What is the common name for Sodium Chloride?",
+    "options": [
+      "Baking soda",
+      "Table salt",
+      "Lime water",
+      "Bleaching powder"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which cell organelle is known as the 'Powerhouse of the Cell'?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi body"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What is the outermost layer of the Earth called?",
+    "options": [
+      "Mantle",
+      "Outer Core",
+      "Crust",
+      "Inner Core"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "Sound travels fastest through which of the following mediums?",
+    "options": [
+      "Air",
+      "Water",
+      "Steel (Solid)",
+      "Vacuum"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What are vertical columns in the periodic table called?",
+    "options": [
+      "Periods",
+      "Groups",
+      "Rows",
+      "Series"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which blood vessel carries oxygenated blood away from the heart to the body?",
+    "options": [
+      "Vein",
+      "Artery",
+      "Capillary",
+      "Vena Cava"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What are planetary bodies located beyond our solar system called?",
+    "options": [
+      "Asteroids",
+      "Exoplanets",
+      "Meteorites",
+      "Comets"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What is the value of acceleration due to gravity ($g$) on Earth's surface?",
+    "options": [
+      "9.8 m/s²",
+      "8.9 m/s²",
+      "10.5 m/s²",
+      "6.67 m/s²"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "What kind of reaction occurs when an acid reacts with a base?",
+    "options": [
+      "Oxidation",
+      "Neutralization",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which hormone regulates glucose levels in human blood?",
+    "options": [
+      "Adrenaline",
+      "Thyroxin",
+      "Insulin",
+      "Estrogen"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What is the names of the dark spots on the Sun's surface that are cooler than surrounding areas?",
+    "options": [
+      "Solar flares",
+      "Sunspots",
+      "Solar winds",
+      "Prominences"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What property describes a material's resistance to scratching?",
+    "options": [
+      "Ductility",
+      "Malleability",
+      "Hardness",
+      "Elasticity"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What gas is primarily responsible for the greenhouse effect on Earth?",
+    "options": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Helium"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which category of plants lacks specialized vascular tissues like xylem and phloem?",
+    "options": [
+      "Angiosperms",
+      "Gymnosperms",
+      "Bryophytes",
+      "Pteridophytes"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "Which unit measures the total luminous intensity or brightness of a light source?",
+    "options": [
+      "Mole",
+      "Candela",
+      "Kelvin",
+      "Ampere"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What do we call elements that share properties of both metals and non-metals?",
+    "options": [
+      "Noble gases",
+      "Alkali metals",
+      "Metalloids",
+      "Halogens"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What is the scientific term for the windpipe in humans?",
+    "options": [
+      "Esophagus",
+      "Trachea",
+      "Larynx",
+      "Pharynx"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What is the phenomenon where light bounces back after hitting a polished surface?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Dispersion",
+      "Scattering"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What type of eclipse occurs when the Moon passes directly between the Sun and Earth?",
+    "options": [
+      "Lunar eclipse",
+      "Solar eclipse",
+      "Sidereal eclipse",
+      "Annular transit"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What is the rate of change of velocity over time called?",
+    "options": [
+      "Speed",
+      "Displacement",
+      "Acceleration",
+      "Momentum"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What is the atomic number of Carbon?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which organelle inside a plant cell is responsible for conducting photosynthesis?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Vacuole",
+      "Lysosome"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What is the name of the brightest star visible from Earth in the night sky?",
+    "options": [
+      "Sirius",
+      "Betelgeuse",
+      "Polaris",
+      "Vega"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "What is the product of mass and velocity of an object called?",
+    "options": [
+      "Force",
+      "Work",
+      "Momentum",
+      "Power"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What type of chemical bond is formed by the sharing of pairs of electrons between atoms?",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which system in the human body is responsible for producing hormones?",
+    "options": [
+      "Nervous system",
+      "Endocrine system",
+      "Excretory system",
+      "Circulatory system"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What boundary separates our inner rocky planets from the outer gas giants?",
+    "options": [
+      "Kuiper Belt",
+      "Oort Cloud",
+      "Asteroid Belt",
+      "Van Allen Belt"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What is the SI unit of work and energy?",
+    "options": [
+      "Watt",
+      "Newton",
+      "Joule",
+      "Pascal"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What scale measures the acidity or alkalinity of a liquid solution?",
+    "options": [
+      "Richter scale",
+      "pH scale",
+      "Celsius scale",
+      "Kelvin scale"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which group of animals are endothermic (warm-blooded) vertebrates with feathers?",
+    "options": [
+      "Reptiles",
+      "Amphibians",
+      "Aves (Birds)",
+      "Pisces"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What property of a star determines its ultimate lifecycle and final fate?",
+    "options": [
+      "Radius",
+      "Surface Temperature",
+      "Initial Mass",
+      "Velocity"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What is the resistance offered by surfaces in contact to slide past each other?",
+    "options": [
+      "Inertia",
+      "Friction",
+      "Gravity",
+      "Tension"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which of these is a noble gas?",
+    "options": [
+      "Oxygen",
+      "Chlorine",
+      "Argon",
+      "Nitrogen"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What is the functional filtering unit of a human kidney?",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Villus"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What layer of Earth's atmosphere contains the critical ozone layer?",
+    "options": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What rule states that an object immersed in a fluid experiences an upward buoyant force?",
+    "options": [
+      "Newton's Law",
+      "Pascal's Law",
+      "Archimedes' Principle",
+      "Ohm's Law"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What is the valence of an Oxygen atom?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which structural biological compound contains our genetic blueprint instructions?",
+    "options": [
+      "RNA",
+      "DNA",
+      "ATP",
+      "Protein"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What term describes the actual path that a planet follows to travel around the Sun?",
+    "options": [
+      "Axis",
+      "Trajectory",
+      "Orbit",
+      "Vector"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "What is the upward force exerted by a fluid on an object placed in it called?",
+    "options": [
+      "Gravitational force",
+      "Frictional force",
+      "Buoyant force / Upthrust",
+      "Centripetal force"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "What is the molecular formula of Ozone?",
+    "options": [
+      "O2",
+      "O3",
+      "H2O2",
+      "CO"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What type of cell division results in four daughter cells each with half the chromosome number?",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission",
+      "Budding"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What are the celestial bodies made of ice, dust, and rock that develop a tail near the Sun?",
+    "options": [
+      "Asteroids",
+      "Meteors",
+      "Comets",
+      "Black holes"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "What physical quantity remains constant during a perfectly elastic collision?",
+    "options": [
+      "Only Kinetic Energy",
+      "Only Momentum",
+      "Both Momentum and Kinetic Energy",
+      "Neither Momentum nor Kinetic Energy"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "Which catalyst substance speeds up chemical reactions without being consumed itself?",
+    "options": [
+      "Reactant",
+      "Product",
+      "Enzyme / Catalyst",
+      "Solvent"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "Which organ secretes bile juice into the digestive tract?",
+    "options": [
+      "Stomach",
+      "Pancreas",
+      "Liver",
+      "Gallbladder"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "What structural feature of a telescope determines its light-gathering power?",
+    "options": [
+      "Length of tube",
+      "Diameter of objective lens/aperture",
+      "Magnification of eyepiece",
+      "Weight of mount"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What is the expression for kinetic energy of an object of mass $m$ moving with velocity $v$?",
+    "options": [
+      "mgh",
+      "mv",
+      "1/2 mv²",
+      "1/2 m²v"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "What is the common oxidation state of elements in Group 17 (Halogens)?",
+    "options": [
+      "+1",
+      "-1",
+      "+7",
+      "-2"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Which chamber of the human heart pumps oxygenated blood into the aorta?",
+    "options": [
+      "Right Atrium",
+      "Left Atrium",
+      "Right Ventricle",
+      "Left Ventricle"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "What is the velocity required for an object to permanently leave Earth's gravitational pull?",
+    "options": [
+      "9.8 km/s",
+      "11.2 km/s",
+      "7.9 km/s",
+      "3.0 x 10⁸ m/s"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What physical quantity is measured in Kilowatt-hour (kWh)?",
+    "options": [
+      "Electrical Power",
+      "Electrical Energy",
+      "Electric Current",
+      "Voltage"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What type of chemical reaction involves the exchange of ions between two compounds?",
+    "options": [
+      "Combination reaction",
+      "Decomposition reaction",
+      "Single displacement",
+      "Double displacement"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "What is the name of the small gaps found between two communicating neurons?",
+    "options": [
+      "Axon",
+      "Dendrite",
+      "Synapse",
+      "Myelin sheath"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "What is the structural center of a galaxy, which often harbors a supermassive black hole?",
+    "options": [
+      "Galactic halo",
+      "Galactic nucleus/bulge",
+      "Spiral arm",
+      "Nebula"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Which of these devices operates based on electromagnetic induction?",
+    "options": [
+      "Electric Heater",
+      "Electric Generator",
+      "Electric Bulb",
+      "Electric Fuse"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What configuration of electrons makes an atom highly stable and unreactive?",
+    "options": [
+      "Half-filled d-orbitals",
+      "A complete octet in valence shell",
+      "Having 4 valence electrons",
+      "Having odd number of protons"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Which component of human blood lacks a cell nucleus at fully mature stages?",
+    "options": [
+      "White Blood Cell",
+      "Mature Red Blood Cell",
+      "Lymphocyte",
+      "Phagocyte"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What are the regions in space where gas and dust condense to form new stars?",
+    "options": [
+      "Nebulae",
+      "Asteroid belts",
+      "Black holes",
+      "White dwarfs"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "What happens to the boiling point of water at higher altitudes like mountains?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It remains exactly 100°C",
+      "It doubles"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the modern periodic law based on?",
+    "options": [
+      "Atomic mass",
+      "Atomic number",
+      "Atomic radius",
+      "Mass number"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which nitrogenous base is found in RNA but NOT in DNA?",
+    "options": [
+      "Adenine",
+      "Thymine",
+      "Uracil",
+      "Guanine"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "What event marked the rapid expansion and birth of our universe roughly 13.8 billion years ago?",
+    "options": [
+      "Supernova",
+      "Big Bang",
+      "Solar flare",
+      "Cosmic collision"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "If the mechanical advantage of a machine is greater than 1, it acts as a:",
+    "options": [
+      "Speed multiplier",
+      "Force multiplier",
+      "Direction changer",
+      "Energy creator"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What are atoms of the same element with same atomic number but different mass numbers?",
+    "options": [
+      "Isobars",
+      "Isotopes",
+      "Isotones",
+      "Allotropes"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What structure is known as the site of protein synthesis inside cells?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Centrosome",
+      "Nucleolus"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the term for a star that suddenly increases drastically in brightness due to a catastrophic explosion?",
+    "options": [
+      "Protostar",
+      "Supernova",
+      "Red Giant",
+      "Pulsar"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What law states that current is directly proportional to potential difference at constant temperature?",
+    "options": [
+      "Boyles's Law",
+      "Ohm's Law",
+      "Pascal's Law",
+      "Charles's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the shape of a water molecule ($H_2O$)?",
+    "options": [
+      "Linear",
+      "Bent / V-shaped",
+      "Tetrahedral",
+      "Trigonal planar"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which plant hormone is primarily responsible for fruit ripening?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Ethylene"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 7,
+    "question": "What property describes the total power output emitted into space by a star?",
+    "options": [
+      "Apparent magnitude",
+      "Luminosity",
+      "Surface gravity",
+      "Spectral index"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the frequency of an electromagnetic wave with a shorter wavelength compared to one with longer wavelength?",
+    "options": [
+      "Lower frequency",
+      "Higher frequency",
+      "Same frequency",
+      "Zero frequency"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the general formula for alkane hydrocarbons?",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnH2n+1"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which part of the human brain controls involuntary actions like heartbeat and breathing?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla Oblongata",
+      "Hypothalamus"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "What mechanism balances stars, preventing them from collapsing under gravity or blowing apart from radiation?",
+    "options": [
+      "Hydrostatic equilibrium",
+      "Centrifugal balancing",
+      "Thermal convection",
+      "Quantum tunneling"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "What property of a medium determines how much light bends when entering it?",
+    "options": [
+      "Optical density / Refractive index",
+      "Mass density",
+      "Malleability",
+      "Opacity"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "What is the pH value of a perfectly neutral aqueous solution at 25°C?",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "5.6"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What structures prevent backflow of blood inside human veins?",
+    "options": [
+      "Capillaries",
+      "Valves",
+      "Nodes",
+      "Sphincters"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the unit used by astronomers to measure distances based on the angle of stellar parallax?",
+    "options": [
+      "Light year",
+      "Astronomical Unit (AU)",
+      "Parsec",
+      "Kilometer"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "What happens to the electrical resistance of a pure metallic conductor when its temperature is increased?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It remains unchanged",
+      "It drops to zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "Which element has the highest electronegativity value on the Pauling scale?",
+    "options": [
+      "Oxygen",
+      "Chlorine",
+      "Fluorine",
+      "Helium"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "What type of chromosomal abnormality causes Down Syndrome?",
+    "options": [
+      "Monosomy 21",
+      "Trisomy 21",
+      "Trisomy 18",
+      "Deletion of X chromosome"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What is the ultimate remnant state of a low-to-medium mass star like our Sun after its death?",
+    "options": [
+      "Neutron Star",
+      "Black hole",
+      "White Dwarf",
+      "Pulsar"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "A lens has a focal length of +25 cm. What is its optical power in diopters?",
+    "options": [
+      "+4 D",
+      "-4 D",
+      "+0.25 D",
+      "+2.5 D"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which historical atomic model first proposed that electrons reside in discrete, quantized energy orbits?",
+    "options": [
+      "Dalton's Model",
+      "Rutherford's Model",
+      "Bohr's Model",
+      "Thomson's Plum Pudding Model"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "What is the primary mode of nutrition exhibited by all fungi?",
+    "options": [
+      "Autotrophic",
+      "Saprophytic / Heterotrophic",
+      "Photosynthetic",
+      "Chemoautotrophic"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What is the approximate temperature at the center core of our Sun?",
+    "options": [
+      "6,000 K",
+      "1.5 million K",
+      "15 million K",
+      "100 million K"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "What property of a sound wave determines its subjective pitch?",
+    "options": [
+      "Amplitude",
+      "Frequency",
+      "Wave speed",
+      "Overtones"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What is the term for a solution that cannot dissolve any more solute at a given temperature?",
+    "options": [
+      "Unsaturated solution",
+      "Saturated solution",
+      "Supersaturated solution",
+      "Dilute solution"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "Which specialized cross-walls separate individual cells in fungal hyphae?",
+    "options": [
+      "Spits",
+      "Septa",
+      "Capsules",
+      "Mycelia"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What type of galaxy features a flat disk, a central bulge, and prominent curving arms?",
+    "options": [
+      "Elliptical galaxy",
+      "Spiral galaxy",
+      "Irregular galaxy",
+      "Lenticular galaxy"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What physical quantity does the area under a velocity-time graph represent?",
+    "options": [
+      "Acceleration",
+      "Displacement / Distance",
+      "Work done",
+      "Force applied"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What type of functional group is present in an alcohol compound?",
+    "options": [
+      "-CHO",
+      "-COOH",
+      "-OH",
+      "-CO-"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "Which antibody class is most abundant in human primary breast milk (colostrum)?",
+    "options": [
+      "IgG",
+      "IgA",
+      "IgM",
+      "IgE"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What principle explains why the orbital speed of a planet varies, moving fastest when closest to the Sun?",
+    "options": [
+      "Kepler's First Law",
+      "Kepler's Second Law",
+      "Newton's First Law",
+      "Bode's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What type of thermodynamic system can exchange energy, but NOT matter, with its surroundings?",
+    "options": [
+      "Open system",
+      "Closed system",
+      "Isolated system",
+      "Adiabatic system"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What basic unit expresses the amount of a substance containing exactly $6.022 \\times 10^{23}$ elementary particles?",
+    "options": [
+      "Gram",
+      "Mole",
+      "Dalton",
+      "Equivalent weight"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What structural feature increases the surface area for absorption in the human small intestine?",
+    "options": [
+      "Alveoli",
+      "Villi",
+      "Nephrons",
+      "Cilia"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What physical law relates the apparent shift in frequency of a star's light to its velocity relative to Earth?",
+    "options": [
+      "Snell's Law",
+      "Doppler Effect",
+      "Hubble's Law",
+      "Stefan's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What happens to the capacitance of a parallel plate capacitor if a dielectric material is inserted between its plates?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It drops to zero",
+      "It remains unchanged"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What type of chemical reaction has a negative enthalpy change ($\\Delta H < 0$)?",
+    "options": [
+      "Endothermic reaction",
+      "Exothermic reaction",
+      "Isothermal reaction",
+      "Reversible reaction"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Which enzyme breaks down starch into maltose in the human mouth?",
+    "options": [
+      "Pepsin",
+      "Trypsin",
+      "Salivary Amylase / Ptyalin",
+      "Lipase"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "What cosmic metric describes the speed at which galaxies are receding relative to their distance from us?",
+    "options": [
+      "Planck constant",
+      "Hubble constant",
+      "Solar constant",
+      "Gravitational constant"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the total equivalent resistance of two $6\\,\\Omega$ resistors connected in parallel?",
+    "options": [
+      "12 $\\Omega$",
+      "3 $\\Omega$",
+      "1.5 $\\Omega$",
+      "36 $\\Omega$"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the electronic configuration of a Calcium atom (Atomic Number = 20)?",
+    "options": [
+      "2, 8, 10",
+      "2, 8, 8, 2",
+      "2, 8, 9, 1",
+      "2, 6, 8, 4"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the process of extracting ammonia industrially by combining nitrogen and hydrogen gas?",
+    "options": [
+      "Contact Process",
+      "Haber's Process",
+      "Solvay Process",
+      "Ostwald Process"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the phase of a stellar core where helium nuclei fuse to form carbon?",
+    "options": [
+      "Main sequence",
+      "Red Giant phase",
+      "Protostar phase",
+      "Supernova blast"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What phenomenon causes a swimming pool to appear shallower than its actual depth?",
+    "options": [
+      "Total internal reflection",
+      "Refraction of light",
+      "Diffraction of light",
+      "Scattering of light"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What general classification describes water that readily forms scum but not lather with soap?",
+    "options": [
+      "Soft water",
+      "Hard water",
+      "Heavy water",
+      "Mineralized water"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Which specific plant tissue consists of dead cells with highly lignified walls providing mechanical strength?",
+    "options": [
+      "Parenchyma",
+      "Collenchyma",
+      "Sclerenchyma",
+      "Aerenchyma"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "What type of energetic star spins incredibly rapidly and emits localized beams of electromagnetic radiation?",
+    "options": [
+      "White dwarf",
+      "Pulsar / Neutron Star",
+      "Red dwarf",
+      "Blue giant"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What rule or principle states that no two electrons in an atom can have the same identical set of four quantum numbers?",
+    "options": [
+      "Hund's Rule",
+      "Pauli Exclusion Principle",
+      "Aufbau Principle",
+      "Heisenberg Principle"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What chemical bond is predominantly formed when an alkali metal reacts with a halogen?",
+    "options": [
+      "Nonpolar covalent bond",
+      "Ionic bond",
+      "Coordinate bond",
+      "Metallic bond"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What type of blood can a person with blood group O-negative safely receive during transfusion?",
+    "options": [
+      "Any blood group (Universal recipient)",
+      "Only O-negative",
+      "O-positive and O-negative",
+      "AB-negative"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What term describes the shift of spectral lines toward longer wavelengths in light coming from receding galaxies?",
+    "options": [
+      "Blueshift",
+      "Redshift",
+      "Green shift",
+      "Infrared drift"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the critical angle for a medium if its refractive index relative to air is $\\sqrt{2}$?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What structural type of carbon is represented by Buckyballs or Buckminsterfullerene?",
+    "options": [
+      "Isotopes of carbon",
+      "Allotropes of carbon",
+      "Isomers of carbon",
+      "Hydrocarbons"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Which cellular organelle contains powerful digestive enzymes and is nicknamed the 'suicide bag'?",
+    "options": [
+      "Centrosome",
+      "Lysosome",
+      "Peroxisome",
+      "Glyoxysome"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What parameter of a telescope dictates its angular resolution?",
+    "options": [
+      "Focal length of eyepiece",
+      "Diameter of objective lens / mirror",
+      "Total length of telescope barrel",
+      "Magnifying power index"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "A body of mass $2\\text{ kg}$ is dropped from a height of $10\\text{ m}$. What is its kinetic energy just before hitting the ground? (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "100 J",
+      "200 J",
+      "50 J",
+      "20 J"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Which of the following elements has the lowest first ionization energy?",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Rubidium",
+      "Cesium"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 10,
+    "question": "What is the genotypic ratio in a classic Mendelian monohybrid cross in the F2 generation?",
+    "options": [
+      "3:1",
+      "9:3:3:1",
+      "1:2:1",
+      "1:1"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "What state of matter is achieved when a gas of bosons at low densities is cooled to temperatures very close to absolute zero?",
+    "options": [
+      "Plasma",
+      "Quark-gluon plasma",
+      "Bose-Einstein Condensate",
+      "Degenerate Fermi gas"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "What property of a fluid causes a sphere falling through it to eventually reach a constant terminal velocity?",
+    "options": [
+      "Surface tension",
+      "Viscosity",
+      "Buoyancy",
+      "Compressibility"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What chemical compound is the primary constituent of temporary hardness in water?",
+    "options": [
+      "Calcium Chloride",
+      "Magnesium Sulfate",
+      "Calcium Bicarbonate",
+      "Sodium Carbonate"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "Which cranial nerve is primarily responsible for transmitting visual signals from the eye to the human brain?",
+    "options": [
+      "Olfactory nerve (I)",
+      "Optic nerve (II)",
+      "Oculomotor nerve (III)",
+      "Vagus nerve (X)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What limit sets the maximum mass a stable white dwarf star can possess before collapsing into a neutron star or black hole?",
+    "options": [
+      "Chandrasekhar Limit",
+      "Oppenheimer-Volkoff Limit",
+      "Schwarzschild Radius",
+      "Eddington Limit"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "What happens to the focal length of a convex lens when it is immersed in water instead of air?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It remains completely unchanged",
+      "It becomes negative"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What is the formal IUPAC name of the compound commonly known as Acetylene?",
+    "options": [
+      "Ethene",
+      "Ethyne",
+      "Propyne",
+      "Methene"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Which section of the human brain acts as the primary relay station for sensory information traveling to the cerebral cortex?",
+    "options": [
+      "Hypothalamus",
+      "Thalamus",
+      "Pons",
+      "Cerebellum"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What temperature corresponds to absolute zero on the Celsius scale?",
+    "options": [
+      "0°C",
+      "-273.15°C",
+      "-100°C",
+      "-459.67°C"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What device uses a split-ring commutator to invert the direction of electric current every half-turn?",
+    "options": [
+      "AC Generator",
+      "DC Motor",
+      "Transformer",
+      "Galvanometer"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Which structural feature allows the extraction of pure nitric acid from ammonia via catalytic oxidation?",
+    "options": [
+      "Haber Process",
+      "Ostwald Process",
+      "Contact Process",
+      "Bessemer Process"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What specific type of blood vessel features a wall that is only one cell layer thick to allow efficient gas exchange?",
+    "options": [
+      "Arterioles",
+      "Venules",
+      "Capillaries",
+      "Lymphatics"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "What process fuses hydrogen nuclei into helium inside low-mass stars like our Sun?",
+    "options": [
+      "Triple-alpha process",
+      "Proton-proton chain reaction",
+      "CNO cycle",
+      "Carbon burning"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What is the wave speed of a wave with a frequency of $500\\text{ Hz}$ and a wavelength of $0.6\\text{ m}$?",
+    "options": [
+      "300 m/s",
+      "833 m/s",
+      "120 m/s",
+      "500.6 m/s"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "What are molecules that share the exact same molecular formula but display different structural connectivity?",
+    "options": [
+      "Isotopes",
+      "Isomers",
+      "Allotropes",
+      "Homologs"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What structural dynamic prevents self-pollination from occurring within some bisexual flowers?",
+    "options": [
+      "Dichogamy",
+      "Anemophily",
+      "Cleistogamy",
+      "Parthenocarpy"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "What metric represents the total cosmic microwave background (CMB) radiation left over from the early universe?",
+    "options": [
+      "Blackbody radiation at ~2.7 Kelvin",
+      "Infrared emission at 300 Kelvin",
+      "X-ray background from pulsars",
+      "Gamma ray burst remnant"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "What is the total heat required to completely melt 1 kg of ice at 0°C into liquid water at 0°C?",
+    "options": [
+      "4200 J",
+      "3.36 x 10⁵ J",
+      "2.26 x 10⁶ J",
+      "336 J"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What type of hybridization is found in the carbon atoms of an ethene ($C_2H_4$) molecule?",
+    "options": [
+      "sp",
+      "sp²",
+      "sp³",
+      "sp³d"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which structural region of a human bone is responsible for producing red blood cells?",
+    "options": [
+      "Yellow bone marrow",
+      "Red bone marrow",
+      "Periosteum",
+      "Compact cortical bone"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What core mechanism powers energy production inside massive stars that are much heavier than our Sun?",
+    "options": [
+      "Proton-Proton chain",
+      "CNO (Carbon-Nitrogen-Oxygen) cycle",
+      "Triple-Alpha process",
+      "Silicon burning"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What type of wave is sound traveling through an open air medium?",
+    "options": [
+      "Transverse electromagnetic wave",
+      "Longitudinal mechanical wave",
+      "Torsional wave",
+      "Surface Rayleigh wave"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What color is observed when a volatile copper salt is introduced into a Bunsen burner flame?",
+    "options": [
+      "Brick red",
+      "Crimson",
+      "Bluish-green",
+      "Lilac"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Which organelle inside eukaryotic cells contains its own distinct, circular DNA loop and ribosomes?",
+    "options": [
+      "Golgi Apparatus",
+      "Mitochondrion",
+      "Endoplasmic Reticulum",
+      "Peroxisome"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What type of variable star experiences cyclic expansions and contractions, changing its brightness predictably over time?",
+    "options": [
+      "T Tauri star",
+      "Cepheid variable",
+      "Nova",
+      "White dwarf"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What is the terminal velocity profile of an object when air resistance perfectly equals its gravitational force?",
+    "options": [
+      "The velocity becomes zero",
+      "The velocity becomes constant",
+      "The velocity increases exponentially",
+      "The object begins to ascend"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What is the primary organic compound obtained when ethanol is fully oxidized using acidified potassium dichromate?",
+    "options": [
+      "Ethanal",
+      "Ethanoic acid",
+      "Methanoic acid",
+      "Ethene"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which evolutionary mechanism explains the structural similarity of wings in bats and wings in insects?",
+    "options": [
+      "Divergent evolution",
+      "Convergent evolution / Analogy",
+      "Homologous modification",
+      "Genetic drift"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What is the boundary surrounding a black hole beyond which nothing, not even light, can escape?",
+    "options": [
+      "Accretion disk",
+      "Event horizon",
+      "Singularity line",
+      "Schwarzschild radius shell"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What structural characteristic causes a step-up transformer to increase alternating voltage?",
+    "options": [
+      "Fewer turns in secondary coil than primary",
+      "More turns in secondary coil than primary",
+      "A thicker wire core in primary circuit",
+      "Operating on a direct current source"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What law states that under constant temperature and pressure, equal volumes of gases contain an equal number of molecules?",
+    "options": [
+      "Boyle's Law",
+      "Charles's Law",
+      "Avogadro's Law",
+      "Gay-Lussac's Law"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "What hormone triggers the flight-or-fight response, increasing heart rate and blood glucose levels?",
+    "options": [
+      "Thyroxin",
+      "Insulin",
+      "Adrenaline / Epinephrine",
+      "Glucagon"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "What type of star cluster contains thousands to millions of very old, densely packed stars arranged spherically?",
+    "options": [
+      "Open cluster",
+      "Globular cluster",
+      "Stellar association",
+      "Galactic arm"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What defines the focal length of a spherical mirror in relation to its radius of curvature ($R$)?",
+    "options": [
+      "f = R",
+      "f = 2R",
+      "f = R/2",
+      "f = R²"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Which of the following forms a basic buffer solution when mixed in equimolar amounts?",
+    "options": [
+      "HCl and NaCl",
+      "CH3COOH and CH3COONa",
+      "NH4OH and NH4Cl",
+      "NaOH and H2O"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "What process produces secondary oocytes during mammalian oogenesis?",
+    "options": [
+      "Mitotic proliferation",
+      "Meiosis I",
+      "Meiosis II",
+      "Fertilization"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What model describes the rotation of a spiral galaxy where outer stars orbit at nearly the same speed as inner stars?",
+    "options": [
+      "Keplerian rotation profile",
+      "Flat galaxy rotation curve (implies Dark Matter)",
+      "Rigid body rotation model",
+      "Differential solar rotation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What is the critical angle for total internal reflection if light travels from glass ($n = 1.5$) to air ($n = 1.0$)?",
+    "options": [
+      "sin⁻¹(1.5)",
+      "sin⁻¹(0.67)",
+      "45° exactly",
+      "sin⁻¹(0.5)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What parameter is determined by the expression $-\\log_{10}[H^+]$ in analytical chemistry?",
+    "options": [
+      "pOH",
+      "pH",
+      "Ionic product of water",
+      "Acid dissociation constant"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which structural molecule makes up the cell wall of fungi?",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Peptidoglycan",
+      "Lignin"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What structural coordinate defines the radius from a singularity where the escape velocity exactly equals the speed of light?",
+    "options": [
+      "Chandrasekhar radius",
+      "Schwarzschild radius",
+      "Hubble radius",
+      "Roche limit"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What is the total capacitance of three $9\\,\\mu\\text{F}$ capacitors hooked up in series?",
+    "options": [
+      "27 μF",
+      "3 μF",
+      "1 μF",
+      "4.5 μF"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which of these pairs represents an example of structural functional isomers?",
+    "options": [
+      "Butane and Isobutane",
+      "Ethanol and Dimethyl ether",
+      "1-Butene and 2-Butene",
+      "Glucose and Galactose"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which specific plant tissue is actively engaged in transporting manufactured sugars down from the leaves?",
+    "options": [
+      "Xylem vessels",
+      "Phloem sieve tubes",
+      "Pith parenchyma",
+      "Cambium cells"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What law or equation asserts that the total energy flux radiated by a blackbody star is proportional to the fourth power of its absolute temperature?",
+    "options": [
+      "Wien's Displacement Law",
+      "Stefan-Boltzmann Law",
+      "Planck's Law",
+      "Hubble's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What parameter remains perfectly unchanged when light transitions from one optical medium into another?",
+    "options": [
+      "Wavelength",
+      "Velocity",
+      "Frequency",
+      "Direction"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "What gas is produced at the anode during the electrolysis of brine solution?",
+    "options": [
+      "Hydrogen gas",
+      "Oxygen gas",
+      "Chlorine gas",
+      "Nitrogen dioxide"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "What chemical compound accumulates in human skeletal muscle cells during intensive anaerobic respiration?",
+    "options": [
+      "Pyruvic acid",
+      "Lactic acid",
+      "Ethanol",
+      "Carbon dioxide"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What parameter dictates the stable spectral classification sequence of stars (O, B, A, F, G, K, M)?",
+    "options": [
+      "Core density",
+      "Surface temperature",
+      "Total chemical age",
+      "Rotational velocity"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What factor causes a current-carrying conductor to experience a force when placed inside an external magnetic field?",
+    "options": [
+      "Electrostatic charging",
+      "Lorentz force on moving electrons",
+      "Gravitational alignment",
+      "Ohmic dissipation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What type of crystalline structure is exhibited by solid Sodium Chloride?",
+    "options": [
+      "Body-centered cubic",
+      "Face-centered cubic (Rock salt structure)",
+      "Hexagonal close-packed",
+      "Simple cubic"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which segment of a human nephron is heavily involved in the countercurrent multiplier mechanism?",
+    "options": [
+      "Bowman's Capsule",
+      "Proximal Convoluted Tubule",
+      "Loop of Henle",
+      "Collecting Duct"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "What phenomenon describes the cosmological shifting of light from distant galaxies toward lower frequencies because of spatial expansion?",
+    "options": [
+      "Gravitational redshift",
+      "Cosmological redshift",
+      "Doppler blueshift",
+      "Relativistic aberration"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "How much work is done by a force moving a charge of $3\\text{ C}$ across a potential difference of $12\\text{ V}$?",
+    "options": [
+      "4 J",
+      "36 J",
+      "0.25 J",
+      "15 J"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What primary industrial catalyst is utilized within the Contact Process chamber to produce Sulfur Trioxide?",
+    "options": [
+      "Finely divided Iron",
+      "Vanadium Pentoxide ($V_2O_5$)",
+      "Nickel mesh",
+      "Platinum black"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which hormone acts as the primary signal to stimulate the release of an egg cell during human ovulation?",
+    "options": [
+      "Progesterone",
+      "Estrogen",
+      "Luteinizing Hormone (LH)",
+      "Prolactin"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "What is the approximate age of our universe according to current cosmic inflationary standard models?",
+    "options": [
+      "4.6 billion years",
+      "13.8 billion years",
+      "20 billion years",
+      "9.3 billion years"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What happens to the pressure of an ideal gas when its absolute temperature is doubled while the volume is kept completely constant?",
+    "options": [
+      "The pressure is halved",
+      "The pressure is doubled",
+      "The pressure quadruples",
+      "The pressure remains unchanged"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Which quantum subshell is filled immediately after the 4s subshell according to the Aufbau principle?",
+    "options": [
+      "4p",
+      "3d",
+      "4d",
+      "5s"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Which structural component makes up the legal definition of the primary cell wall in plant tissues?",
+    "options": [
+      "Peptidoglycan mesh",
+      "Cellulose microfibrils",
+      "Chitin polymer rows",
+      "Glycoprotein sheath"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What phenomenon explains why high-mass stars cannot undergo stable fusion beyond the creation of an Iron core?",
+    "options": [
+      "Iron has the lowest binding energy per nucleon",
+      "Iron has the highest binding energy per nucleon, making its fusion endothermic",
+      "Iron atoms instantly undergo spontaneous fission",
+      "Iron acts as a nuclear catalyst for electron decay"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What basic law states that the induced electromotive force in a closed circuit is directly proportional to the time rate of change of magnetic flux?",
+    "options": [
+      "Lenz's Law",
+      "Faraday's Law of Electromagnetic Induction",
+      "Ampere's Circuital Law",
+      "Gauss's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What is the formal structural relationship between D-Glucose and D-Galactose?",
+    "options": [
+      "Enantiomers",
+      "Anomers",
+      "Epimers at C-4",
+      "Functional isomers"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "What type of cellular transport utilizes electrochemical gradients generated by primary pumps to move solutes against their concentration gradient?",
+    "options": [
+      "Simple diffusion",
+      "Facilitated diffusion",
+      "Secondary active transport",
+      "Osmosis"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "What observational relationship plots a star's absolute luminosity directly against its spectral class or surface temperature?",
+    "options": [
+      "Hubble diagram",
+      "Hertzsprung-Russell (H-R) diagram",
+      "Light curve profile",
+      "Tully-Fisher relation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What type of thermodynamic cycle operates at the maximum possible theoretical thermal efficiency between two thermal reservoirs?",
+    "options": [
+      "Otto cycle",
+      "Diesel cycle",
+      "Carnot cycle",
+      "Rankine cycle"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "What is the equivalent mass of Potassium Permanganate ($KMnO_4$) in a strongly acidic medium? (M = Molecular Mass)",
+    "options": [
+      "M / 1",
+      "M / 2",
+      "M / 5",
+      "M / 6"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which of these acts as the primary structural transmitter chemical released at human neuromuscular junctions?",
+    "options": [
+      "Dopamine",
+      "Serotonin",
+      "Acetylcholine",
+      "GABA"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "What mechanism produces the intense energetic emission observed from active galactic nuclei called Quasars?",
+    "options": [
+      "Rapid primordial starbursts",
+      "Matter accretion onto a supermassive black hole",
+      "Matter-antimicrobial annihilation blocks",
+      "Supernova chain reactions"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "If an object is placed exactly at the principal focus ($F$) of a concave mirror, where is the image formed?",
+    "options": [
+      "At the center of curvature",
+      "At infinity",
+      "Between focus and pole",
+      "Behind the mirror"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What type of chemical expression is used to predict the direction of a reversible reaction before it reaches equilibrium?",
+    "options": [
+      "Equilibrium constant ($K_c$)",
+      "Reaction quotient ($Q_c$)",
+      "Rate law coefficient ($k$)",
+      "Van 't Hoff factor ($i$)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What pathway describes the flow of deoxygenated blood traveling out from the right ventricle towards the respiratory exchange surfaces?",
+    "options": [
+      "Systemic circulation",
+      "Pulmonary circulation",
+      "Hepatic portal system",
+      "Coronary circulation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What theoretical limit prevents a cold, non-rotating neutron star from exceeding roughly 2 to 3 solar masses?",
+    "options": [
+      "Chandrasekhar limit",
+      "Tolman-Oppenheimer-Volkoff (TOV) limit",
+      "Schwarzschild radius threshold",
+      " Jeans mass value"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What optical principle is responsible for the colorful patterns observed on a thin soap bubble film?",
+    "options": [
+      "Light diffraction",
+      "Thin-film interference",
+      "Polarization",
+      "Scattering"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What type of element forms an interstitial hydride when reacted with hydrogen gas?",
+    "options": [
+      "Alkali metals",
+      "Alkaline earth metals",
+      "Transition metals (d-block)",
+      "Halogens"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which enzyme unzips and separates the double-stranded DNA helix during the initiation step of replication?",
+    "options": [
+      "DNA Polymerase",
+      "DNA Helicase",
+      "DNA Ligase",
+      "RNA Primase"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What law links the recessional velocity ($v$) of a distant galaxy to its distance ($d$) from Earth?",
+    "options": [
+      "Kepler's Third Law",
+      "Hubble-Lemaître Law",
+      "Wien's Law",
+      "Stefan's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What parameter remains constant when an ideal gas undergoes a perfectly adiabatic expansion?",
+    "options": [
+      "Temperature",
+      "Internal energy",
+      "Entropy",
+      "Pressure"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "What type of electrochemical cell derives electrical energy from spontaneous redox reactions?",
+    "options": [
+      "Electrolytic cell",
+      "Galvanic / Voltaic cell",
+      "Concentration cell",
+      "Electroplating tank"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Which molecule acts as the terminal electron acceptor during human aerobic cellular respiration?",
+    "options": [
+      "NAD+",
+      "Pyruvate",
+      "Oxygen ($O_2$)",
+      "Water ($H_2O$)"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "What core transition occurs when a low-mass star runs completely out of core hydrogen and begins expanding into a red giant?",
+    "options": [
+      "Helium core flash",
+      "Hydrogen shell burning around an inert helium core",
+      "Carbon fusion initiation",
+      "Silicon photodisintegration"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What is the total equivalent focal length of two thin lenses with focal lengths $f_1 = +20\\text{ cm}$ and $f_2 = -10\\text{ cm}$ placed in direct contact?",
+    "options": [
+      "+30 cm",
+      "-20 cm",
+      "+6.67 cm",
+      "-10 cm"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What type of crystal field splitting pattern occurs when a transition metal ion forms an octahedral coordination complex?",
+    "options": [
+      "The d-orbitals split into two lower t₂g and three higher eg levels",
+      "The d-orbitals split into three lower t₂g and two higher eg levels",
+      "All five d-orbitals remain perfectly degenerate",
+      "The d-orbitals split into four lower and one higher energy state"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Which of these changes characterizes the transition from a standard resting potential to an active action potential along a neuron?",
+    "options": [
+      "Efflux of potassium ions out of the axon",
+      "Rapid influx of sodium ions into the axon",
+      "Active pumping of calcium into vesicles",
+      "Closure of all voltage-gated channels"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What physical process generates energy inside a star during the triple-alpha fusion pathway?",
+    "options": [
+      "Three protons combine to form Lithium",
+      "Three Helium-4 nuclei fuse to form a Carbon-12 nucleus",
+      "An alpha particle splits into three deuterons",
+      "Carbon-12 captures three alpha units to form Oxygen"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What force acts as the restoring agent to propagate a surface water wave across deep oceans?",
+    "options": [
+      "Surface tension alone",
+      "Gravity",
+      "Viscosity of water",
+      "Wind shear vector"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What is the order of a chemical reaction if its rate constant ($k$) has the unit $L \\cdot mol^{-1} \\cdot s^{-1}$?",
+    "options": [
+      "Zero-order",
+      "First-order",
+      "Second-order",
+      "Third-order"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "What is the primary function of the mammalian hormone secretin during digestion?",
+    "options": [
+      "Stimulates secretion of pepsinogen from chief cells",
+      "Triggers the pancreas to release bicarbonate-rich fluid",
+      "Causes gallbladder contraction to eject bile",
+      "Inhibits peristalsis across the large intestine"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What cosmological observation first provided strong evidence that the expansion of our universe is accelerating?",
+    "options": [
+      "Rotational curves of nearby spiral galaxies",
+      "Luminosity measurements of distant Type Ia Supernovae",
+      "Anisotropies within the cosmic microwave background",
+      "The abundance ratio of hydrogen to helium gas"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What phenomenon occurs when a moving charge passes through an electric and magnetic field configuration adjusted so the net Lorentz force is zero?",
+    "options": [
+      "Cyclotron resonance",
+      "Velocity selection",
+      "Zeeman splitting",
+      "Hall effect projection"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What parameter is calculated using the expression $\\alpha = \\sqrt{\\frac{K_w}{K_a \\cdot C}}$ for the hydrolysis of a salt of a weak acid and strong base?",
+    "options": [
+      "Degree of dissociation of acid",
+      "Degree of hydrolysis of salt",
+      "Solubility product constant",
+      "Ionic strength of medium"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Which structural feature acts as the primary site for crossing over (genetic recombination) during Meiosis I?",
+    "options": [
+      "Kinetochore complex",
+      "Chiasmata within the synaptonemal complex",
+      "Centromeric heterochromatin",
+      "Telomeric loop structure"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What type of nuclear stellar burning phase requires temperatures of approximately 1 billion Kelvin, yielding neon, sodium, and magnesium?",
+    "options": [
+      "Hydrogen burning",
+      "Helium burning",
+      "Carbon burning phase",
+      "Silicon burning phase"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "What pattern of constructive and destructive interference happens when light passes through a narrow single slit?",
+    "options": [
+      "Double-slit diffraction fringe pattern",
+      "Single-slit diffraction pattern with a broad central maximum",
+      "Perfect uniform illumination matrix",
+      "Total specular reflection array"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What rule describes the preferential orientation of electrophilic addition across an unsymmetrical alkene?",
+    "options": [
+      "Markovnikov's Rule",
+      "Saytzeff's Rule",
+      "Hund's Rule",
+      "Le Chatelier's Principle"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "What condition describes the inability of an individual to synthesize tyrosine from phenylalanine, leading to metabolic accumulation?",
+    "options": [
+      "Alkaptonuria",
+      "Phenylketonuria (PKU)",
+      "Albinism",
+      "Tyrosinemia Type I"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What metric defines the critical mass of a gas cloud needed to overcome its internal thermal pressure and collapse to form a star?",
+    "options": [
+      "Chandrasekhar mass",
+      "Jeans Mass",
+      "Hubble mass threshold",
+      "Roche mass limit"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What is the root-mean-square ($v_{\\text{rms}}$) speed of ideal gas molecules proportional to, according to kinetic theory?",
+    "options": [
+      "T",
+      "T²",
+      "\\sqrt{T}",
+      "1/T"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "What is the relationship between the standard Gibbs free energy change ($\\Delta G^\\circ$) and the equilibrium constant ($K$)?",
+    "options": [
+      "\\Delta G^\\circ = RT \\ln K",
+      "\\Delta G^\\circ = -RT \\ln K",
+      "\\Delta G^\\circ = -RT \\log_{10} K",
+      "\\Delta G^\\circ = \\Delta H^\\circ + T\\Delta S^\\circ"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What metabolic pathway acts as the primary source of NADPH needed for biosynthesis, operating entirely within the cytoplasm?",
+    "options": [
+      "Glycolysis",
+      "Pentose Phosphate Pathway (PPP)",
+      "Citric Acid Cycle",
+      "Beta-oxidation"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What fundamental relationship predicts that the wavelength of maximum emission from a blackbody star is inversely proportional to its absolute temperature?",
+    "options": [
+      "Stefan-Boltzmann Law",
+      "Wien's Displacement Law",
+      "Planck's Radiation Equation",
+      "Kirchhoff's Law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What is the value of the path difference required to produce the first dark fringe (minimum intensity) in a standard Young's double-slit interference experiment?",
+    "options": [
+      "\\lambda",
+      "\\lambda / 2",
+      "2\\lambda",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What type of thermodynamic property is chemical potential ($\\mu$)?",
+    "options": [
+      "Extensive property",
+      "Intensive property",
+      "Path function",
+      "State function that depends on total mass"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which enzyme catalyzes the fixation of carbon dioxide into organic compounds during the light-independent phase of photosynthesis in plants?",
+    "options": [
+      "PEP Carboxylase",
+      "RuBisCO",
+      "ATP Synthase",
+      "Glyceraldehyde-3-phosphate dehydrogenase"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What quantum physical mechanism permits protons to overcome the massive Coulomb repulsion barrier inside a stellar core to initiate nuclear fusion?",
+    "options": [
+      "Thermal excitation",
+      "Quantum tunneling",
+      "Zeeman shifting",
+      "Inverse beta decay"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What formula links the self-inductance ($L$) of a long solenoid to its parameters?",
+    "options": [
+      "L = \\mu_0 n^2 l A",
+      "L = \\mu_0 N l A",
+      "L = \\mu_0 N^2 A",
+      "L = \\mu_0 n I A"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "What is the core structural parameter derived from the Henderson-Hasselbalch equation for an acidic buffer solution?",
+    "options": [
+      "pH = pKa + \\log_{10}([Acid]/[Salt])",
+      "pH = pKa + \\log_{10}([Salt]/[Acid])",
+      "pOH = pKb + \\log_{10}([Salt]/[Base])",
+      "pH = -\\log_{10}[H^+]"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which section of a cloned eukaryotic gene sequence is spliced out and discarded during post-transcriptional mRNA processing?",
+    "options": [
+      "Exon",
+      "Intron",
+      "Promoter",
+      "Poly-A tail sequence"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What cosmic component constitutes approximately 68% of the total mass-energy budget of the modern universe according to recent standard cosmological data?",
+    "options": [
+      "Baryonic (Normal) Matter",
+      "Dark Matter",
+      "Dark Energy",
+      "Neutrino background radiation"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "What is the speed of an electromagnetic wave traveling through a non-magnetic medium with a relative permittivity (dielectric constant) $\\epsilon_r = 4$?",
+    "options": [
+      "3.0 x 10⁸ m/s",
+      "1.5 x 10⁸ m/s",
+      "7.5 x 10⁷ m/s",
+      "6.0 x 10⁸ m/s"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What structure is generated when a primary alcohol undergoes catalytic dehydrogenation over heated copper at 300°C?",
+    "options": [
+      "Alkene",
+      "Ketone",
+      "Aldehyde",
+      "Carboxylic acid"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "What pattern of inheritance is demonstrated when a cross between a red-flowered plant and a white-flowered plant yields exclusively pink-flowered offspring?",
+    "options": [
+      "Codominance",
+      "Incomplete dominance",
+      "Epistasis",
+      "Polygenic inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What specific frequency shift profile occurs when light passes near a supermassive black hole and climbs out of its deep gravitational well?",
+    "options": [
+      "Doppler blueshift",
+      "Gravitational redshift",
+      "Cosmological expansion drift",
+      "Compton scattering shift"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What criteria determines whether the flow of a fluid through a pipe is smooth and streamline or completely turbulent?",
+    "options": [
+      "Archimedes Number",
+      "Reynolds Number",
+      "Prandtl Number",
+      "Mach Number"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What expression tracks the solubility product constant ($K_{\\text{sp}}$) of a sparingly soluble salt like Aluminum Hydroxide, $Al(OH)_3$, in terms of its molar solubility ($S$)?",
+    "options": [
+      "Ksp = 4S³",
+      "Ksp = 27S⁴",
+      "Ksp = S²",
+      "Ksp = 108S⁵"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which mechanism acts as the primary barrier preventing polyspermy immediately after a sperm cell successfully binds to the mammalian oocyte plasma membrane?",
+    "options": [
+      "The fast depolarization block",
+      "The slow block via cortical reaction / hardening of the zona pellucida",
+      "Phagocytosis of remaining sperm cells",
+      "Spontaneous degradation of acrosomal enzymes"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What structural transition occurs within a massive stellar core during a Type II Supernova, turning protons and electrons into a dense ball of neutrons?",
+    "options": [
+      "Nuclear photodisintegration",
+      "Electron capture / Electron degeneracy failure",
+      "Triple-alpha flash ignition",
+      "Pair-production collapse"
+    ],
+    "correct": 1
+  }
+]
