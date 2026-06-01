@@ -1,0 +1,902 @@
+[
+  {
+    "level": 1,
+    "question": "What is the capital city of Nepal?",
+    "options": ["Pokhara", "Lalitpur", "Biratnagar", "Kathmandu"],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "Which is the highest mountain peak in the world, located in Nepal?",
+    "options": ["K2", "Mount Everest", "Kanchanjunga", "Lhotse"],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What is the national flower of Nepal?",
+    "options": ["Lotus", "Rose", "Rhododendron (Lali Gurans)", "Marigold"],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What is the national animal of Nepal?",
+    "options": ["Cow", "Tiger", "Elephant", "One-horned Rhino"],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Which popular multi-day festival in Nepal celebrates the bond between brothers and sisters on its final day?",
+    "options": ["Dashain", "Holi", "Chhath", "Tihar"],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "What unique shape is the national flag of Nepal?",
+    "options": ["Square", "Rectangular", "Double-triangle (non-quadrilateral)", "Circular"],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which color forms the base background of Nepal's national flag?",
+    "options": ["Crimson Red", "Deep Blue", "Bright Yellow", "Forest Green"],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "What traditional weapon is famously associated with the brave Nepali Gurkha soldiers?",
+    "options": ["Sword", "Kukri", "Spear", "Shield"],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "Which city is globally known as the birthplace of Gautam Buddha?",
+    "options": ["Janakpur", "Gorkha", "Lumbini", "Bhaktapur"],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What is the official currency used in Nepal?",
+    "options": ["Dollar", "Rupee", "Taka", "Yen"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which historical palace square in Kathmandu features the famous Taleju Temple and Kal Bhairav statue?",
+    "options": ["Patan Durbar Square", "Kathmandu Durbar Square", "Bhaktapur Durbar Square", "Narayanhiti Palace"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which lake is famous for its clear reflection of Mount Machhapuchhre in Pokhara?",
+    "options": ["Rara Lake", "Tilicho Lake", "Begnas Lake", "Phewa Lake"],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "Who was the first king to unify the smaller kingdoms into modern Nepal?",
+    "options": ["Prithvi Narayan Shah", "King Mahendra", "Bhanubhakta Acharya", "Jung Bahadur Rana"],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "What is the name of the oldest stupa in Kathmandu Valley, frequently called the 'Monkey Temple'?",
+    "options": ["Boudhanath", "Swayambhunath", "Changu Narayan", "Pashupatinath"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which major Hindu festival in Nepal is dedicated to the worship of the Sun God and is celebrated widely in the Terai region?",
+    "options": ["Teej", "Maha Shivaratri", "Chhath", "Janai Purnima"],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What was the title of the first historical feature movie made inside Nepal (released in 1964)?",
+    "options": ["Maiti Ghar", "Kumari", "Satya Harishchandra", "Aama"],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "Which legendary traditional Nepali instrument is a small, stringed lute carved from a single piece of wood, played by the Gaine community?",
+    "options": ["Madal", "Sarangi", "Flute", "Murchunga"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What geographical division of Nepal shares a long open border with India to the south?",
+    "options": ["Himalayan Region", "Hilly Region", "Trans-Himalayan Region", "Terai Region"],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "Which iconic temple situated on the banks of the Bagmati River is the most sacred Hindu shrine in Nepal?",
+    "options": ["Pashupatinath", "Muktinath", "Budhanilkantha", "Dakshinkali"],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "What popular, fast-paced folk musical style is traditionally sung as a playful back-and-forth question-and-answer session?",
+    "options": ["Lok Dohori", "Ghazal", "Bhajan", "Classical Raag"],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which ethnic community is renowned for its rich artistic heritage, woodcarvings, and metalwork in Kathmandu Valley?",
+    "options": ["Sherpa", "Newar", "Tharu", "Gurung"],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "What is the largest and deepest freshwater lake located entirely within Nepal?",
+    "options": ["Shey Phoksundo Lake", "Tilicho Lake", "Rara Lake", "Begnas Lake"],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which historic treaty signed in 1816 established the modern international borders of Nepal with the British East India Company?",
+    "options": ["Treaty of Sugauli", "Treaty of Kathmandu", "Sino-Nepal Treaty", "Tripartite Agreement"],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "What iconic mountain peak is strictly prohibited from climbing due to its deep religious sanctity?",
+    "options": ["Ama Dablam", "Annapurna I", "Manaslu", "Machhapuchhre (Fishtail)"],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "Who wrote the lyrics for Nepal's current national anthem, 'Sayau Thunga Phool Ka'?",
+    "options": ["Amber Gurung", "Pradeep Kumar Rai (Byakul Maila)", "Bhanubhakta Acharya", "Laxmi Prasad Devkota"],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which historic Nepali movie became a massive commercial success with the iconic song 'Basanta Nai Basyo'?",
+    "options": ["Kusume Rumal", "Darpan Chhaya", "Maiti Ghar", "Chino"],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "What unique living goddess tradition is preserved in Kathmandu, where a young prepubescent girl is selected from the Shakya clan?",
+    "options": ["Yogini", "Dakini", "Kumari", "Devi"],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which national park is globally celebrated for protecting the endangered Royal Bengal Tiger and Greater One-horned Rhinoceros?",
+    "options": ["Sagarmatha National Park", "Chitwan National Park", "Bardia National Park", "Langtang National Park"],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which prominent historical dynasty ruled Kathmandu Valley immediately before the Shah dynasty took control?",
+    "options": ["Lichchhavi Dynasty", "Kirat Dynasty", "Rana Dynasty", "Malla Dynasty"],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "What iconic folk song composed by Jhalak Man Gandarbha recounts a tragic letter sent by a dying soldier from the battlefield?",
+    "options": ["Resham Firiri", "Simsime Pani Ma", "Aama Le Sodhlin Ni", "Asare Mainama"],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "Which river is widely recognized as the longest river running entirely through Nepal?",
+    "options": ["Karnali River", "Koshy River", "Gandaki River", "Mahakali River"],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "What is the ancient Sanskrit name of Janakpur, which was the historic capital city of King Janak's kingdom?",
+    "options": ["Kapilvastu", "Mithila", "Devdaha", "Kantipur"],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which dynasty ruled Nepal during the ancient 'Golden Age', introducing foundational stone inscriptions and premium architecture?",
+    "options": ["Shah Dynasty", "Malla Dynasty", "Thakuri Dynasty", "Lichchhavi Dynasty"],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "What classic high-altitude lake is located at an elevation of 4,919 meters within the Manang district?",
+    "options": ["Gosaikunda", "Tilicho Lake", "Phoksundo Lake", "Imja Tsho"],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Who composed the musical score for the current national anthem of Nepal?",
+    "options": ["Narayan Gopal", "Gopal Yonzon", "Amber Gurung", "Nati Kaji"],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "Which legendary modern singer was formally honored with the title 'Swor Samrat' (Emperor of Voice) in Nepal?",
+    "options": ["Narayan Gopal", "Bhaktaraj Acharya", "Prem Dhoj Pradhan", "Deep Shrestha"],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "What traditional festival features a high-stakes wooden chariot procession through Patan to honor the god of rain?",
+    "options": ["Bisket Jatra", "Indra Jatra", "Ghode Jatra", "Rato Machhindranath Jatra"],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Which Nepali film directed by Eric Valli was nominated for 'Best Foreign Language Film' at the 72nd Academy Awards (Oscars)?",
+    "options": ["Kagbeni", "Caravan (Himalaya)", "Loot", "Numafung"],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which pass serves as a key high-altitude trading link between Manang and Mustang along the classic Annapurna Circuit?",
+    "options": ["Thorong La Pass", "Cho La Pass", "Nathula Pass", "Lauribina Pass"],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Who was the legendary military commander who served as the first Prime Minister of unified Nepal and built the Dharahara tower?",
+    "options": ["Jung Bahadur Rana", "Chandra Shamsher", "Bhimsen Thapa", "Dev Shamsher"],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "Which river valley forms the Kali Gandaki Gorge, separating the two major eight-thousand-meter mountain peaks, Dhaulagiri and Annapurna?",
+    "options": ["Koshi Gorge", "Kali Gandaki Gorge", "Karnali Gorge", "Arun Gorge"],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which architectural monument is widely recognized as one of the oldest standing pagoda-style stone and wood temples in Kathmandu Valley?",
+    "options": ["Kasthamandap", "Nyatapola Temple", "Pashupatinath Temple", "Changu Narayan Temple"],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "What was the ancient name of the city of Kathmandu before it was renamed after the wooden pavilion Kasthamandap?",
+    "options": ["Kantipur", "Lalitpur", "Bhaktapur", "Kirtipur"],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "Which revolutionary 2008 digital film directed by Bhusan Dahal (adapted from Macbeth) revolutionized the domestic movie industry by introducing high-definition standards?",
+    "options": ["Loot", "Sano Sansar", "Kagbeni", "Acharya"],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What specific unique title was awarded to the legendary late singer Tara Devi due to her massive classic contribution to radio and music?",
+    "options": ["Swor Samragyi (Queen of Voice)", "Kala Kokila", "Sangeet Ratna", "Geet Sangeet Samragyi"],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "What historic event in June 2001 drastically altered the line of succession when multiple members of the royal family were assassinated inside Narayanhiti Palace?",
+    "options": ["Kot Massacre", "Bhandarkhal Massacre", "Alau Massacre", "Royal Palace Massacre"],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "Which specific high-altitude alpine lake is highly revered by Hindus who trek during Janai Purnima to take a holy bath?",
+    "options": ["Gosaikunda Lake", "Shey Phoksundo Lake", "Tilicho Lake", "Mai Pokhari"],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "What traditional five-tiered pagoda temple dominates the skyline of Bhaktapur Taumadhi Square, standing as a testament to Malla-era structural engineering?",
+    "options": ["Krishna Mandir", "Taleju Temple", "Nyatapola Temple", "Dattatreya Temple"],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What type of ammonite fossil found uniquely in the bed of the Kali Gandaki River is worshipped by Hindus as a symbol of Lord Vishnu?",
+    "options": ["Trilobite", "Shaligram", "Rudraksha", "Quartz crystal"],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which legendary musical duo composed and recorded timeless iconic hits like 'Lau Suna Ma Bhanchhu' and 'Euta Manchhe Ko Maya Le'?",
+    "options": ["Deep Shrestha and Harish Tiwari", "Narayan Gopal and Gopal Yonzon", "Aruna Lama and Amber Gurung", "Nati Kaji and Shiva Shankar"],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Which historic fort in western Nepal was the site of a legendary Anglo-Nepal war battle where Captain Balbhadra Kunwar fought bravely?",
+    "options": ["Nalapani (Khalanga Fort)", "Sindhuligadhi", "Makwanpurgadhi", "Amarpur Fort"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "What is the highest elevation zone in Nepal where permanent human settlement can be found (e.g., Dho Tarap)?",
+    "options": ["Chure Region", "Terai plains", "Hilly valleys", "Trans-Himalayan / High Mountain Region"],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Which popular Newari festival involves masked dances and a procession honoring deceased family members, often using a comical cow theme?",
+    "options": ["Indra Jatra", "Gai Jatra", "Bisket Jatra", "Siti Jatra"],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Who directed the 2012 blockbuster movie 'Loot', which completely changed the storytelling style and dialogue delivery of modern Nepali cinema?",
+    "options": ["Nischal Basnet", "Bhusan Dahal", "Dinesh Raut", "Hem Raj BC"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "Which sub-alpine national park located in western Nepal is famous for its vast plateau of wildflowers and the clear blue Rara Lake?",
+    "options": ["Chitwan National Park", "Langtang National Park", "Rara National Park", "Shey Phoksundo National Park"],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "The timeless romantic song 'Kehi Mitho Baat Gara' was originally sung by which legendary maestro?",
+    "options": ["Narayan Gopal", "Bhaktaraj Acharya", "Deep Shrestha", "Aruna Lama"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "Which Rana Prime Minister is historically credited with abolishing the Sati system and slavery in Nepal?",
+    "options": ["Jung Bahadur Rana", "Dev Shamsher", "Chandra Shamsher", "Bir Shamsher"],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "Which sacred river confluence (Triveni) in eastern Nepal is formed by the merging of seven major mountain streams?",
+    "options": ["Saptagandaki", "Saptakoshi", "Saptakarnali", "Mahakali"],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What traditional string instrument is played with a bow by the Gandharva community to transmit news and folklore?",
+    "options": ["Madal", "Damphu", "Tungna", "Sarangi"],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "The critically acclaimed 2016 film 'White Sun' (Seto Surya), which explores the psychological aftermath of the civil war, was directed by whom?",
+    "options": ["Min Bahadur Bham", "Deepak Rauniyar", "Nischal Basnet", "Subarna Thapa"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which unique waterfall in Pokhara marks the point where the Pardi Khola stream disappears entirely underground into a deep limestone cave?",
+    "options": ["Davis Falls (Patale Chhango)", "Rupse Falls", "Todke Falls", "Bhadore Falls"],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "Which Malla King is famously known for setting up the 'Mahendramalli' silver coinage system in Kathmandu Valley?",
+    "options": ["Jaya Prakash Malla", "Pratap Malla", "Mahendra Malla", "Siddhi Narsingh Malla"],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "What is the name of the traditional, circular frame drum covered with leather, primarily used by the Tamang community?",
+    "options": ["Damphu", "Madal", "Dhimay", "Khonche"],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "Which multi-national boundary river flows through the dynamic Marsyangdi valley and is heavily tapped for white-water rafting and hydropower?",
+    "options": ["Marsyangdi River", "Seti River", "Bagmati River", "Trishuli River"],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "Which iconic late playback singer was profoundly revered across the country as the 'Nightingale of the Hills' (Pahadki Rani)?",
+    "options": ["Tara Devi", "Aruna Lama", "Meera Rana", "Gyanu Rana"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which 1999 Nepali film directed by Tsering Rhitar Sherpa deals with the spiritual search for a reincarnated lama in the high mountains?",
+    "options": ["Numafung", "Mukundo (Mask of Desire)", "Mask of Heaven", "Kagbeni"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which treaty signed in 1792 temporarily brought an end to the Sino-Nepalese War, establishing formal tribute relations with Beijing?",
+    "options": ["Treaty of Betrawati", "Treaty of Sugauli", "Treaty of Thapathali", "Treaty of Kerung"],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "The dynamic and widely celebrated cultural dance form 'Maruni' is native to which general mountain community region?",
+    "options": ["Mithila Plains", "Sherpa Highlands", "Magar / Hilly Community", "Rai Kirat Belts"],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "What is the name of the highest mountain peak located in the far-western region of Nepal within the Api Nampa Conservation Area?",
+    "options": ["Mount Saipal", "Mount Api", "Mount Kanjirowa", "Mount Changla"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "The popular patriotic classic song 'Gaye Jata Maya Laye' was originally composed and sung by which cultural artist?",
+    "options": ["Gopal Yonzon", "Narayan Gopal", "Phatteman Rajbhandari", "Prem Dhoj Pradhan"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which wildlife reserve or national park in Nepal contains the largest continuous pristine wetland system known as Koshi Tappu?",
+    "options": ["Koshi Tappu Wildlife Reserve", "Parsa National Park", "Suklaphanta National Park", "Bardia National Park"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which historic Lichchhavi King is celebrated for erecting the oldest surviving stone inscription pillars at Changu Narayan?",
+    "options": ["Amshuverma", "Manadeva", "Gunakamadeva", "Shivadeva I"],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What traditional harvest festival is celebrated by the indigenous Tharu community of the Terai plains as their primary New Year?",
+    "options": ["Maghi", "Chhath", "Jitiya", "Sama Chakeva"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which landmark 1980s Nepali film featured the legendary actors Rajesh Hamal and Kristi Mainali, launching the 'Mahanayak' era?",
+    "options": ["Yug Dekhi Yug Samma", "Kusume Rumal", "Santan", "Chino"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "What specific geographical phenomenon forms the unique, flat valley structure of Inner Terai regions like Chitwan and Dang?",
+    "options": ["Dun Valleys", "Glacial Moraines", "Volcanic Craters", "Karst Topography"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which prominent cultural pioneer wrote the groundbreaking masterpiece epic poem 'Muna Madan' using the local Jhamre folk tune structure?",
+    "options": ["Bhanubhakta Acharya", "Laxmi Prasad Devkota", "Lekhnath Paudyal", "Siddhicharan Shrestha"],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "The legendary classic song 'Mero Pyaro Okhaldhunga' was penned by which influential national poet?",
+    "options": ["Siddhicharan Shrestha", "Laxmi Prasad Devkota", "Madhav Prasad Ghimire", "Bhupi Sherchan"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which historic court massacre in September 1846 wiped out the top political elite of Kathmandu and initiated the 104-year hereditary Rana regime?",
+    "options": ["Kot Massacre", "Bhandarkhal Massacre", "Alau Massacre", "Royal Palace Massacre"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "What is the traditional long wooden horn or wind instrument used primarily by the Newar community during festival processions?",
+    "options": ["Mwali", "Bansuri", "Murchunga", "Pahlo Kaal"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which critically acclaimed movie directed by Min Bahadur Bham won the 'Fedora Award' at the Venice International Film Festival in 2015?",
+    "options": ["The Black Hen (Kalo Pothi)", "White Sun", "Shambhala", "Highway"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which high-altitude ramsar wetland site in Nepal's Dolpa district is famous for its bright turquoise water and deep depth?",
+    "options": ["Phoksundo Lake", "Rara Lake", "Gosaikunda Lake", "Tilicho Lake"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which ancient Kirat King fought valiantly during the epic Mahabharata war, according to local folklore and historical chronicles?",
+    "options": ["Yalamber", "Jitedasti", "Stunko", "Gasti"],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What traditional ancestral mask dance is performed annually during the Indra Jatra festival by the Newars of Kathmandu?",
+    "options": ["Lakhe Dance", "Mahakali Dance", "Devi Dance", "Khyah Dance"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "The hauntingly emotional track 'Yeti Dherai Maya Diye' was masterfully performed by which legendary songstress?",
+    "options": ["Aruna Lama", "Tara Devi", "Kunti Moktan", "Anju Panta"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which pass connects Nepal's historic Gorkha district directly with the Tibetan autonomous region along the Budhi Gandaki river course?",
+    "options": ["Larke La Pass", "Thorong La Pass", "Cho La Pass", "Kongma La Pass"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which king of Kathmandu is historically credited with constructing the iconic square pavilion known as 'Kasthamandap'?",
+    "options": ["Laxmi Narsingh Malla", "Pratap Malla", "Gunakamadeva", "Jayasthiti Malla"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "What popular 2014 psychological drama film directed by Nischal Basnet explored the grim world of micro-finance crimes in urban Kathmandu?",
+    "options": ["Talakjung Vs Tulke", "Loot", "Pashupati Prasad", "Kabaddi"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "What unique physical property distinguishes the holy water of Muktinath temple, drawing thousands of pilgrims?",
+    "options": ["108 natural ice-cold waterspouts and eternal natural gas flames", "It remains boiling hot throughout winter", "It flows backward uphill against gravity", "It contains high levels of dense sulfur salts"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Who composed the timeless iconic musical chords for the ultra-popular classic travel song 'Resham Firiri'?",
+    "options": ["Buddhi Pariyar", "Amber Gurung", "Gopal Yonzon", "Jhalak Man Gandarbha"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which prime minister of Nepal signed the iconic Treaty of Sugauli in 1815/1816 under the royal seal?",
+    "options": ["Bhimsen Thapa", "Jung Bahadur Rana", "Ranodip Singh", "Mathabar Singh Thapa"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which specific geological fault line marks the tectonic boundary between the sub-Himalayan Chure hills and the Terai plains?",
+    "options": ["Main Frontal Thrust (MFT)", "Main Boundary Thrust (MBT)", "Main Central Thrust (MCT)", "Himalayan Frontal Fault"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which Malla ruler introduced a rigid caste system and codification of social laws in the Kathmandu Valley through the 'Manav Nyaya Shastra'?",
+    "options": ["Jayasthiti Malla", "Pratap Malla", "Siddhi Narsingh Malla", "Yaksha Malla"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "What complex ritual dance drama of the Tibetan Buddhist communities in Nepal depicts the triumph of Dharma over evil forces during spring?",
+    "options": ["Mani Rimdu Chham Dance", "Ghatu Dance", "Sorathi Dance", "Deuda Dance"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which legendary 1960s classic composition 'Euta Manchhe Ko Maya Le' features the heavy orchestration of music maestro Amber Gurung?",
+    "options": ["Narayan Gopal", "Prem Dhoj Pradhan", "Phatteman Rajbhandari", "Bhaktaraj Acharya"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which remote valley in the inner Himalayan region of western Nepal is often called the 'Hidden Valley' or the land of Bon Buddhism?",
+    "options": ["Tsum Valley", "Dolpo Valley", "Langtang Valley", "Manang Valley"],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "The award-winning 2012 indie film 'Highway' which explored contemporary political strikes through a multi-narrative bus ride was directed by whom?",
+    "options": ["Deepak Rauniyar", "Nischal Basnet", "Bhusan Dahal", "Joes Pandey"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which internal political coup within the Rana family led to the exile of non-pure 'C-class' Ranas from top administrative ranks in the 1930s?",
+    "options": ["Chandra Shamsher's Succession Purge", "Juddha Shamsher's Administrative Purge", "Bir Shamsher's Internal Revolt", "Bhim Shamsher's Palace Coup"],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What unique multi-stringed plucked lute is played exclusively by the Sherpa and Tamang communities during folk celebrations in the high mountains?",
+    "options": ["Tungna", "Sarangi", "Arbajo", "Ektare"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which high mountain pass forms the historical international trade hub between the Solukhumbu region of Nepal and Tibet?",
+    "options": ["Nangpa La Pass", "Thorong La Pass", "Cho La Pass", "Larke La Pass"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "The critically acclaimed song 'Simsime Pani Ma' which popularized traditional structural eastern folk music was originally released by which duo?",
+    "options": ["Rekha Shah and Prem Raja Mahat", "Kunti Moktan and Shila Bahadur", "Lochan Bhattarai and Kumar Basnet", "Harish Tiwari and Deep Shrestha"],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "Which glacier in the Everest region holds the title of being the highest-elevation glacier in the world?",
+    "options": ["Ngozumpa Glacier", "Langtang Glacier", "Khumbu Glacier", "Imja Glacier"],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Which Lichchhavi ruler was known by the prestigious title 'Maharajadhiraja' and established a joint governance system with his powerful minister Jishnu Gupta?",
+    "options": ["Amshuverma", "Dhruvadeva", "Shivadeva II", "Narendradeva"],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "The ancient socio-religious festival of 'Bisket Jatra' celebrated in Bhaktapur marks the start of which local chronological calendar system?",
+    "options": ["Nepal Sambat", "Bikram Sambat (New Year)", "Saka Sambat", "Lhosar Calendar"],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "The classic national standard song 'Malai Chhodi Mero Cinema' by legendary playback pioneer Phatteman Rajbhandari was composed by which icon?",
+    "options": ["Nati Kaji", "Amber Gurung", "Gopal Yonzon", "Shiva Shankar"],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "Which geographical zone of Nepal acts as a rich transition belt between the dry, cold Tibetan plateau and the lush sub-tropical river lowlands?",
+    "options": ["Chure Foothills", "Inner Terai Plains", "High Alpine Glacial Meadows", "Trans-Himalayan Rain Shadow Belt"],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "Which 2016 Nepali social drama film directed by Ram Babu Gurung focused heavily on the unique cross-cousin marriage traditions of the Gurung community?",
+    "options": ["Numafung", "Kalo Pothi", "Kabaddi Kabaddi", "White Sun"],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Which prime minister introduced the first written civil legal code of unified Nepal, known as the 'Muluki Ain of 1910 BS'?",
+    "options": ["Bhimsen Thapa", "Chandra Shamsher", "Dev Shamsher", "Jung Bahadur Rana"],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "What is the name of the traditional, primitive double-headed drum made of hollowed wood and leather used by the Kirati people during Sakela dances?",
+    "options": ["Madal", "Dhol (Silli Dhol)", "Dhimay", "Damphu"],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which river valley is globally recognized for containing fossilized ammonite stones dating back to the Tethys Ocean era?",
+    "options": ["Arun River Valley", "Kali Gandaki Valley", "Marsyangdi River Valley", "Tamor River Valley"],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "The deep philharmonic composition for the timeless track 'Banma Phulyo Chameli' was orchestrated by which master artist?",
+    "options": ["Gopal Yonzon", "Narayan Gopal", "Bhaktaraj Acharya", "Amber Gurung"],
+    "correct": 3
+  },
+  {
+    "level": 12,
+    "question": "Which river has the highest water discharge volume among all the river systems flowing through Nepal?",
+    "options": ["Karnali River", "Gandaki River", "Koshi River", "Mahakali River"],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which Malla King of Patan built the famous stone architectural masterpiece 'Krishna Mandir' using the shikhara style?",
+    "options": ["Srinivasa Malla", "Siddhi Narsingh Malla", "Yoganarendra Malla", "Pratap Malla"],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The unique, mystical ritual performance 'Ghatu Dance' is traditionally preserved by the women of which ethnic group?",
+    "options": ["Newar", "Tharu", "Gurung / Magar", "Rai / Limbu"],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which iconic movie from the golden age of Nepali cinema featured the classical hit track 'Kaha Kaha Suna Lagyo Yo Mana'?",
+    "options": ["Chino", "Kusume Rumal", "Darpan Chhaya", "Maiti Ghar"],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "Which high-altitude lake basin in Western Nepal is framed by the steep peaks of the Kanjirowa Himalayan massif?",
+    "options": ["Rara Lake", "Shey Phoksundo Lake", "Tilicho Lake", "Khaapu Lake"],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The internationally acclaimed 2024 film 'Shambhala' which competed for the Golden Bear at the Berlin International Film Festival was directed by whom?",
+    "options": ["Deepak Rauniyar", "Bhusan Dahal", "Ram Babu Gurung", "Min Bahadur Bham"],
+    "correct": 3
+  },
+  {
+    "level": 12,
+    "question": "Which Rana Prime Minister established the iconic Trichandra College, the first institution of higher education in Nepal, in 1918?",
+    "options": ["Dev Shamsher", "Chandra Shamsher", "Bir Shamsher", "Juddha Shamsher"],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What is the traditional jaw harp made of iron or bamboo, played by vibrating a metal tongue between the teeth, common in Nepali folklore?",
+    "options": ["Sarangi", "Arbajo", "Binayo", "Murchunga"],
+    "correct": 3
+  },
+  {
+    "level": 12,
+    "question": "Which pass serves as the deepest trans-Himalayan breach, cutting right through the main Himalayan range?",
+    "options": ["Thorong La Pass", "Larke La Pass", "Kali Gandaki Gorge Pass", "Nangpa La Pass"],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "The classic revolutionary anthem 'Gau Gau Bata Utha' which energized social changes was written and composed by which musical group?",
+    "options": ["Narayan Gopal", "Rayan and Shayan (Ralpha Movement)", "Gopal Yonzon", "Amber Gurung Collective"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Which mountain peak in Nepal holds the geographical distinction of being the sharpest vertical face, often called the 'Matterhorn of the Himalayas'?",
+    "options": ["Machhapuchhre", "Fishtail Peak", "Ama Dablam", "Kantega"],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which ancient chronicle provides the most detailed legendary timeline of the early dynastic rulers of the Kathmandu Valley?",
+    "options": ["Lichchhavi Inscriptions", "Gopalraj Vamshavali", "Kirat Chronicle", "Shah Dynasty Vamshavali"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What unique, ancient agricultural festival involves Newar farmers offering food directly to frogs to thank them for rain?",
+    "options": ["Siti Jatra", "Gathamuga Chare", "Bala Chaturdashi", "Byanja Naknak (Frog Feeding Festival)"],
+    "correct": 3
+  },
+  {
+    "level": 13,
+    "question": "The iconic evergreen melody 'Lali Gurans Bhayachhu Ma' was masterfully composed by which legendary music director?",
+    "options": ["Nati Kaji", "Gopal Yonzon", "Divya Khaling", "Amber Gurung"],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which tectonic fault system separates the Lesser Himalayan crystalline structures from the Higher Himalayan metamorphic core?",
+    "options": ["Main Boundary Thrust (MBT)", "Main Central Thrust (MCT)", "Main Frontal Thrust (MFT)", "South Tibetan Detachment System"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Which 2002 film directed by Nabin Subba explored the social transitions and indigenous identity struggles of the Limbu community?",
+    "options": ["Mukundo", "Kagbeni", "Numafung", "Loot"],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Who was the last formal monarch of the Malla Dynasty to rule over the independent kingdom of Kathmandu before its conquest in 1768?",
+    "options": ["Tej Narsingh Malla", "Ranjit Malla", "Pratap Malla", "Jaya Prakash Malla"],
+    "correct": 3
+  },
+  {
+    "level": 13,
+    "question": "What rare, four-stringed plucked lute is historically considered the oldest stringed instrument of the Gandharva musical lineage?",
+    "options": ["Arbajo", "Sarangi", "Tungna", "Ektare"],
+    "correct": 0
+  },
+  {
+    "level": 13,
+    "question": "Which pass connects the pristine, high-altitude Tsum Valley directly with the border trade checkpoints of Tibet?",
+    "options": ["Thorong La Pass", "Ngula Dhoj Bhanjyang", "Larke La Pass", "Cho La Pass"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "The legendary classical song 'Mero Pyaro Okhaldhunga' was adapted into a musical composition by which legendary singer-composer?",
+    "options": ["Nati Kaji", "Phatteman Rajbhandari", "Narayan Gopal", "Bhaktaraj Acharya"],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Which river basin in Nepal holds the distinction of having the deepest structural canyon carved by an antecedent river?",
+    "options": ["Kali Gandaki River Valley", "Arun River Valley (Arun Gorge)", "Karnali River Valley", "Bheri River Gorge"],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "Which historic Lichchhavi King sent his daughter Bhrikuti in marriage to the Tibetan Emperor Songtsen Gampo, cementing early trans-Himalayan diplomacy?",
+    "options": ["Manadeva", "Narendradeva", "Amshuverma", "Shivadeva I"],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "The high-altitude ritual performance of 'Mani Rimdu' celebrated at Tengboche Monastery features dances honoring which Buddhist master?",
+    "options": ["Milarepa", "Atisha", "Gautam Buddha", "Guru Padmasambhava"],
+    "correct": 3
+  },
+  {
+    "level": 14,
+    "question": "The timeless vocal tracks for the iconic vintage movie 'Maiti Ghar' (1966) featured a historical duet with which legendary Indian playback singer alongside Nepali artists?",
+    "options": ["Asha Bhosle", "Lata Mangeshkar", "Geeta Dutt", "Alka Yagnik"],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Which deep valley structure acts as a geographic shield, keeping the Manang and Mustang districts dry and arid throughout the monsoon?",
+    "options": ["Dhaulagiri Basin Shield", "Karnali Inner Valley Zone", "Annapurna Massif Rain Shadow", "Langtang High Ridge"],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "The critically acclaimed 2023 independent feature 'Gau Aye Ko Bato' (A Road to a Village) exploring rural transformations was directed by whom?",
+    "options": ["Min Bahadur Bham", "Nabin Subba", "Deepak Rauniyar", "Nischal Basnet"],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Which historical prime minister signed the 1856 Treaty of Thapathali with Tibet, securing trade privileges and extra-territorial rights for Nepali merchants?",
+    "options": ["Jung Bahadur Rana", "Bhimsen Thapa", "Chandra Shamsher", "Ranodip Singh"],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "What is the traditional name of the multi-barrel bamboo panflute instrument played by indigenous communities in the mid-hills of Nepal?",
+    "options": ["Binayo", "Murchunga", "Tungna", "Wamyee / Bamboo Panflute"],
+    "correct": 3
+  },
+  {
+    "level": 14,
+    "question": "Which pass marks the boundary transition between the eastern and central Himalayan ranges within Nepal?",
+    "options": ["Tipta La Pass", "Thorong La Pass", "Cho La Pass", "Nangpa La Pass"],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "The complex instrumental score for Nepal's modern patriotic song 'Rato Ra Chandra Surya' was masterfully arranged by which composer?",
+    "options": ["Gopal Yonzon", "Amber Gurung", "Nati Kaji", "Shiva Shankar"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which structural geological zone in Nepal is characterized by karst limestone typography, underground caves, and intense river erosion?",
+    "options": ["Chure Range (Sub-Himalayas)", "Mahabharat Range (Lesser Himalayas)", "Higher Himalayas Zone", "Tibetan Tethys Zone"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which historical administrative treaty signed in 1775 resolved territorial conflicts and stabilized borders between the Gorkha Kingdom and the Kingdom of Sikkim?",
+    "options": ["Treaty of Sugauli", "Treaty of Betrawati", "Treaty of Kathmandu", "Treaty of Kerung"],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "What rare, sacred mask dance festival is performed once every 12 years in the historical town of Thecho to invoke protective deities?",
+    "options": ["Nava Durga Nach", "Harisiddhi Nach", "Khokana Nach", "Bhadrakali Jatra"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "The iconic classical music composition 'Prabhu Mero Khusi Lye' by Swor Samrat Narayan Gopal was penned by which mystic poet?",
+    "options": ["Laxmi Prasad Devkota", "Bhanubhakta Acharya", "Madhav Prasad Ghimire", "Kavi Shiromani Lekhnath Paudyal"],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "Which specific trans-Himalayan plateau sector within Nepal contains an extension of the high-altitude Tibetan desert environment?",
+    "options": ["Dolpa High Plateau", "Upper Mustang Plateau", "Limu Valley Zone", "Manang Alpine Basin"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "The award-winning 2014 multi-narrative independent movie 'Highway' was premierly screened at which prestigious global film festival?",
+    "options": ["Berlin International Film Festival", "Venice Film Festival", "Cannes Film Festival", "Toronto International Film Festival"],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "Which historic, powerful Malla queen acted as a major de facto ruler of Patan, executing administrative and construction reforms in the late 17th century?",
+    "options": ["Riddhi Lakshmi", "Lalit Tripura Sundari", "Rajendra Laxmi", "Yogmati"],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "What traditional double-reed oboe-like instrument is considered the leading melodic instrument of the classic Panchai Baaja ensemble?",
+    "options": ["Sanahi", "Narsingha", "Karnal", "Damaha"],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "Which high alpine trading pass connects the remote Humla district of North-Western Nepal directly with the Purang county of Tibet?",
+    "options": ["Lapcha La Pass", "Changla Pass", "Hilsa Pass (Nari Lagne)", "Marma Pass"],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "The intricate orchestration of the classic masterpiece 'Kehi Mitho Baat Gara' by Narayan Gopal was composed by which music maestro?",
+    "options": ["Gopal Yonzon", "Amber Gurung", "Nati Kaji", "Dibya Khaling"],
+    "correct": 3
+  }
+]

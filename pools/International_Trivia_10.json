@@ -1,0 +1,902 @@
+[
+  {
+    "level": 1,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "Which animal is known as the 'Ship of the Desert'?",
+    "options": ["Camel", "Horse", "Elephant", "Donkey"],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "How many colors are there in a standard rainbow?",
+    "options": ["Five", "Six", "Eight", "Seven"],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What is the primary gas that humans breathe in to survive?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Which country is home to the famous architectural landmark, the Eiffel Tower?",
+    "options": ["Italy", "Germany", "France", "Spain"],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "How many days are there in a standard leap year?",
+    "options": ["365", "366", "364", "360"],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "In the game of chess, which piece can only move diagonally?",
+    "options": ["Rook", "Knight", "Pawn", "Bishop"],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "Which shape has exactly three sides and three vertical corners?",
+    "options": ["Triangle", "Square", "Rectangle", "Circle"],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Who is widely recognized as the author of the classic play 'Romeo and Juliet'?",
+    "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What is the chemical symbol for the element Gold?",
+    "options": ["Ag", "Au", "Fe", "Gd"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which organ in the human body is primarily responsible for pumping blood?",
+    "options": ["Lungs", "Brain", "Liver", "Heart"],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "Which European city is completely famous for its intricate network of water canals instead of roads?",
+    "options": ["Venice", "Paris", "Rome", "London"],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "Which specific instrument is used by medical professionals to listen to internal heart and lung sounds?",
+    "options": ["Thermometer", "Microscope", "Stethoscope", "Endoscope"],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What is the longest river in the world?",
+    "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "In what year did the tragic sinking of the luxury passenger liner RMS Titanic occur?",
+    "options": ["1905", "1920", "1915", "1912"],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "Which sport uses terms like 'home run', 'strikeout', and 'base'?",
+    "options": ["Baseball", "Cricket", "Basketball", "Tennis"],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "What pigment gives plants their green color and absorbs light during photosynthesis?",
+    "options": ["Carotene", "Chlorophyll", "Melanin", "Hemoglobin"],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which historical figure was the first president of the United States?",
+    "options": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "What is the capital city of Australia?",
+    "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "What is the hardest naturally occurring substance found on Earth?",
+    "options": ["Graphite", "Quartz", "Diamond", "Topaz"],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which classical physicist is famous for developing the three fundamental laws of motion?",
+    "options": ["Albert Einstein", "Sir Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which country is the largest by land area in the entire world?",
+    "options": ["Canada", "China", "United States", "Russia"],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "What is the official currency used across Japan?",
+    "options": ["Yen", "Yuan", "Won", "Baht"],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which vitamin is heavily produced in the human skin when exposed directly to sunlight?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Who painted the iconic 16th-century portrait artwork known as the Mona Lisa?",
+    "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which fundamental subatomic particle holds a negative electrical charge?",
+    "options": ["Proton", "Neutron", "Positron", "Electron"],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "Which continuous mountain range is the longest continental mountain range in the world?",
+    "options": ["The Andes", "The Himalayas", "The Rockies", "The Alps"],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which country gifted the iconic Statue of Liberty to the United States?",
+    "options": ["United Kingdom", "France", "Germany", "Italy"],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "How many permanent member nations sit on the United Nations Security Council?",
+    "options": ["Five", "Ten", "Seven", "Twelve"],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "What is the capital city of Canada?",
+    "options": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Which ancient civilization famously constructed the architectural complex of Machu Picchu in Peru?",
+    "options": ["Aztecs", "Incas", "Mayans", "Egyptions"],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What is the most abundant gas found in Earth's atmosphere?",
+    "options": ["Nitrogen", "Oxygen", "Argon", "Carbon Dioxide"],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Which company originally created and launched the mobile operating system Android?",
+    "options": ["Apple", "Microsoft", "Google", "Samsung"],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "What is the normal resting body temperature of a healthy adult human in degrees Celsius?",
+    "options": ["35.5°C", "37°C", "38.2°C", "36°C"],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which musical artist is globally recognized as the 'King of Pop'?",
+    "options": ["Elvis Presley", "Prince", "Freddie Mercury", "Michael Jackson"],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Which specific ocean completely surrounds the island continent of Antarctica?",
+    "options": ["Southern Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Who discovered the absolute global properties of penicillin, launching modern antibiotics?",
+    "options": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Gregor Mendel"],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What structural component makes up the exoskeleton of insects and cell walls of fungi?",
+    "options": ["Cellulose", "Keratin", "Chitin", "Collagen"],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "Which major nation-state consists geographically of exactly four distinct constituent countries?",
+    "options": ["United Kingdom", "United States", "United Arab Emirates", "South Africa"],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "What is the main chemical constituent of ordinary glass?",
+    "options": ["Sodium Chloride", "Silicon Dioxide", "Calcium Carbonate", "Aluminium Oxide"],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which critical peace treaty formally concluded the military operations of World War I?",
+    "options": ["Treaty of Utrecht", "Treaty of Ghent", "Treaty of Versailles", "Treaty of Paris"],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What is the largest living species of primate currently found on Earth?",
+    "options": ["Gorilla", "Chimpanzee", "Orangutan", "Mandrill"],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "Which element on the periodic table possesses the lowest atomic number?",
+    "options": ["Helium", "Lithium", "Oxygen", "Hydrogen"],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "In computer science, what does the acronym 'URL' stand for?",
+    "options": ["Uniform Resource Locator", "Universal Reference Link", "Unified Resource Line", "Unique Routing Location"],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "Which dynamic economic index tracks the absolute performance of 30 prominent blue-chip US companies?",
+    "options": ["S&P 500", "Dow Jones Industrial Average", "NASDAQ Composite", "FTSE 100"],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which deep-sea trench is officially verified as the deepest point in all of Earth's oceans?",
+    "options": ["Puerto Rico Trench", "Java Trench", "Mariana Trench", "Tonga Trench"],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "Who wrote the profound 1859 scientific publication 'On the Origin of Species'?",
+    "options": ["Gregor Mendel", "Jean-Baptiste Lamarck", "Thomas Huxley", "Charles Darwin"],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "Which country is the smallest independent state in the world by both area and population?",
+    "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "What functional endocrine gland in the human body produces the sleep-regulating hormone melatonin?",
+    "options": ["Pineal Gland", "Pituitary Gland", "Thyroid Gland", "Adrenal Gland"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "Which historical empire was ruled successfully by absolute emperors Julius Caesar and Augustus?",
+    "options": ["Greek Empire", "Roman Empire", "Ottoman Empire", "Persian Empire"],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What type of biological macromolecule is an enzyme?",
+    "options": ["Carbohydrate", "Lipid", "Protein", "Nucleic Acid"],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "Which country occupies the largest portion of the Scandinavian Peninsula?",
+    "options": ["Sweden", "Norway", "Finland", "Denmark"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "What mathematical constant represents the absolute ratio of a circle's circumference to its diameter?",
+    "options": ["Euler's Number", "Golden Ratio", "Planck's Constant", "Pi"],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Which classic dystopian political fiction novel features the omniscient character 'Big Brother'?",
+    "options": ["Nineteen Eighty-Four", "Brave New World", "Fahrenheit 451", "Animal Farm"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "What processing unit is considered the absolute central brain of a desktop computer system?",
+    "options": ["RAM", "CPU", "GPU", "SSD"],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What is the capital city of Brazil?",
+    "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "Who was the legendary lead vocalist and primary songwriter for the classic rock band Queen?",
+    "options": ["David Bowie", "Mick Jagger", "John Lennon", "Freddie Mercury"],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Which historical event began on July 14, 1789, with the dramatic storming of the Bastille fortress?",
+    "options": ["French Revolution", "American Revolution", "Industrial Revolution", "Glorious Revolution"],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "Which unique thermodynamic temperature scale starts at absolute zero and uses no degree symbols?",
+    "options": ["Celsius", "Kelvin", "Fahrenheit", "Rankine"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which country contains the architectural ruins of the ancient trading city of Petra?",
+    "options": ["Egypt", "Jordan", "Turkey", "Greece"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What complex biological carbohydrate forms the primary structural material of plant cell walls?",
+    "options": ["Starch", "Glycogen", "Chitin", "Cellulose"],
+    "correct": 3
+  },
+  {
+    "level": 7,
+    "question": "What architectural style is characterized by pointed arches, ribbed vaults, and flying buttresses?",
+    "options": ["Gothic", "Romanesque", "Baroque", "Renaissance"],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "Which standard gas law states that pressure and volume are inversely proportional at constant temperature?",
+    "options": ["Charles's Law", "Boyle's Law", "Gay-Lussac's Law", "Avogadro's Law"],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Who composed the iconic classical musical masterpiece Symphony No. 9, featuring the 'Ode to Joy'?",
+    "options": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Ludwig van Beethoven", "Frédéric Chopin"],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "What is the name of the largest moon orbiting the planet Saturn?",
+    "options": ["Ganymede", "Europa", "Titan", "Io"],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "Which country won the inaugural FIFA Men's World Cup football tournament held back in 1930?",
+    "options": ["Brazil", "Argentina", "Italy", "Uruguay"],
+    "correct": 3
+  },
+  {
+    "level": 7,
+    "question": "Which specific layer of the Earth lies directly between the crust and the outer core?",
+    "options": ["Mantle", "Lithosphere", "Asthenosphere", "Inner Core"],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "In basic economics, what occurs when a government prints excess fiat currency, dropping purchasing power?",
+    "options": ["Deflation", "Stagnation", "Inflation", "Recession"],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "Which fundamental component of a biological cell is responsible for cellular respiration and ATP generation?",
+    "options": ["Mitochondrion", "Ribosome", "Golgi Apparatus", "Lysosome"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which scientist won the 1921 Nobel Prize in Physics for explaining the photoelectric effect?",
+    "options": ["Niels Bohr", "Albert Einstein", "Max Planck", "Werner Heisenberg"],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "What is the capital city of Canada's western province of British Columbia?",
+    "options": ["Vancouver", "Calgary", "Edmonton", "Victoria"],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Which major philosophical work was written by Niccolò Machiavelli as a guide for political rulers?",
+    "options": ["The Prince", "The Republic", "Leviathan", "Social Contract"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "What structural protein serves as the primary component of human hair, fingernails, and animal hooves?",
+    "options": ["Collagen", "Elastin", "Keratin", "Actin"],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "Which ocean contains the remote volcanic island territory of Bermuda?",
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "Who was the absolute last reigning pharaoh of the Ptolemaic Kingdom of ancient Egypt?",
+    "options": ["Nefertiti", "Hatshepsut", "Cleopatra VII", "Arsinoe IV"],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "What programming language was developed by James Gosling at Sun Microsystems in 1995?",
+    "options": ["Python", "C++", "Ruby", "Java"],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Which specialized organelle inside plant cells captures solar energy to run the Calvin cycle?",
+    "options": ["Chloroplast", "Vacuole", "Peroxisome", "Leucoplast"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "Which historical empire constructed the architectural complex of Hagia Sophia in Constantinople?",
+    "options": ["Byzantine Empire", "Holy Roman Empire", "Ottoman Empire", "Persian Empire"],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "What is the most abundant metallic element found within the crust of the Earth?",
+    "options": ["Iron", "Aluminium", "Copper", "Titanium"],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What complex biological structure holds the title of the largest single cellular structure in the human body?",
+    "options": ["Sperm Cell", "Neuron", "Ovum (Egg Cell)", "Macrophage"],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "Which nation was known as the Kingdom of Siam until its name was officially changed in 1939?",
+    "options": ["Thailand", "Vietnam", "Cambodia", "Myanmar"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "What fundamental physical principle asserts that the total energy of an isolated system remains constant?",
+    "options": ["First Law of Thermodynamics", "Second Law of Thermodynamics", "Third Law of Thermodynamics", "Zeroth Law of Thermodynamics"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which landmark international agreement signed in 1987 phased out the production of chlorofluorocarbons?",
+    "options": ["Kyoto Protocol", "Montreal Protocol", "Paris Agreement", "Geneva Convention"],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Which major software architectural pattern segregates an application into Model, View, and Controller?",
+    "options": ["Microservices", "MVC", "Monolithic", "Event-Driven"],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Who wrote the profound 19th-century existential philosophical text titled 'Thus Spoke Zarathustra'?",
+    "options": ["Søren Kierkegaard", "Arthur Schopenhauer", "Jean-Paul Sartre", "Friedrich Nietzsche"],
+    "correct": 3
+  },
+  {
+    "level": 9,
+    "question": "Which mountain peak is the highest point on the European continent?",
+    "options": ["Mont Blanc", "Mount Matterhorn", "Mount Elbrus", "Mount Olympus"],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "What complex physiological cycle describes the structural pathways that convert glucose into pyruvate?",
+    "options": ["Krebs Cycle", "Calvin Cycle", "Urea Cycle", "Glycolysis"],
+    "correct": 3
+  },
+  {
+    "level": 9,
+    "question": "Which global monetary institution is headquartered in Washington, D.C. alongside the World Bank?",
+    "options": ["International Monetary Fund (IMF)", "World Trade Organization", "Federal Reserve", "Bank for International Settlements"],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "What classic art movement was spearheaded by painters Claude Monet, Edgar Degas, and Pierre-Auguste Renoir?",
+    "options": ["Surrealism", "Cubism", "Impressionism", "Expressionism"],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "Which element possesses the highest electrical and thermal conductivity of all known metals?",
+    "options": ["Copper", "Gold", "Aluminium", "Silver"],
+    "correct": 3
+  },
+  {
+    "level": 10,
+    "question": "Which major sea is bordered by countries like Ukraine, Russia, Turkey, Bulgaria, and Romania?",
+    "options": ["Mediterranean Sea", "Black Sea", "Caspian Sea", "Baltic Sea"],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Who was the absolute longest-reigning monarch in British history before passing away in 2022?",
+    "options": ["Queen Victoria", "King George III", "Queen Elizabeth II", "King Henry VIII"],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "What structural geological term refers to a volcanic crater created by the collapse of a emptied magma chamber?",
+    "options": ["Caldera", "Fumarole", "Stratovolcano", "Geyser"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Which fundamental theorem of calculus establishes a bridge relating differentiation to integration?",
+    "options": ["Mean Value Theorem", "Fundamental Theorem of Calculus", "Rolle's Theorem", "Taylor's Theorem"],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What programming language was designed by Bjarne Stroustrup as an extension of the original C language?",
+    "options": ["Java", "Python", "C#", "C++"],
+    "correct": 3
+  },
+  {
+    "level": 10,
+    "question": "Which dynamic physical layer of Earth's atmosphere contains the majority of weather clouds and water vapor?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Who wrote the foundational 1867 critique of political economy titled 'Das Kapital'?",
+    "options": ["Max Weber", "Karl Marx", "Adam Smith", "John Maynard Keynes"],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What structural hormone is produced by the beta cells of the pancreatic islets to lower blood glucose?",
+    "options": ["Glucagon", "Cortisol", "Insulin", "Thyroxine"],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "Which specific ocean basin contains the absolute largest coral reef system, known as the Great Barrier Reef?",
+    "options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Southern Ocean"],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "What structural constant represents the speed of light in a vacuum, roughly $3 \times 10^8$ meters per second?",
+    "options": ["Constant $h$", "Constant $G$", "Constant $c$", "Constant $k$"],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Which specialized neural tract connects the left and right hemispheres of the human brain?",
+    "options": ["Corpus Callosum", "Medulla Oblongata", "Thalamus", "Hippocampus"],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "Which African nation was historically founded by freed American slaves in the early 19th century?",
+    "options": ["Ghana", "Liberia", "Sierra Leone", "Nigeria"],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "What is the official currency utilized within the borders of South Africa?",
+    "options": ["Shilling", "Kwanza", "Pula", "Rand"],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "Which fundamental chemical compound is widely utilized as the universal solvent across chemical reactions?",
+    "options": ["Ethanol", "Acetone", "Water", "Benzene"],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Who was the absolute last premier ruler of the Soviet Union before its dissolution in 1991?",
+    "options": ["Mikhail Gorbachev", "Boris Yeltsin", "Nikita Khrushchev", "Leonid Brezhnev"],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "What core component of the internet routing infrastructure translates human-readable domain names into IP addresses?",
+    "options": ["HTTP", "DNS", "TCP", "DHCP"],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which specific element on the periodic table boasts the absolute highest melting point of all non-alloys?",
+    "options": ["Platinum", "Osmium", "Tantalum", "Tungsten"],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "Which dynamic physical layer of the ocean is defined by a rapid change in temperature with increasing depth?",
+    "options": ["Thermocline", "Halocline", "Pycnocline", "Epilimnion"],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "Which specialized white blood cell is primarily responsible for producing specific antibodies against foreign pathogens?",
+    "options": ["T-Lymphocyte", "B-Lymphocyte", "Macrophage", "Neutrophil"],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which subatomic particle is hypothesized to mediate the fundamental force of gravitation?",
+    "options": ["Graviton", "Gluon", "Higgs Boson", "Photon"],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "What thermodynamic state property is a direct structural measure of molecular disorder within an isolated system?",
+    "options": ["Enthalpy", "Entropy", "Gibbs Free Energy", "Internal Energy"],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which continuous line of latitude marks the absolute southern boundary of the tropical zone on Earth?",
+    "options": ["Tropic of Cancer", "Equator", "Tropic of Capricorn", "Antarctic Circle"],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Who developed the foundational mathematical system of coordinate geometry, linking algebra directly to geometry?",
+    "options": ["Isaac Newton", "Gottfried Leibniz", "Blaise Pascal", "René Descartes"],
+    "correct": 3
+  },
+  {
+    "level": 12,
+    "question": "Which major global event in 1648 established the structural foundations of modern state sovereignty?",
+    "options": ["Peace of Westphalia", "Congress of Vienna", "Treaty of Utrecht", "Edict of Nantes"],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "What is the absolute longest cell present within the anatomical structures of the human body?",
+    "options": ["Skeletal Muscle Fiber", "Motor Neuron", "Red Blood Cell", "Osteoclast"],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Which fundamental design pattern involves restricted class instantiation to a single object across an runtime system?",
+    "options": ["Factory Pattern", "Observer Pattern", "Singleton Pattern", "Strategy Pattern"],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which Central American country successfully abolished its entire standing military force back in 1948?",
+    "options": ["Panama", "Nicaragua", "Honduras", "Costa Rica"],
+    "correct": 3
+  },
+  {
+    "level": 12,
+    "question": "What functional neurological system is responsible for inducing the 'fight-or-flight' physiological response?",
+    "options": ["Sympathetic Nervous System", "Parasympathetic Nervous System", "Central Nervous System", "Somatic Nervous System"],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "Which specific element on the modern periodic table possesses the absolute highest structural density?",
+    "options": ["Iridium", "Osmium", "Platinum", "Lead"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What architectural masterpiece designed by Antoni Gaudí remains unfinished in Barcelona, Spain?",
+    "options": ["Casa Milà", "Park Güell", "Basílica de la Sagrada Família", "Casa Batlló"],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which specific chemical mechanism describes the complete degradation of a polymer by the addition of a water molecule?",
+    "options": ["Dehydration Synthesis", "Decarboxylation", "Oxidation", "Hydrolysis"],
+    "correct": 3
+  },
+  {
+    "level": 13,
+    "question": "What specific treaty signed in 1992 created the formal structural frameworks of the modern European Union?",
+    "options": ["Maastricht Treaty", "Treaty of Rome", "Lisbon Treaty", "Treaty of Amsterdam"],
+    "correct": 0
+  },
+  {
+    "level": 13,
+    "question": "Which high-level programming language was designed by Yukihiro Matsumoto to merge functional and imperative programming paradigms?",
+    "options": ["Perl", "Ruby", "Python", "PHP"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What astronomical unit defines the average distance stretching from the center of the Earth to the center of the Sun?",
+    "options": ["Parsec", "Light-year", "Astronomical Unit (AU)", "Solar Radius"],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which physiological process uses an electrochemical gradient to power ATP production in the inner mitochondrial membrane?",
+    "options": ["Substrate-level Phosphorylation", "Glycolysis", "Fermentation", "Oxidative Phosphorylation / Chemiosmosis"],
+    "correct": 3
+  },
+  {
+    "level": 13,
+    "question": "Which African lake is geographically recognized as the largest tropical lake and second-largest freshwater lake in the world?",
+    "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+    "correct": 0
+  },
+  {
+    "level": 13,
+    "question": "Who formulated the mathematical theorem stating that every complex polynomial equation has at least one complex root?",
+    "options": ["Leonhard Euler", "Carl Friedrich Gauss", "Pierre de Fermat", "Bernhard Riemann"],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Which global architectural landmark is constructed entirely out of white Makrana marble and sits on the Yamuna River?",
+    "options": ["Angkor Wat", "Petra Treasury", "Taj Mahal", "Alhambra Palace"],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "What psychological defense mechanism describes redirecting unacceptable impulses from their true target to a safer substitute?",
+    "options": ["Sublimation", "Projection", "Rationalization", "Displacement"],
+    "correct": 3
+  },
+  {
+    "level": 14,
+    "question": "What fundamental physical law states that the total magnetic flux passing through any closed surface is always zero?",
+    "options": ["Gauss's Law for Magnetism", "Faraday's Law of Induction", "Ampere's Circuital Law", "Lenz's Law"],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "Which neurological structure acts as the primary relay station, sorting and transmitting sensory information to the cerebral cortex?",
+    "options": ["Hypothalamus", "Thalamus", "Hippocampus", "Amygdala"],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What structural economic term describes a market scenario dominated by only two highly powerful competing sellers?",
+    "options": ["Monopoly", "Oligopoly", "Duopoly", "Monopsony"],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Which historic administrative treaty signed in 1494 divided newly discovered global territories between Spain and Portugal?",
+    "options": ["Treaty of Zaragoza", "Treaty of Utrecht", "Treaty of Westphalia", "Treaty of Tordesillas"],
+    "correct": 3
+  },
+  {
+    "level": 14,
+    "question": "What mathematical distribution is symmetric and bell-shaped, completely characterized by its mean and standard deviation?",
+    "options": ["Poisson Distribution", "Binomial Distribution", "Normal (Gaussian) Distribution", "Exponential Distribution"],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "What is the primary architectural style of the historic palace complex of Versailles built during Louis XIV's reign?",
+    "options": ["Baroque Architecture", "Gothic Architecture", "Neoclassical Architecture", "Rococo Architecture"],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "Which programming technique involves executing distinct operational sequences asynchronously on independent hardware units?",
+    "options": ["Polymorphism", "Multithreading / Parallel Processing", "Encapsulation", "Recursion"],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What complex cellular structure synthesizes secretory proteins and adds carbohydrate chains to form glycoproteins?",
+    "options": ["Lysosome", "Peroxisome", "Nucleolus", "Rough Endoplasmic Reticulum"],
+    "correct": 3
+  },
+  {
+    "level": 14,
+    "question": "Which specific element exhibits the absolute highest electronegativity value on the modern Pauling scale?",
+    "options": ["Oxygen", "Chlorine", "Fluorine", "Nitrogen"],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Which African nation holds the historical distinction of never being formally colonized by a European power?",
+    "options": ["Egypt", "Ethiopia", "South Africa", "Kenya"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "What fundamental physical constant relates the energy of a photon directly to its electromagnetic frequency?",
+    "options": ["Planck's Constant ($h$)", "Boltzmann's Constant ($k$)", "Rydberg Constant ($R_{\\infty}$)", "Fine-structure Constant ($\\alpha$)"],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "What specialized cellular organelle breaks down fatty acids through beta-oxidation and produces hydrogen peroxide as a byproduct?",
+    "options": ["Lysosome", "Peroxisome", "Glyoxysome", "Mitochondrion"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which standard data structure uses a hashing function to map key identifiers directly to specific values for $O(1)$ operations?",
+    "options": ["Binary Search Tree", "Linked List", "Hash Table", "Stack"],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "Which continuous mathematical curve describes the path taken by an ideal heavy cord hanging freely between two supports?",
+    "options": ["Parabola", "Cycloid", "Hyperbola", "Catenary"],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "Which historical peace accord signed in 1978 established formal frameworks for a peace treaty between Egypt and Israel?",
+    "options": ["Camp David Accords", "Oslo Accords", "Treaty of Versailles", "Geneva Convention"],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "What geological boundary zone marks the seismic discontinuity between the Earth's lower mantle and fluid outer core?",
+    "options": ["Mohorovičić Discontinuity", "Gutenberg Discontinuity", "Lehmann Discontinuity", "Conrad Discontinuity"],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which complex structural protein forms the triple-helix scaffold of connective tissues and is the most abundant protein in mammals?",
+    "options": ["Keratin", "Actin", "Collagen", "Myosin"],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "What specialized branch of game theory analyzes strategic situations where players have access to different private information?",
+    "options": ["Combinatorial Game Theory", "Evolutionary Game Theory", "Cooperative Game Theory", "Asymmetric Information / Bayesian Games"],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "Which mathematical identity states that $e^{i\\pi} + 1 = 0$, linking five fundamental mathematical constants together?",
+    "options": ["Euler's Identity", "De Moivre's Theorem", "Taylor's Formula", "Fourier Transform"],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "Which major global river basin holds the absolute highest volume of freshwater discharge into the oceans?",
+    "options": ["Congo River Basin", "Amazon River Basin", "Ganges River Basin", "Mississippi River Basin"],
+    "correct": 1
+  }
+]
