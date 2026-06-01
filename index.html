@@ -625,8 +625,6 @@ const moneyTree = [
         let isDoubleDipActiveState = false;
         let doubleDipAttemptsCount = 0;
         let arenaLayoutTemplateHTML = ""; 
-        
-        // GLOBAL ANCHOR: Lock-in the single chosen random question object for the active round
         let currentActiveQuestion = null; 
 
         const AudioEngine = {
@@ -635,26 +633,125 @@ const moneyTree = [
                 if(!this.ctx) this.ctx = new (window.AudioContext || window.webkitAudioContext)();
                 if (this.ctx.state === 'suspended') this.ctx.resume();
             },
-            playTone(freq, type, duration, volume=0.1) {
+            playTone(freq, type, duration, volume=0.1, startTimeOffset = 0, fadeOutDuration = 0.3) {
                 try {
                     this.init();
                     let osc = this.ctx.createOscillator();
                     let gainNode = this.ctx.createGain();
+                    
                     osc.type = type;
-                    osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
-                    gainNode.gain.setValueAtTime(volume, this.ctx.currentTime);
-                    gainNode.gain.exponentialRampToValueAtTime(0.00001, this.ctx.currentTime + duration);
+                    osc.frequency.setValueAtTime(freq, this.ctx.currentTime + startTimeOffset);
+                    
+                    gainNode.gain.setValueAtTime(volume, this.ctx.currentTime + startTimeOffset);
+                    // Create a smoother, longer linear decay for dramatic trailing notes
+                    gainNode.gain.setValueAtTime(volume, this.ctx.currentTime + startTimeOffset + duration - fadeOutDuration);
+                    gainNode.gain.exponentialRampToValueAtTime(0.00001, this.ctx.currentTime + startTimeOffset + duration);
+                    
                     osc.connect(gainNode);
                     gainNode.connect(this.ctx.destination);
-                    osc.start();
-                    osc.stop(this.ctx.currentTime + duration);
+                    osc.start(this.ctx.currentTime + startTimeOffset);
+                    osc.stop(this.ctx.currentTime + startTimeOffset + duration);
                 } catch(e) {}
             },
-            correctDing() {
-                this.playTone(523.25, 'sine', 0.15, 0.15);
-                setTimeout(() => this.playTone(659.25, 'sine', 0.4, 0.15), 100);
+            // Extended 3-Second Dramatic Build and Reveal Track for Correct Answers
+         correctDing() {
+                let now = 0;
+                // Extended dramatic tension riser (0.0s to 1.5s)
+                this.playTone(146.83, 'triangle', 1.5, 0.25, now, 0.3);
+                let slowRise = [220, 277.18, 329.63, 392.00, 440];
+                slowRise.forEach((freq, i) => {
+                    this.playTone(freq, 'sine', 1.0, 0.15, now + (i * 0.28), 0.2);
+                });
+
+                // Triumphant climax blast (Starts at 1.5s, sustains for 1.5s. Total = 3.0 seconds)
+                let releaseTime = 1.5;
+                let totalDuration = 1.5; 
+                let brightChord = [440, 554.37, 659.25, 880, 1108.73];
+                brightChord.forEach((freq, i) => {
+                    this.playTone(freq, 'sawtooth', totalDuration, 0.06, now + releaseTime + (i * 0.01), 0.3);
+                    this.playTone(freq * 1.003, 'sine', totalDuration, 0.12, now + releaseTime + (i * 0.01), 0.4);
+                });
             },
-            wrongBuzzer() { this.playTone(150, 'sawtooth', 0.5, 0.2); },
+            // Long, Distorting, Slow-Sweeping Doom Loss Track
+            wrongBuzzer() {
+                try {
+                    this.init();
+                    let t = this.ctx.currentTime;
+                    
+                    // Layer 1: Long, Terrifying Sliding Frequency Sawtooth Drop
+                    let osc1 = this.ctx.createOscillator();
+                    let gain1 = this.ctx.createGain();
+                    osc1.type = 'sawtooth';
+                    osc1.frequency.setValueAtTime(293.66, t); // Starts high
+                    osc1.frequency.exponentialRampToValueAtTime(55, t + 3.0); // Drops over 3 full seconds
+                    gain1.gain.setValueAtTime(0.25, t);
+                    gain1.gain.linearRampToValueAtTime(0.20, t + 2.0);
+                    gain1.gain.exponentialRampToValueAtTime(0.00001, t + 3.2);
+                    osc1.connect(gain1);
+                    gain1.connect(this.ctx.destination);
+                    osc1.start(t);
+                    osc1.stop(t + 3.2);
+
+                    // Layer 2: Aggressive, Jarring Counter-Harmonic
+                    let osc2 = this.ctx.createOscillator();
+                    let gain2 = this.ctx.createGain();
+                    osc2.type = 'triangle';
+                    osc2.frequency.setValueAtTime(280, t);
+                    osc2.frequency.linearRampToValueAtTime(50, t + 2.8);
+                    gain2.gain.setValueAtTime(0.20, t);
+                    gain2.gain.exponentialRampToValueAtTime(0.00001, t + 3.0);
+                    osc2.connect(gain2);
+                    gain2.connect(this.ctx.destination);
+                    osc2.start(t);
+                    osc2.stop(t + 3.0);
+
+                    // Layer 3: Shockwave Impact Aftershocks
+                    this.playTone(45, 'triangle', 2.5, 0.35, 0.1, 0.5);
+                    this.playTone(70, 'sawtooth', 1.8, 0.15, 0.4, 0.4);
+                } catch(e) {}
+            },
+            // Massive 12-Second Symphonic Electronic Masterpiece Victory Track
+            grandVictoryFanfare() {
+                let now = 0;
+                
+                // Phase 1: Rapid Arpeggiated Sparkle Inlets (0.0s - 1.8s)
+                let introNotes = [130.81, 196.00, 261.63, 329.63, 392.00, 523.25, 659.25, 783.99, 1046.50, 1318.51, 1567.98, 2093.00];
+                introNotes.forEach((freq, idx) => {
+                    this.playTone(freq, 'sine', 0.8, 0.15, now + (idx * 0.12), 0.2);
+                    this.playTone(freq * 0.998, 'triangle', 0.6, 0.10, now + (idx * 0.12) + 0.03, 0.2);
+                });
+
+                // Phase 2: High Stakes Staccato Rhythm Foundation (1.5s - 4.5s)
+                for(let step = 0; step < 12; step++) {
+                    let baseFreq = (step % 4 === 0) ? 261.63 : (step % 4 === 2) ? 392.00 : 523.25;
+                    this.playTone(baseFreq, 'triangle', 0.25, 0.18, now + 1.6 + (step * 0.22), 0.05);
+                }
+
+                // Phase 3: The Monumental Million-Dollar Chorus Triad Blast (4.0s - 12.0s)
+                let choralSustainedTime = 4.2;
+                let masterChords = [
+                    [261.63, 329.63, 392.00, 523.25], // C Major Foundation
+                    [329.63, 392.00, 523.25, 659.25], // Inversion Lift
+                    [523.25, 659.25, 783.99, 1046.50], // Higher Sky Layer
+                    [1046.50, 1318.51, 1567.98, 2093.00] // Godly Apex Beam
+                ];
+
+                masterChords.forEach((chord, tierIndex) => {
+                    chord.forEach((freq) => {
+                        // Thick detuned unison waves to mimic a real stadium ensemble synth
+                        this.playTone(freq, 'sawtooth', 7.5, 0.04, now + choralSustainedTime + (tierIndex * 0.15), 1.5);
+                        this.playTone(freq * 1.004, 'sawtooth', 7.5, 0.04, now + choralSustainedTime + (tierIndex * 0.15), 1.5);
+                        this.playTone(freq * 0.996, 'sine', 8.0, 0.15, now + choralSustainedTime + (tierIndex * 0.15), 2.0);
+                    });
+                });
+
+                // Phase 4: Final Sparkling Trailing Echo Crests
+                let outroOffsets = [8.5, 9.0, 9.5, 10.0];
+                outroOffsets.forEach((timeOffset, i) => {
+                    let highSparkle = 1046.50 * (i === 1 ? 1.25 : i === 2 ? 1.5 : 2.0);
+                    this.playTone(highSparkle, 'sine', 1.5, 0.10, now + timeOffset, 0.5);
+                });
+            },
             clockTick() { this.playTone(880, 'sine', 0.02, 0.05); },
             suspenseIntro() { this.playTone(220, 'triangle', 0.6, 0.15); }
         };
@@ -693,16 +790,74 @@ const moneyTree = [
                 }
                 if (!this.animationId) this.loop();
             },
+            grandLevel15Explosion() {
+                // Instantly flood the page environment with heavy rain fall tracking confetti
+                this.burst();
+                this.burst();
+                this.burst();
+
+                // Generate heavy cross-firing firework font streams from lower left & right corners
+                for(let k = 0; k < 2; k++) {
+                    let originX = (k === 0) ? 60 : this.canvas.width - 60;
+                    for (let i = 0; i < 130; i++) {
+                        let angle = (k === 0) ? (Math.random() * -Math.PI/3) - Math.PI/12 : (Math.random() * -Math.PI/3) - Math.PI/1.7;
+                        let speed = Math.random() * 15 + 7;
+                        this.particles.push({
+                            x: originX,
+                            y: this.canvas.height - 20,
+                            size: Math.random() * 8 + 4,
+                            color: this.colors[Math.floor(Math.random() * this.colors.length)],
+                            speedY: Math.sin(angle) * speed,
+                            speedX: Math.cos(angle) * speed,
+                            wobble: Math.random() * 5,
+                            wobbleSpeed: 0.09,
+                            rotation: Math.random() * Math.PI,
+                            rotationSpeed: 0.12
+                        });
+                    }
+                }
+                
+                // Continuous secondary high detonation visual triggers synchronized with the long music track
+                let blastCount = 0;
+                let interval = setInterval(() => {
+                    this.burst();
+                    // Inject a random mid-air blast vector
+                    let targetMidX = Math.random() * this.canvas.width;
+                    let targetMidY = Math.random() * (this.canvas.height * 0.5);
+                    for(let j=0; j<40; j++) {
+                        let a = Math.random() * Math.PI * 2;
+                        let s = Math.random() * 6 + 2;
+                        this.particles.push({
+                            x: targetMidX,
+                            y: targetMidY,
+                            size: Math.random() * 5 + 3,
+                            color: this.colors[Math.floor(Math.random() * this.colors.length)],
+                            speedY: Math.sin(a) * s,
+                            speedX: Math.cos(a) * s,
+                            wobble: Math.random() * 3,
+                            wobbleSpeed: 0.05,
+                            rotation: Math.random() * Math.PI,
+                            rotationSpeed: 0.05
+                        });
+                    }
+                    blastCount++;
+                    if(blastCount > 12) clearInterval(interval); // Keeps exploding across the length of the theme
+                }, 550);
+            },
             loop() {
                 GlitterEngine.ctx.clearRect(0, 0, GlitterEngine.canvas.width, GlitterEngine.canvas.height);
                 let alive = false;
 
                 for (let p of GlitterEngine.particles) {
-                    if (p.y < GlitterEngine.canvas.height) {
+                    if (p.y < GlitterEngine.canvas.height && p.x > -60 && p.x < GlitterEngine.canvas.width + 60) {
                         alive = true;
+                        
+                        // Apply simulated air friction and gravity elements down to vectors
+                        if(p.speedY < 5) p.speedY += 0.14; 
+                        
                         p.y += p.speedY;
-                        p.wobble += p.wobbleSpeed;
                         p.x += p.speedX + Math.sin(p.wobble) * 0.5;
+                        p.wobble += p.wobbleSpeed;
                         p.rotation += p.rotationSpeed;
 
                         GlitterEngine.ctx.save();
@@ -867,7 +1022,6 @@ const moneyTree = [
                 document.getElementById("doubleDipIndicator").style.display = "inline-block";
             }
 
-            // ✅ CRITICAL REPAIR: Selection happens EXACTLY once here and locks into memory
             currentActiveQuestion = fetchActiveQuestionObject();
             
             document.getElementById("questionText").innerText = currentActiveQuestion.question;
@@ -957,9 +1111,7 @@ const moneyTree = [
         function handleOptionSelection(selectedIndex) {
             if(isAnsweringBlocked) return;
             
-            // ✅ REPAIRED: Evaluate against locked question configuration instead of generating a new one
             let correctSolutionIndex = currentActiveQuestion.correct;
-
             let chosenElement = document.getElementById(`opt-${selectedIndex}`);
             let masterCorrectElement = document.getElementById(`opt-${correctSolutionIndex}`);
 
@@ -968,25 +1120,29 @@ const moneyTree = [
                 isAnsweringBlocked = true;
                 chosenElement.className = "option-btn correct";
                 
-                AudioEngine.correctDing();
-                GlitterEngine.burst(); 
-                
                 if(isDoubleDipActiveState) {
                     isDoubleDipActiveState = false;
                     doubleDipAttemptsCount = 0;
                 }
 
-                setTimeout(() => {
-                    if(activeIndex === 14) {
+                // Check for Level 15 Ultimate Victory 
+                if(activeIndex === 14) {
+                    AudioEngine.grandVictoryFanfare();
+                    GlitterEngine.grandLevel15Explosion();
+                    // Extended layout timeout to account for the longer musical cadence
+                    setTimeout(() => {
                         processSessionTermination(true);
-                    } else {
+                    }, 11500);
+                } else {
+                    AudioEngine.correctDing();
+                    GlitterEngine.burst(); 
+                    setTimeout(() => {
                         activeIndex++;
                         displayIntermissionScreen(); 
-                    }
-                }, 6200);
+                    }, 5200);
+                }
 
             } else {
-                // Double Dip lifeline attempt intercept
                 if(isDoubleDipActiveState && doubleDipAttemptsCount === 0) {
                     doubleDipAttemptsCount = 1;
                     chosenElement.className = "option-btn hidden"; 
@@ -1000,7 +1156,6 @@ const moneyTree = [
                 masterCorrectElement.className = "option-btn correct";
                 AudioEngine.wrongBuzzer();
 
-                // Note: Retained your 10-second post-wrong-answer timeout display configuration
                 setTimeout(() => {
                     processSessionTermination(false);
                 }, 10000);
@@ -1019,7 +1174,7 @@ const moneyTree = [
             
             if(isCompleteWin) {
                 saveLeaderboardScore("$1,000,000");
-                renderGameOverLayout(`ULTIMATE VICTORY! You completely cleared the tree board: <span style="color:var(--accent);">$1,000,000</span>!`);
+                renderGameOverLayout(`ULTIMATE VICTORY! You completely cleared the tree board: <span style="color:var(--accent); font-size:2rem; display:block; margin-top:10px;">$1,000,000</span>!`);
                 return;
             }
 
@@ -1072,7 +1227,6 @@ const moneyTree = [
             usedLifelines.ffty = true;
             document.getElementById("wrap-5050").classList.add("used");
 
-            // ✅ REPAIRED: Targets the locked question object config directly
             let cIdx = currentActiveQuestion.correct;
             let wrongItems = [0,1,2,3].filter(idx => idx !== cIdx);
             wrongItems.sort(() => 0.5 - Math.random());
@@ -1086,7 +1240,6 @@ const moneyTree = [
             usedLifelines.phone = true;
             document.getElementById("wrap-friend").classList.add("used");
 
-            // ✅ REPAIRED: Targets the locked question object config directly
             let keys = ["A", "B", "C", "D"];
             let solStr = keys[currentActiveQuestion.correct];
             let dialog = "";
@@ -1108,7 +1261,6 @@ const moneyTree = [
             usedLifelines.aud = true;
             document.getElementById("wrap-audience").classList.add("used");
 
-            // ✅ REPAIRED: Targets the locked question object config directly
             let targetCorrect = currentActiveQuestion.correct;
             let graphValues = [0, 0, 0, 0];
             let leftover = 100;
@@ -1256,5 +1408,7 @@ const moneyTree = [
             }
         }
     </script>
+
+    
 </body>
 </html>
