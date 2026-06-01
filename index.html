@@ -940,11 +940,27 @@
             document.getElementById("lifeBtn-double").disabled = shouldDisable;
         }
 
+       
         function fetchActiveQuestionObject() {
-            let targetLvl = activeIndex + 1;
-            let sub = activeQuestions.filter(q => q.level === targetLvl);
-            return sub[sub.length - 1];
+    let targetLvl = activeIndex + 1;
+    let sub = activeQuestions.filter(q => q.level === targetLvl);
+    
+    if (sub.length === 0) {
+        // Fallback safety check in case a level is empty
+        return baseQuestions.find(bq => bq.level === targetLvl);
+    }
+    
+    // 🎲 Pick a completely random question from the pool of that level
+    let randomIndex = Math.floor(Math.random() * sub.length);
+    return sub[randomIndex];
         }
+        
+        
+       // function fetchActiveQuestionObject() {
+      //      let targetLvl = activeIndex + 1;
+       //     let sub = activeQuestions.filter(q => q.level === targetLvl);
+       //     return sub[sub.length - 1];
+   //     }
 
         function handleOptionSelection(selectedIndex) {
             if(isAnsweringBlocked) return;
@@ -1231,9 +1247,9 @@
                 correct: correctIdx
             };
 
-            activeQuestions = activeQuestions.filter(q => q.level !== targetLvl);
+        //    activeQuestions = activeQuestions.filter(q => q.level !== targetLvl);
             activeQuestions.push(questionObject);
-            activeQuestions.sort((x,y) => x.level - y.level);
+        //    activeQuestions.sort((x,y) => x.level - y.level);
 
             localStorage.setItem("millionaire_v2_questions", JSON.stringify(activeQuestions));
             alert(`Injected configuration successfully inside layer step ${targetLvl}.`);
