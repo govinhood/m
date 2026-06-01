@@ -1,0 +1,1652 @@
+[
+  {
+    "level": 1,
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which instrument is used to measure the mass of an object?",
+    "options": [
+      "Spring balance",
+      "Beam balance",
+      "Thermometer",
+      "Hydrometer"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What is the weight of a 1 kg mass on the surface of the Earth? (Take g = 9.8 m/s²)",
+    "options": [
+      "1 N",
+      "9.8 N",
+      "10 N",
+      "0 N"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "Which of the following properties remains constant everywhere in the universe?",
+    "options": [
+      "Weight",
+      "Velocity",
+      "Mass",
+      "Acceleration due to gravity"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "What happens to the weight of an object if it is taken to the center of the Earth?",
+    "options": [
+      "It becomes zero",
+      "It doubles",
+      "It remains unchanged",
+      "It decreases by half"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "The pull of the Earth on an object near its surface is commonly called:",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Inertia",
+      "Pressure"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "What is the value of acceleration due to gravity (g) on the surface of the Earth?",
+    "options": [
+      "6.67 m/s²",
+      "9.8 m/s²",
+      "1.67 m/s²",
+      "0 m/s²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 1,
+    "question": "A spring balance is used to measure which physical quantity?",
+    "options": [
+      "Mass",
+      "Density",
+      "Volume",
+      "Weight"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "Gravity is what type of force?",
+    "options": [
+      "Contact force",
+      "Magnetic force",
+      "Non-contact force",
+      "Frictional force"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 1,
+    "question": "Which of the following is a scalar quantity?",
+    "options": [
+      "Weight",
+      "Force",
+      "Mass",
+      "Acceleration"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Who formulated the Law of Universal Gravitation?",
+    "options": [
+      "Galileo Galilei",
+      "Sir Isaac Newton",
+      "Albert Einstein",
+      "Johannes Kepler"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "The force of attraction between any two objects in the universe due to their masses is called:",
+    "options": [
+      "Electrostatic force",
+      "Gravitational force",
+      "Magnetic force",
+      "Nuclear force"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What is the unit of the Universal Gravitational Constant (G) in the SI system?",
+    "options": [
+      "N kg/m²",
+      "m/s²",
+      "N m²/kg²",
+      "N m/kg"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "The acceleration due to gravity on the Moon is about how many times that of the Earth?",
+    "options": [
+      "6 times",
+      "1/2 times",
+      "1/6 times",
+      "Equal"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "If an object's mass is 60 kg on Earth, what will be its mass on the Moon?",
+    "options": [
+      "10 kg",
+      "60 kg",
+      "360 kg",
+      "0 kg"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "The value of acceleration due to gravity (g) is minimum at which part of the Earth's surface?",
+    "options": [
+      "Poles",
+      "Equator",
+      "Tropic of Cancer",
+      "Mount Everest"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "When a body falls towards the Earth solely under the influence of gravity, the motion is called:",
+    "options": [
+      "Uniform motion",
+      "Free fall",
+      "Projectiles",
+      "Terminal velocity"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "The weight of an object is directly proportional to its:",
+    "options": [
+      "Volume",
+      "Mass",
+      "Density",
+      "Area"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "What is the value of the Universal Gravitational Constant (G)?",
+    "options": [
+      "9.8 x 10⁻¹¹ N m²/kg²",
+      "6.67 x 10¹¹ N m²/kg²",
+      "6.67 x 10⁻¹¹ N m²/kg²",
+      "1.67 x 10⁻¹¹ N m²/kg²"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 2,
+    "question": "Which of the following is a vector quantity?",
+    "options": [
+      "Mass",
+      "Time",
+      "Weight",
+      "Distance"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "If the distance between two masses is doubled, the gravitational force between them becomes:",
+    "options": [
+      "Doubled",
+      "Halved",
+      "Four times",
+      "One-fourth"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "The value of acceleration due to gravity (g) is maximum at:",
+    "options": [
+      "The Equator",
+      "The Poles",
+      "The center of Earth",
+      "An altitude of 100 km"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Why does a feather fall more slowly than a heavy stone when dropped in air?",
+    "options": [
+      "Gravity acts less on the feather",
+      "The feather has more mass",
+      "Air resistance acts more significantly on the feather",
+      "The stone has less inertia"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "An astronaut inside an orbiting space station experiences a sensation of weightlessness because:",
+    "options": [
+      "There is no gravity in space",
+      "The space station shields out gravity",
+      "The astronaut is in a state of continuous free fall",
+      "The mass of the astronaut becomes zero"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "Which formula correctly represents the acceleration due to gravity (g) on a planet's surface?",
+    "options": [
+      "g = GM/R",
+      "g = GM/R²",
+      "g = GMR²",
+      "g = G/MR²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "If a planet's mass is doubled but its radius remains the same, its surface gravity (g) changes by what factor?",
+    "options": [
+      "Remains same",
+      "Halved",
+      "Doubled",
+      "Quadrupled"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "What is the true weight of an object experiencing true free fall in a vacuum?",
+    "options": [
+      "Zero",
+      "Its normal rest weight",
+      "Infinite",
+      "Half of its mass"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "The gravitational force between two point masses does not depend on which of the following?",
+    "options": [
+      "Product of their masses",
+      "Distance between them",
+      "Nature of the intervening medium",
+      "The gravitational constant"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 3,
+    "question": "As we move upwards from the surface of the Earth, how does the value of g change?",
+    "options": [
+      "Increases continuously",
+      "Decreases continuously",
+      "Remains constant",
+      "First increases then decreases"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "If an object weighs 600 N on Earth, what would be its approximate weight on the Moon?",
+    "options": [
+      "600 N",
+      "100 N",
+      "3600 N",
+      "0 N"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "What is the true mathematical relationship between the gravitational force (F) and the distance (d) between two objects?",
+    "options": [
+      "F ∝ d",
+      "F ∝ 1/d",
+      "F ∝ d²",
+      "F ∝ 1/d²"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "How does the value of acceleration due to gravity (g) change as we move from the surface into deep mines?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It remains unchanged",
+      "It becomes infinite"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Which of the following equations of motion is valid for an object falling freely from rest under gravity?",
+    "options": [
+      "v = u + at",
+      "h = 1/2 gt²",
+      "v² = u² + 2gh",
+      "h = ut - 1/2 gt²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "When a ball is thrown vertically upwards, what is its acceleration at the highest point?",
+    "options": [
+      "0 m/s²",
+      "9.8 m/s² downwards",
+      "9.8 m/s² upwards",
+      "Dependent on initial velocity"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "The value of the universal gravitational constant (G) was first experimentally determined by:",
+    "options": [
+      "Isaac Newton",
+      "Henry Cavendish",
+      "Johannes Kepler",
+      "Robert Hooke"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "If the mass of the Earth is M and its radius is R, the mass of an object on its surface is m. What is the gravitational force between Earth and the object?",
+    "options": [
+      "F = GMm/R",
+      "F = GMm/R²",
+      "F = GMR²/m",
+      "F = gM/R²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "Why is the Earth flattened at the poles and bulging at the equator?",
+    "options": [
+      "Due to the gravitational pull of the moon",
+      "Due to its rotation about its axis",
+      "Due to high temperature at the equator",
+      "Due to ocean currents"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 4,
+    "question": "An object of mass m is in a freely falling lift. The apparent weight of the object recorded by a spring balance is:",
+    "options": [
+      "mg",
+      "2mg",
+      "Zero",
+      "mg/2"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "If both of the masses interacting are doubled and the distance between them is also doubled, the new gravitational force will be:",
+    "options": [
+      "Four times the original force",
+      "Twice the original force",
+      "Equal to the original force",
+      "One-fourth of the original force"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 4,
+    "question": "The ratio of inertial mass to gravitational mass of an object is equal to:",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "g"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "If the Earth suddenly shrinks to half of its present radius without changing its mass, what would be the new value of g on its surface?",
+    "options": [
+      "4.9 m/s²",
+      "19.6 m/s²",
+      "39.2 m/s²",
+      "9.8 m/s²"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "An object has a mass of 12 kg on Earth. What is its weight on the Moon where g_moon = 1.63 m/s²?",
+    "options": [
+      "12 N",
+      "19.56 N",
+      "117.6 N",
+      "2 N"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What is the condition required for an artificial satellite to experience a permanent state of weightlessness?",
+    "options": [
+      "It must travel beyond the Earth's gravitational field",
+      "Its orbital acceleration must equal the local acceleration due to gravity",
+      "It must be completely devoid of air resistance",
+      "It must be powered by a continuous rocket thrust"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which of the following statements about the Universal Gravitational Constant (G) is true?",
+    "options": [
+      "It changes with altitude from Earth's surface",
+      "It depends on the mass of the two attracting bodies",
+      "It is a scalar quantity whose value is uniform throughout space",
+      "Its value is different on the Moon than on the Earth"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 5,
+    "question": "According to Galileo's experiment from the Leaning Tower of Pisa, if a heavy iron ball and a light wooden ball are dropped simultaneously in a vacuum, they land together because:",
+    "options": [
+      "The gravitational force on both objects is equal",
+      "Acceleration due to gravity is independent of the mass of the falling object",
+      "The wooden ball experiences less air resistance",
+      "The iron ball has less inertia"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "If a body is taken from the equator to the North Pole, its weight:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains the same",
+      "Becomes zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "What is the nature of the graph plotted between gravitational force (F) and the square of the distance (d²) between two masses when the masses are kept constant?",
+    "options": [
+      "A straight line passing through the origin",
+      "A rectangular hyperbola",
+      "A parabola",
+      "A horizontal straight line"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "The mass of the Earth is approximately 6 x 10²⁴ kg and its radius is 6400 km. What is the approximate value of g derived from these values?",
+    "options": [
+      "9.8 m/s²",
+      "8.9 m/s²",
+      "10.5 m/s²",
+      "6.67 m/s²"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "The tides in the ocean are primarily caused due to the:",
+    "options": [
+      "Gravitational pull of the Sun on the Earth",
+      "Gravitational pull of the Moon on the Earth",
+      "Centrifugal force due to Earth's rotation",
+      "Magnetic field variations of Earth"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "When a stone is thrown upwards, it moves up with a decreasing velocity. This retardation is caused by:",
+    "options": [
+      "Inertia of the stone",
+      "The upward thrust of air",
+      "The downward gravitational pull of the Earth",
+      "The magnetic field of the Earth"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "If the distance between two massive bodies is reduced to one-third of its original value, the gravitational force between them will become:",
+    "options": [
+      "3 times",
+      "9 times",
+      "1/3 times",
+      "1/9 times"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "An object of mass 'm' is dropped from a height 'h' above the Earth's surface. Its acceleration during the fall is independent of:",
+    "options": [
+      "Mass of the Earth",
+      "Mass of the object",
+      "Universal Gravitational Constant",
+      "Distance from the center of Earth"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "The value of 'g' at a height equal to the radius of the Earth (R) above the surface of the Earth is:",
+    "options": [
+      "g/2",
+      "g/4",
+      "g/9",
+      "Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Which of the following factors does not affect the local value of acceleration due to gravity (g)?",
+    "options": [
+      "Altitude above sea level",
+      "Latitude on the Earth's surface",
+      "Density of rock strata below the surface",
+      "The color and temperature of the falling body"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "What is the weight of an object inside a spacecraft orbiting very close to Earth's surface, assuming no thrusters are firing?",
+    "options": [
+      "Equal to its weight on the ground",
+      "Apparent weight is zero",
+      "Slightly greater than its weight on the ground",
+      "Exactly equal to its mass"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Two spheres of masses 4 kg and 9 kg are placed at a distance of 10 cm. Where should a third mass be placed between them so that the net gravitational force on it is zero?",
+    "options": [
+      "4 cm from the 4 kg mass",
+      "5 cm from the 4 kg mass",
+      "6 cm from the 4 kg mass",
+      "2 cm from the 9 kg mass"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "What is the value of 'g' at the center of a uniform solid spherical planet of mass M and radius R?",
+    "options": [
+      "GM/R²",
+      "Infinite",
+      "Zero",
+      "g/2"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "The acceleration due to gravity on Jupiter is about 2.5 times that of Earth. What would happen to the inertia of a block taken from Earth to Jupiter?",
+    "options": [
+      "It will increase by 2.5 times",
+      "It will decrease to 1/2.5 times",
+      "It will remain completely unchanged",
+      "It will become zero"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "An object is dropped from a cliff. What is the distance covered by it during the first 3 seconds of its free fall? (Take g = 10 m/s²)",
+    "options": [
+      "30 m",
+      "45 m",
+      "90 m",
+      "15 m"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Why does a pilot in a stunt aircraft pulling out of a steep dive experience an increase in apparent weight?",
+    "options": [
+      "Earth's gravity suddenly increases due to low altitude",
+      "The aircraft's upward centripetal acceleration adds to the acceleration of gravity",
+      "The pilot loses mass due to high speed",
+      "Air pressure pushes directly downward on the pilot's head"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "If the mass of both interacting bodies is doubled and the distance between them is halved, the gravitational force changes by a factor of:",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "Remains unchanged"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "The value of acceleration due to gravity 'g' varies with depth 'x' from the surface of Earth according to which proportional relationship? (Assume uniform density)",
+    "options": [
+      "g ∝ x",
+      "g ∝ (R-x)",
+      "g ∝ 1/x²",
+      "g ∝ 1/(R-x)²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "A body is falling freely under gravity from a height. The ratio of the distances covered by it in the 1st, 2nd, and 3rd seconds of its motion is:",
+    "options": [
+      "1 : 2 : 3",
+      "1 : 4 : 9",
+      "1 : 3 : 5",
+      "1 : 1 : 1"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "If a planet has a mass equal to 4 times the Earth's mass and a radius equal to 2 times the Earth's radius, the acceleration due to gravity on its surface will be:",
+    "options": [
+      "2g",
+      "4g",
+      "g",
+      "g/2"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "The normal reaction force acting on a body resting on a stationary floor is equal to its true weight. What is the normal reaction force during a free fall?",
+    "options": [
+      "mg",
+      "Zero",
+      "2mg",
+      "-mg"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "A physical balance measures inertial mass, while a spring balance measures gravitational force. If both balances are taken into a freely falling lift, which statement is true?",
+    "options": [
+      "Both balances give accurate normal readings",
+      "The physical balance works normally but the spring balance reads zero",
+      "The spring balance works normally but the physical balance fails",
+      "Both balances read zero and cannot function"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "What is the fractional decrease in the value of 'g' at a height 'h' above the surface of Earth when h is much smaller than the radius of Earth R?",
+    "options": [
+      "h/R",
+      "2h/R",
+      "h²/R²",
+      "2h²/R"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "If an object is projected vertically upward from Earth's surface with a velocity equal to its escape velocity, what will be its total mechanical energy?",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Infinite"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "The gravitational force between two uniform spherical shells of masses m₁ and m₂ separated by a distance d between their centers is identical to:",
+    "options": [
+      "Zero force because shells shield gravity",
+      "The force between two point masses concentrated at their respective centers",
+      "The force between two infinite planes",
+      "Double the force calculated by Newton's law"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "An object of mass 10 kg is placed on an inclined plane. How does its mass change if the inclination angle increases from 0 to 90 degrees?",
+    "options": [
+      "Increases continuously",
+      "Decreases continuously",
+      "Remains exactly 10 kg",
+      "Becomes zero at 90 degrees"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "Two bodies of masses M₁ and M₂ are initially kept at an infinite distance apart. If they start moving towards each other due to mutual gravitational attraction, their relative velocity of approach when they are at a distance 'r' depends on:",
+    "options": [
+      "G only",
+      "(M₁ + M₂) only",
+      "G, (M₁ + M₂), and r",
+      "G, M₁M₂, and r"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "If the rotation of the Earth about its axis suddenly stops, the value of acceleration due to gravity 'g' will:",
+    "options": [
+      "Increase everywhere except at the poles",
+      "Decrease everywhere except at the poles",
+      "Remain unchanged everywhere",
+      "Become zero at the equator"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "A body is released from a high altitude where the distance from the center of Earth is 'r'. The velocity attained by the body when it strikes the surface of Earth (radius R) neglecting air resistance is given by:",
+    "options": [
+      "v = √[2g(r-R)]",
+      "v = √[2GM(1/R - 1/r)]",
+      "v = √[2gR]",
+      "v = √[GM/R]"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "The time period of a simple pendulum inside a satellite orbiting the Earth is:",
+    "options": [
+      "Zero",
+      "2 seconds",
+      "Infinite",
+      "Same as on Earth's surface"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "Two copper spheres of radii R₁ and R₂ are kept in contact with each other. The gravitational force of attraction between them is proportional to:",
+    "options": [
+      "(R₁R₂)³",
+      "(R₁R₂)²",
+      "(R₁ + R₂)",
+      "The product of their masses divided by the square of the distance between their centers"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "What is the escape velocity of a body projected from the surface of Earth? (Take R = 6400 km, g = 9.8 m/s²)",
+    "options": [
+      "9.8 km/s",
+      "11.2 km/s",
+      "4.2 km/s",
+      "11.2 m/s"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "If the density of a small planet is equal to the density of Earth, but its radius is one-fourth of Earth's radius, the value of g on that planet will be:",
+    "options": [
+      "g_earth / 4",
+      "g_earth / 16",
+      "4 * g_earth",
+      "g_earth"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 8,
+    "question": "An iron ball is suspended inside a water tank via a string. How does the tension in the string compare to the true weight of the iron ball?",
+    "options": [
+      "Tension is equal to true weight",
+      "Tension is greater than true weight",
+      "Tension is less than true weight due to buoyant force",
+      "Tension is zero"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "A particle is dropped from a height H. As it falls down, which of the following quantities increases continuously?",
+    "options": [
+      "Gravitational potential energy",
+      "Acceleration",
+      "Kinetic energy",
+      "Total mechanical energy"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "What will be the gain in kinetic energy of a body of mass m when it is dropped from rest through a vertical distance h in a vacuum?",
+    "options": [
+      "1/2 mgh",
+      "mgh",
+      "mg/h",
+      "Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the gravitational potential energy of a system of two masses m₁ and m₂ separated by a distance r?",
+    "options": [
+      "Gm₁m₂/r",
+      "-Gm₁m₂/r",
+      "Gm₁m₂/r²",
+      "-Gm₁m₂/r²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "The orbital velocity of a satellite orbiting close to the surface of a planet of radius R and surface gravity g is:",
+    "options": [
+      "√(2gR)",
+      "√(gR)",
+      "gR",
+      "√(g/R)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "What is the relation between escape velocity (v_e) and orbital velocity (v_o) for a satellite orbiting near the Earth's surface?",
+    "options": [
+      "v_e = v_o / √2",
+      "v_e = √2 * v_o",
+      "v_e = 2 * v_o",
+      "v_e = v_o"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "If a tunnel is dug along a diameter of the Earth and a stone is dropped into it, the stone will execute:",
+    "options": [
+      "Uniform rectilinear motion until it reaches the center",
+      "Simple harmonic motion about the center of the Earth",
+      "Rotational motion along the walls of the tunnel",
+      "Hyperbolic escape motion out the other side"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "The value of acceleration due to gravity at a depth 'd' below the Earth's surface is given by the expression:",
+    "options": [
+      "g' = g(1 - 2d/R)",
+      "g' = g(1 - d/R)",
+      "g' = g(1 - d²/R²)",
+      "g' = g(R/(R-d))"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "A geostationary satellite has an orbital period equal to:",
+    "options": [
+      "90 minutes",
+      "12 hours",
+      "24 hours",
+      "1 month"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "If the mass of a planet is 8 times that of Earth and its radius is twice that of Earth, the escape velocity from this planet will be how many times that of Earth?",
+    "options": [
+      "2 times",
+      "4 times",
+      "√2 times",
+      "8 times"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "The gravitational field intensity at a point situated at a distance r (r > R) from the center of a solid planet of mass M is:",
+    "options": [
+      "GM/r",
+      "GM/r²",
+      "-GM/r",
+      "Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "If an object is shifted from the surface of Earth to a height equal to the Earth's radius, its change in gravitational potential energy is:",
+    "options": [
+      "mgh",
+      "1/2 mgR",
+      "2 mgR",
+      "mgR"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Kepler's Third Law (Law of Periods) states that the square of the time period of revolution of a planet is directly proportional to:",
+    "options": [
+      "Cube of the semi-major axis of its orbit",
+      "Square of the semi-major axis of its orbit",
+      "The mass of the planet",
+      "The inverse square of its distance from the sun"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "A missile is launched with a velocity less than the escape velocity. The sum of its potential energy and kinetic energy is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "First positive then negative"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "The gravitational field inside a uniform spherical shell of matter is:",
+    "options": [
+      "Inversely proportional to the square of distance",
+      "Directly proportional to distance from the center",
+      "Zero everywhere inside",
+      "Maximum at the center"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "If a satellite is orbiting very close to the Earth's surface, its time period of revolution is approximately:",
+    "options": [
+      "24 hours",
+      "84.6 minutes",
+      "42.3 minutes",
+      "5.6 hours"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What is the primary reason why the Moon does not have any atmosphere?",
+    "options": [
+      "It is too close to the Sun",
+      "The escape velocity on the Moon is less than the root mean square velocity of gas molecules",
+      "The Moon's magnetic field repels gases",
+      "There are no volcanic activities to produce gas"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "If the gravitational force between two point objects were to vary inversely as the cube of the distance (F ∝ 1/d³) instead of 1/d², then Kepler's law of periods would change to:",
+    "options": [
+      "T² ∝ R³",
+      "T² ∝ R⁴",
+      "T² ∝ R²",
+      "T ∝ R"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Two satellite missions A and B orbit Earth in circular paths of radii R and 4R respectively. The ratio of their linear speeds (v_A / v_B) is:",
+    "options": [
+      "1:2",
+      "2:1",
+      "1:4",
+      "4:1"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "A body weighs 72 N on the surface of the Earth. What is its gravitational force on a planet whose mass is 1/9th of Earth's mass and radius is 1/3rd of Earth's radius?",
+    "options": [
+      "72 N",
+      "8 N",
+      "24 N",
+      "144 N"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "The binding energy of a satellite of mass m orbiting at a radius r around a planet of mass M is given by:",
+    "options": [
+      "GMm/r",
+      "GMm/2r",
+      "-GMm/2r",
+      "1/2 mv²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "An astronomical object collapses uniformly under its own gravity to form a black hole. The escape velocity at its event horizon is equal to:",
+    "options": [
+      "The speed of sound",
+      "The orbital velocity of Earth",
+      "The speed of light in vacuum",
+      "Infinite speed"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "What happens to the total mechanical energy of an earth satellite if it experiences slow continuous friction from atmospheric traces?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It remains constant",
+      "It fluctuates rhythmically"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "The height of a standard geostationary satellite from the surface of the Earth is approximately:",
+    "options": [
+      "6400 km",
+      "36000 km",
+      "18000 km",
+      "42000 km"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "If the acceleration due to gravity on a newly discovered planet is double that of Earth, and its radius is half that of Earth, its escape velocity will be:",
+    "options": [
+      "Same as Earth's escape velocity",
+      "Double Earth's escape velocity",
+      "Half Earth's escape velocity",
+      "Four times Earth's escape velocity"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "A body of mass m is raised to a height h = R (radius of Earth) from the Earth's surface. The work done in this process is:",
+    "options": [
+      "mgR",
+      "2 mgR",
+      "1/2 mgR",
+      "1/4 mgR"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "The variation of acceleration due to gravity (g) with distance (r) from the center of a uniform solid sphere of radius R is correctly described as:",
+    "options": [
+      "Linear increase for r < R, and inverse-square decrease for r > R",
+      "Inverse-square decrease everywhere",
+      "Zero for r < R, and constant for r > R",
+      "Constant for r < R, and linear decrease for r > R"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "Two bodies of masses 10 kg and 1000 kg are at a distance of 1 m apart. At which point on the line joining them is the gravitational field strength zero?",
+    "options": [
+      "At the center of the line",
+      "1/11 m from the 10 kg mass",
+      "1/10 m from the 10 kg mass",
+      "1/11 m from the 1000 kg mass"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "If the mass of Earth remains constant but its radius decreases by 1%, the value of acceleration due to gravity on its surface would:",
+    "options": [
+      "Decrease by 1%",
+      "Increase by 2%",
+      "Decrease by 2%",
+      "Increase by 1%"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "The potential energy of an object at infinity with respect to the Earth's gravitational field is defined as:",
+    "options": [
+      "Infinite",
+      "Zero",
+      "Maximum negative value",
+      "Dependent on object's velocity"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which of the following coordinates on Earth will experience no change in the value of g due to the rotation of the Earth?",
+    "options": [
+      "Equator",
+      "Poles",
+      "Tropic of Capricorn",
+      "45-degree latitude line"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "A planet has twice the mass of Earth and 3 times the radius. What is the ratio of weight of an object on this planet compared to Earth?",
+    "options": [
+      "2:3",
+      "4:9",
+      "2:9",
+      "3:2"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "What is the angle between the equatorial plane and the orbital plane of a geostationary satellite?",
+    "options": [
+      "0 degrees",
+      "90 degrees",
+      "45 degrees",
+      "23.5 degrees"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "If the kinetic energy of an orbiting satellite close to Earth is doubled, what happens to its trajectory?",
+    "options": [
+      "It will crash down into Earth",
+      "It will escape the gravitational pull of Earth entirely",
+      "It will orbit in a perfect circle of twice the radius",
+      "It will stop moving instantly"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The time period of a satellite in a circular orbit depends on which of the following variables?",
+    "options": [
+      "Mass of the satellite",
+      "Radius of the orbit",
+      "Fuel remaining in the satellite",
+      "The orientation of the satellite's solar panels"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The speed of a planet spinning around the Sun in an elliptical orbit is:",
+    "options": [
+      "Constant at all points of its path",
+      "Maximum when it is nearest to the Sun",
+      "Maximum when it is farthest from the Sun",
+      "Zero at the perihelion point"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What is the total mechanical energy of an artificial satellite of mass m orbiting at a height h above Earth's surface?",
+    "options": [
+      "E = -GMm / (R+h)",
+      "E = -GMm / [2(R+h)]",
+      "E = GMm / [2(R+h)]",
+      "E = Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "What would be the value of g at a depth equal to half the radius of Earth? (Take surface gravity as g)",
+    "options": [
+      "g/2",
+      "g/4",
+      "3g/4",
+      "Zero"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "If a particle is dropped from a height of R/2 above the surface of Earth, its velocity on reaching the surface of Earth will be:",
+    "options": [
+      "√(gR)",
+      "√(2gR/3)",
+      "√(4gR/3)",
+      "√(2gR)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The gravitational force field is categorized mathematically as a:",
+    "options": [
+      "Non-conservative field",
+      "Conservative field",
+      "Dissipative field",
+      "Variable friction field"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Two point objects of masses m and 4m are separated by a distance r. The gravitational potential at the point where the field intensity is zero is:",
+    "options": [
+      "-3Gm/r",
+      "-9Gm/r",
+      "-5Gm/r",
+      "Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "If an earth satellite shifts from a lower orbit to a higher orbit, what happens to its kinetic and potential energies?",
+    "options": [
+      "Kinetic energy increases, potential energy decreases",
+      "Kinetic energy decreases, potential energy increases",
+      "Both kinetic and potential energies increase",
+      "Both kinetic and potential energies decrease"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The areal velocity of a planet revolving around the sun remains constant according to Kepler's second law. This is a direct consequence of the conservation of:",
+    "options": [
+      "Linear momentum",
+      "Angular momentum",
+      "Kinetic energy",
+      "Mass"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "If the acceleration due to gravity at a height h above the Earth is equal to its value at a depth d inside the Earth, then for small values of h and d:",
+    "options": [
+      "d = h",
+      "d = 2h",
+      "h = 2d",
+      "d = h²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "The velocity with which a space vehicle must be launched to escape the solar system from the orbit of the Earth is called:",
+    "options": [
+      "First cosmic velocity",
+      "Second cosmic velocity",
+      "Third cosmic velocity",
+      "Orbital threshold speed"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "An ideal spherical planet has uniform mass density ρ. The acceleration due to gravity at its surface is directly proportional to:",
+    "options": [
+      "ρ / R",
+      "ρ * R",
+      "ρ * R²",
+      "1 / (ρ * R)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "The escape velocity of a body from Earth depends upon its mass (m) as:",
+    "options": [
+      "m¹",
+      "m²",
+      "m⁰",
+      "m⁻¹"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "A satellite is launched into a circular orbit close to the surface of Earth. What additional velocity must be given to it so that it escapes Earth's gravity?",
+    "options": [
+      "v_o",
+      "v_o (√2 - 1)",
+      "v_o / √2",
+      "2 v_o"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "What is the value of gravitational potential at the center of the Earth if its value on the surface is V_s?",
+    "options": [
+      "V_s",
+      "1.5 V_s",
+      "0.5 V_s",
+      "Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Two planets have radii r₁ and r₂ and densities ρ₁ and ρ₂ respectively. The ratio of acceleration due to gravity on their surfaces (g₁/g₂) is:",
+    "options": [
+      "(r₁ρ₁) / (r₂ρ₂)",
+      "(r₁²ρ₁) / (r₂²ρ₂)",
+      "(r₂ρ₁) / (r₁ρ₂)",
+      "(r₁ρ₂)./(r₂ρ₁)"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 13,
+    "question": "If Earth's gravity suddenly vanished, an object moving in a circular path around Earth would:",
+    "options": [
+      "Fall straight downward to the surface",
+      "Fly off tangentially in a straight line",
+      "Continue moving in the same circle",
+      "Spiral outward into deep space"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "The neutral point between the Earth and the Moon is located closer to the Moon because:",
+    "options": [
+      "The Moon has a larger radius",
+      "The Moon has a much smaller mass than Earth",
+      "The Moon's rotation cancels out gravity",
+      "Earth has a stronger magnetic field shielding"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "A packet is dropped from an artificial satellite orbiting around the Earth. The packet will:",
+    "options": [
+      "Fall vertically to the Earth's surface",
+      "Move along with the satellite in the same orbit with the same velocity",
+      "Go far away into interstellar space",
+      "Stop moving instantly and float stationary"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "If the radius of Earth's orbit around the Sun is made one-fourth of its present value, the duration of the year would become:",
+    "options": [
+      "1/4th of present year",
+      "1/8th of present year",
+      "1/2 of present year",
+      "Twice the present year"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "The acceleration due to gravity 'g' at the equator becomes zero if the angular speed of rotation of the Earth increases by a factor of roughly:",
+    "options": [
+      "17 times",
+      "50 times",
+      "5 times",
+      "100 times"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "A cosmic cloud of mass M and radius R collapses into a point mass. The gravitational field intensity at a point r (r > R) outside the cloud will:",
+    "options": [
+      "Increase significantly",
+      "Decrease significantly",
+      "Remain exactly the same",
+      "Drop down to zero"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "The ratio of escape velocity of a planet to that of Earth, if the planet has twice the radius and twice the mean density of Earth, is:",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "1 : √2",
+      "√2 : 1"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "What is the maximum height attained by a projectile launched vertically from Earth's surface with a speed equal to half the escape velocity? (R is radius of Earth)",
+    "options": [
+      "R/2",
+      "R/3",
+      "R/4",
+      "R"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "If a body of mass m is moved from the center of a thin uniform ring of mass M and radius R along its axis to infinity, the work done against the field is:",
+    "options": [
+      "GMm/R",
+      "-GMm/R",
+      "Zero",
+      "2GMm/R"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "The time period of a polar satellite orbiting very close to the Earth's surface is approximately:",
+    "options": [
+      "24 hours",
+      "100 minutes",
+      "84 minutes",
+      "12 hours"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "What is the minimum speed required to put a satellite into a stable circular orbit at an infinite distance from the parent planet?",
+    "options": [
+      "11.2 km/s",
+      "Zero speed",
+      "Infinite speed",
+      "Speed of light"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "A planet moving around the sun in an elliptical orbit has minimum kinetic energy at which point?",
+    "options": [
+      "Perihelion (closest to sun)",
+      "Aphelion (farthest from sun)",
+      "At the ends of the minor axis",
+      "Kinetic energy is identical everywhere"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "If the universal gravitational constant G started decreasing slowly over time, what would happen to Earth's orbit?",
+    "options": [
+      "Earth would spiral into the sun",
+      "Earth would slowly spiral away from the sun",
+      "The orbit radius would stay perfectly fixed",
+      "The year would become shorter"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "A uniform solid sphere of mass M and radius R has a concentric spherical cavity of radius R/2. What is the gravitational force exerted on a point mass m placed inside the cavity at a distance R/4 from the center?",
+    "options": [
+      "GMm/R²",
+      "Zero",
+      "GMm/4R²",
+      "3GMm/8R²"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "An infinite number of masses, each of 1 kg, are placed on the x-axis at distances of 1m, 2m, 4m, 8m... from the origin. What is the total gravitational potential at the origin?",
+    "options": [
+      "-G",
+      "-2G",
+      "-4G",
+      "Infinite"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "The escape velocity from a black hole is greater than or equal to c (speed of light). The critical radius R_s (Schwarzschild radius) for a mass M to form a black hole satisfies which equation?",
+    "options": [
+      "R_s = GM/c²",
+      "R_s = 2GM/c²",
+      "R_s = GM/2c²",
+      "R_s = √(GM/c)"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "A solid sphere of mass M and radius R has a non-uniform density variation given by ρ = kr, where r is the distance from the center. The value of g at its surface is proportional to:",
+    "options": [
+      "M/R²",
+      "1/R",
+      "R²",
+      "It is independent of R"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "What is the fundamental nature of gravitational waves as predicted by General Relativity and verified experimentally?",
+    "options": [
+      "Electromagnetic vibrations through gas media",
+      "Ripples in the fabric of spacetime traveling at the speed of light",
+      "Acoustic pressure fluctuations inside dark matter fields",
+      "Streams of high energy electron emissions from stellar surfaces"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "If three equal masses 'm' are placed at the vertices of an equilateral triangle of side length 'l', the net gravitational potential energy of the configuration is:",
+    "options": [
+      "-3Gm²/l",
+      "-Gm²/l",
+      "-3Gm²/l²",
+      "Zero"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "A thin uniform rod of length L and mass M is placed horizontally. What is the gravitational potential at a point on its collinear axis at a distance d from its nearest end?",
+    "options": [
+      "-GM/d",
+      "-(GM/L) * ln(1 + L/d)",
+      "-GM / (d + L/2)",
+      "Zero"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "A particle of mass m is thrown vertically upwards with a velocity v = k * v_e, where v_e is the escape velocity and k < 1. The maximum height reached by the particle from the center of Earth is:",
+    "options": [
+      "R / (1 - k²)",
+      "R * k² / (1 - k²)",
+      "R / k²",
+      "R * (1 - k²)"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "The variation of gravitational field intensity (E) with distance (r) from the center of a thin uniform spherical shell of radius R is correctly described as:",
+    "options": [
+      "E = 0 for r < R, and E decreases as 1/r² for r > R",
+      "E increases linearly for r < R, and decreases as 1/r² for r > R",
+      "E is constant everywhere",
+      "E decreases linearly everywhere"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "The Lagrangian point L1 in an Earth-Sun system represents a coordinate where:",
+    "options": [
+      "The gravitational pull of the Sun is zero",
+      "The combined gravitational forces of the Earth and Sun provide precisely the centripetal force required to match Earth's orbital period",
+      "An object experiences infinite gravitational acceleration",
+      "The Earth's shadow entirely blocks solar light permanently"
+    ],
+    "correct": 1
+  }
+]
