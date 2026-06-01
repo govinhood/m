@@ -579,7 +579,7 @@
     </div>
 
     <script>
-        const moneyTree = [
+const moneyTree = [
             { level: 1, prize: "$100", safeZone: false },
             { level: 2, prize: "$200", safeZone: false },
             { level: 3, prize: "$300", safeZone: false },
@@ -625,6 +625,9 @@
         let isDoubleDipActiveState = false;
         let doubleDipAttemptsCount = 0;
         let arenaLayoutTemplateHTML = ""; 
+        
+        // GLOBAL ANCHOR: Lock-in the single chosen random question object for the active round
+        let currentActiveQuestion = null; 
 
         const AudioEngine = {
             ctx: null,
@@ -790,7 +793,6 @@
             clearInterval(countdownTimerId);
             const container = document.getElementById("gamePanel");
             
-            // ANCHOR POINT 1: SPONSOR IMAGE BELOW INITIALIZE LIVE SESSION BUTTON
             container.innerHTML = `
                 <div class="welcome-screen">
                     <h2>Prepare For Your Audition</h2>
@@ -830,7 +832,6 @@
             const container = document.getElementById("gamePanel");
             let nextPrize = moneyTree[activeIndex].prize;
             
-            // ANCHOR POINT 2: SPONSOR IMAGE BELOW LOAD QUESTION BUTTON
             container.innerHTML = `
                 <div class="intermission-screen">
                     <h2>Level ${activeIndex + 1} Pending</h2>
@@ -866,13 +867,14 @@
                 document.getElementById("doubleDipIndicator").style.display = "inline-block";
             }
 
-            let currentData = fetchActiveQuestionObject();
-            document.getElementById("questionText").innerText = currentData.question;
+            // ✅ CRITICAL REPAIR: Selection happens EXACTLY once here and locks into memory
+            currentActiveQuestion = fetchActiveQuestionObject();
             
+            document.getElementById("questionText").innerText = currentActiveQuestion.question;
             for(let i=0; i<4; i++) {
                 let optBtn = document.getElementById(`opt-${i}`);
                 optBtn.className = "option-btn";
-                optBtn.querySelector(".text").innerText = currentData.options[i];
+                optBtn.querySelector(".text").innerText = currentActiveQuestion.options[i];
             }
 
             hideDisplayFeedbackArea();
@@ -940,33 +942,23 @@
             document.getElementById("lifeBtn-double").disabled = shouldDisable;
         }
 
-       
         function fetchActiveQuestionObject() {
-    let targetLvl = activeIndex + 1;
-    let sub = activeQuestions.filter(q => q.level === targetLvl);
-    
-    if (sub.length === 0) {
-        // Fallback safety check in case a level is empty
-        return baseQuestions.find(bq => bq.level === targetLvl);
-    }
-    
-    // 🎲 Pick a completely random question from the pool of that level
-    let randomIndex = Math.floor(Math.random() * sub.length);
-    return sub[randomIndex];
+            let targetLvl = activeIndex + 1;
+            let sub = activeQuestions.filter(q => q.level === targetLvl);
+            
+            if (sub.length === 0) {
+                return baseQuestions.find(bq => bq.level === targetLvl);
+            }
+            
+            let randomIndex = Math.floor(Math.random() * sub.length);
+            return sub[randomIndex];
         }
-        
-        
-       // function fetchActiveQuestionObject() {
-      //      let targetLvl = activeIndex + 1;
-       //     let sub = activeQuestions.filter(q => q.level === targetLvl);
-       //     return sub[sub.length - 1];
-   //     }
 
         function handleOptionSelection(selectedIndex) {
             if(isAnsweringBlocked) return;
             
-            let dataRecord = fetchActiveQuestionObject();
-            let correctSolutionIndex = dataRecord.correct;
+            // ✅ REPAIRED: Evaluate against locked question configuration instead of generating a new one
+            let correctSolutionIndex = currentActiveQuestion.correct;
 
             let chosenElement = document.getElementById(`opt-${selectedIndex}`);
             let masterCorrectElement = document.getElementById(`opt-${correctSolutionIndex}`);
@@ -994,6 +986,7 @@
                 }, 6200);
 
             } else {
+                // Double Dip lifeline attempt intercept
                 if(isDoubleDipActiveState && doubleDipAttemptsCount === 0) {
                     doubleDipAttemptsCount = 1;
                     chosenElement.className = "option-btn hidden"; 
@@ -1007,6 +1000,7 @@
                 masterCorrectElement.className = "option-btn correct";
                 AudioEngine.wrongBuzzer();
 
+                // Note: Retained your 10-second post-wrong-answer timeout display configuration
                 setTimeout(() => {
                     processSessionTermination(false);
                 }, 10000);
@@ -1078,8 +1072,8 @@
             usedLifelines.ffty = true;
             document.getElementById("wrap-5050").classList.add("used");
 
-            let data = fetchActiveQuestionObject();
-            let cIdx = data.correct;
+            // ✅ REPAIRED: Targets the locked question object config directly
+            let cIdx = currentActiveQuestion.correct;
             let wrongItems = [0,1,2,3].filter(idx => idx !== cIdx);
             wrongItems.sort(() => 0.5 - Math.random());
             
@@ -1092,9 +1086,9 @@
             usedLifelines.phone = true;
             document.getElementById("wrap-friend").classList.add("used");
 
-            let data = fetchActiveQuestionObject();
+            // ✅ REPAIRED: Targets the locked question object config directly
             let keys = ["A", "B", "C", "D"];
-            let solStr = keys[data.correct];
+            let solStr = keys[currentActiveQuestion.correct];
             let dialog = "";
 
             if(activeIndex < 5) {
@@ -1102,7 +1096,7 @@
             } else if (activeIndex < 10) {
                 dialog = Math.random() > 0.25 ? 
                     `<strong>Your Friend reports:</strong> "I'm fairly confident it's choice <strong>${solStr}</strong>."` :
-                    `<strong>Your Friend reports:</strong> "I have a hunch leaning towards option <strong>${keys[(data.correct+1)%4]}</strong>."`;
+                    `<strong>Your Friend reports:</strong> "I have a hunch leaning towards option <strong>${keys[(currentActiveQuestion.correct+1)%4]}</strong>."`;
             } else {
                 dialog = `<strong>Your Friend reports:</strong> "High stakes zone! I suspect it's <strong>${solStr}</strong>."`;
             }
@@ -1114,8 +1108,8 @@
             usedLifelines.aud = true;
             document.getElementById("wrap-audience").classList.add("used");
 
-            let data = fetchActiveQuestionObject();
-            let targetCorrect = data.correct;
+            // ✅ REPAIRED: Targets the locked question object config directly
+            let targetCorrect = currentActiveQuestion.correct;
             let graphValues = [0, 0, 0, 0];
             let leftover = 100;
 
@@ -1247,9 +1241,7 @@
                 correct: correctIdx
             };
 
-        //    activeQuestions = activeQuestions.filter(q => q.level !== targetLvl);
             activeQuestions.push(questionObject);
-        //    activeQuestions.sort((x,y) => x.level - y.level);
 
             localStorage.setItem("millionaire_v2_questions", JSON.stringify(activeQuestions));
             alert(`Injected configuration successfully inside layer step ${targetLvl}.`);
