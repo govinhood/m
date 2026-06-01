@@ -455,47 +455,52 @@
 
         .welcome-screen h2, .intermission-screen h2 { margin-bottom: 20px; color: var(--accent); }
 
-        /* REPOSITORY INTEGRATION CSS COMPONENT */
-        .repo-pool-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 15px;
-            margin-bottom: 30px;
+        /* COMPACT INTERFACE LAYOUT STYLES */
+        .compact-pool-container {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid rgba(53, 70, 163, 0.4);
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-bottom: 25px;
         }
-        @media (min-width: 600px) {
-            .repo-pool-grid { grid-template-columns: 1fr 1fr; }
+
+        .compact-pool-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
         }
-        @media (min-width: 1100px) {
-            .repo-pool-grid { grid-template-columns: 1fr 1fr 1fr; }
+
+        .compact-pool-table thead {
+            background: rgba(27, 36, 107, 0.8);
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
-        .repo-card {
-            background: linear-gradient(135deg, rgba(14,18,54,1) 0%, rgba(27,36,107,0.4) 100%);
-            border: 1px solid #3546a3;
-            border-radius: 12px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            transition: transform 0.2s, border-color 0.2s;
+
+        .compact-pool-table th {
+            padding: 10px 12px;
+            color: var(--accent);
+            font-weight: 600;
+            border-bottom: 2px solid #232d80;
         }
-        .repo-card:hover {
-            transform: translateY(-2px);
-            border-color: var(--accent);
+
+        .compact-pool-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid rgba(35, 45, 128, 0.4);
+            vertical-align: middle;
         }
-        .repo-card-title {
-            font-size: 1.15rem;
+
+        .compact-pool-table tr:hover {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .status-dot {
             font-weight: bold;
-            color: #ffffff;
-        }
-        .repo-card-meta {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-        .active-pool-indicator {
-            border: 2px solid var(--accent) !important;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2) !important;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
         }
     </style>
 </head>
@@ -573,7 +578,20 @@
 
             <h3 style="border-bottom: 1px solid var(--primary); padding-bottom: 5px; margin-bottom: 15px; color: var(--accent);">Cloud Content Pools (/pools)</h3>
             <div id="repoLoadingState" style="color: var(--text-muted); font-style: italic; margin-bottom: 15px;">Scanning repository architecture...</div>
-            <div class="repo-pool-grid" id="repoPoolGridContainer"></div>
+            
+            <div class="compact-pool-container">
+                <table class="compact-pool-table">
+                    <thead>
+                        <tr>
+                            <th>JSON Asset File Name</th>
+                            <th>Status</th>
+                            <th style="text-align: right;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="repoPoolGridContainer">
+                        </tbody>
+                </table>
+            </div>
 
             <div style="background-color: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center; margin-bottom: 25px; border: 1px dashed var(--primary);">
                 <div>
@@ -923,12 +941,11 @@
             } else {
                 document.getElementById("nav-admin").classList.add("active-tab");
                 document.getElementById("window-admin").classList.add("visible");
-                // Run an automated folder discovery poll upon mounting the database window
                 discoverRepositoryCloudPools();
             }
         }
 
-        // GITHUB AUTODISCOVERY LOGIC FOR SCANNING THE POOLS DIRECTORY
+        // COMPACT INTERFACE RENDERING LOGIC FOR SCANNING THE POOLS FOLDER
         async function discoverRepositoryCloudPools() {
             const container = document.getElementById("repoPoolGridContainer");
             const feedbackNode = document.getElementById("repoLoadingState");
@@ -937,7 +954,6 @@
             feedbackNode.innerText = "Querying live structure node mapping configurations...";
 
             try {
-                // Dynamically deduce path configurations using window context parameters
                 const pathParts = window.location.pathname.split('/');
                 const repoName = pathParts[1] || "";
                 const ownerName = window.location.hostname.split('.')[0];
@@ -960,7 +976,7 @@
 
                 feedbackNode.style.display = "none";
                 
-                // Always render base structural core storage first
+                // First element rendered is our local fallback anchor row
                 renderLocalDefaultPoolCard();
 
                 if (jsonFiles.length === 0) {
@@ -968,7 +984,6 @@
                 }
 
                 jsonFiles.forEach(file => {
-                    // Turn "physics_class11.json" -> "Physics Class11"
                     let cleanTitle = file.name
                         .replace('.json', '')
                         .replace(/[_-]/g, ' ')
@@ -976,20 +991,26 @@
                         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
                         .join(' ');
 
-                    const card = document.createElement("div");
-                    card.className = "repo-card";
-                    if (selectedCloudPoolSource === file.download_url) {
-                        card.classList.add("active-pool-indicator");
+                    const isTargetActive = (selectedCloudPoolSource === file.download_url);
+                    const row = document.createElement("tr");
+                    if (isTargetActive) {
+                        row.style.background = "rgba(255, 215, 0, 0.08)";
                     }
 
-                    card.innerHTML = `
-                        <div>
-                            <div class="repo-card-title">${cleanTitle}</div>
-                            <div class="repo-card-meta">Source: GitHub File Entry Stream</div>
-                        </div>
-                        <button class="action-btn" style="padding: 6px 12px; font-size: 0.85rem;" onclick="loadCloudQuizAsset('${file.download_url}', this)">Activate Pool</button>
+                    row.innerHTML = `
+                        <td style="font-family: monospace; color: #cbd5e1; font-weight: 600;">${file.name}</td>
+                        <td>
+                            <span class="status-dot" style="color: ${isTargetActive ? 'var(--correct)' : 'var(--accent)'}">
+                                ${isTargetActive ? '🟢 Active' : '⏱ Ready'}
+                            </span>
+                        </td>
+                        <td style="text-align: right;">
+                            <button class="action-btn" style="padding: 4px 12px; font-size: 0.8rem;" ${isTargetActive ? 'disabled style="opacity:0.5; cursor:not-allowed;"' : ''} onclick="loadCloudQuizAsset('${file.download_url}', this)">
+                                ${isTargetActive ? 'Deployed' : 'Activate'}
+                            </button>
+                        </td>
                     `;
-                    container.appendChild(card);
+                    container.appendChild(row);
                 });
 
             } catch (error) {
@@ -1000,19 +1021,27 @@
 
         function renderLocalDefaultPoolCard() {
             const container = document.getElementById("repoPoolGridContainer");
-            const card = document.createElement("div");
-            card.className = "repo-card";
-            if (selectedCloudPoolSource === "Default Engine Core") {
-                card.classList.add("active-pool-indicator");
+            const isDefaultActive = (selectedCloudPoolSource === "Default Engine Core");
+            const row = document.createElement("tr");
+            
+            if (isDefaultActive) {
+                row.style.background = "rgba(255, 215, 0, 0.08)";
             }
-            card.innerHTML = `
-                <div>
-                    <div class="repo-card-title">Default Engine Core</div>
-                    <div class="repo-card-meta">Source: LocalStorage / Factory Bank</div>
-                </div>
-                <button class="action-btn" style="padding: 6px 12px; font-size: 0.85rem;" onclick="restoreLocalMemoryContext(this)">Activate Pool</button>
+
+            row.innerHTML = `
+                <td style="font-weight: 600; color: #ffffff;">Default Engine Core</td>
+                <td>
+                    <span class="status-dot" style="color: ${isDefaultActive ? 'var(--correct)' : 'var(--text-muted)'}">
+                        ${isDefaultActive ? '🟢 Active' : '○ Standby'}
+                    </span>
+                </td>
+                <td style="text-align: right;">
+                    <button class="action-btn" style="padding: 4px 12px; font-size: 0.8rem;" ${isDefaultActive ? 'disabled style="opacity:0.5; cursor:not-allowed;"' : ''} onclick="restoreLocalMemoryContext(this)">
+                        ${isDefaultActive ? 'Deployed' : 'Activate'}
+                    </button>
+                </td>
             `;
-            container.prepend(card);
+            container.prepend(row);
         }
 
         async function loadCloudQuizAsset(downloadUrl, buttonElement) {
@@ -1027,26 +1056,23 @@
                     backfillMissingLevelsIntegrityCheck();
                     selectedCloudPoolSource = downloadUrl;
                     
-                    document.querySelectorAll(".repo-card").forEach(c => c.classList.remove("active-pool-indicator"));
-                    buttonElement.closest(".repo-card").classList.add("active-pool-indicator");
-                    
-                    buttonElement.innerText = "Active";
+                    // Refresh view layout parameters instantly
+                    discoverRepositoryCloudPools();
                     alert("Quiz configuration updated successfully from GitHub Pool!");
                 } else {
                     alert("Invalid File Format: JSON must contain an array of objects.");
-                    buttonElement.innerText = "Activate Pool";
+                    buttonElement.innerText = "Activate";
                 }
             } catch (e) {
                 alert("Failed to retrieve question dataset sheet.");
-                buttonElement.innerText = "Activate Pool";
+                buttonElement.innerText = "Activate";
             }
         }
 
         function restoreLocalMemoryContext(buttonElement) {
             selectedCloudPoolSource = "Default Engine Core";
-            document.querySelectorAll(".repo-card").forEach(c => c.classList.remove("active-pool-indicator"));
-            buttonElement.closest(".repo-card").classList.add("active-pool-indicator");
             syncQuestionDatabasePool();
+            discoverRepositoryCloudPools();
             alert("Memory contextual index restored back to core factory configuration parameters.");
         }
 
