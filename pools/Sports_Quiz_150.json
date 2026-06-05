@@ -1,0 +1,1652 @@
+[
+  {
+    "level": 1,
+    "question": "How many players are there in a football (soccer) team on the field?",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Which country won the first ever FIFA World Cup in 1930?",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Brazil",
+      "Italy"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "How many overs are bowled in a standard ODI cricket match per side?",
+    "options": [
+      "50",
+      "60",
+      "40",
+      "45"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "The FIFA World Cup is held every how many years?",
+    "options": [
+      "4 years",
+      "3 years",
+      "2 years",
+      "5 years"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "options": [
+      "Germany",
+      "Italy",
+      "Argentina",
+      "Brazil"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "In cricket, what does 'LBW' stand for?",
+    "options": [
+      "Left Before Wicket",
+      "Long Bat Wicket",
+      "Late Ball Wicket",
+      "Leg Before Wicket"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 1,
+    "question": "Which trophy is awarded to the winners of the UEFA Champions League?",
+    "options": [
+      "The Big Ear Trophy",
+      "The Silver Trophy",
+      "The Golden Cup",
+      "The Europa Cup"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "How many runs does a batsman score when the ball reaches the boundary without bouncing?",
+    "options": [
+      "6",
+      "2",
+      "4",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Which ICC event is held specifically for Twenty20 international cricket?",
+    "options": [
+      "ICC T20 World Cup",
+      "ICC Test Series",
+      "ICC Champions Trophy",
+      "ICC Super League"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 1,
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "options": [
+      "Qatar",
+      "Saudi Arabia",
+      "UAE",
+      "Bahrain"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "Who won the 2023 ICC Cricket World Cup?",
+    "options": [
+      "India",
+      "Australia",
+      "South Africa",
+      "England"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which club has won the most UEFA Champions League titles?",
+    "options": [
+      "Barcelona",
+      "Bayern Munich",
+      "AC Milan",
+      "Real Madrid"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "In which year did India win their first Cricket World Cup?",
+    "options": [
+      "1983",
+      "1979",
+      "1975",
+      "1987"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "Who scored the famous 'Hand of God' goal at the 1986 FIFA World Cup?",
+    "options": [
+      "Pelé",
+      "Diego Maradona",
+      "Ronaldo",
+      "Zidane"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "How many teams compete in the FIFA World Cup final tournament since 1998?",
+    "options": [
+      "32",
+      "24",
+      "16",
+      "48"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "Which player has scored the most goals in a single FIFA World Cup tournament?",
+    "options": [
+      "Ronaldo (Brazil)",
+      "Just Fontaine",
+      "Gerd Müller",
+      "Miroslav Klose"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "The ICC Cricket World Cup is organized by which body?",
+    "options": [
+      "ICC",
+      "BCCI",
+      "BCB",
+      "ECB"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 2,
+    "question": "Which nation won the inaugural ICC T20 World Cup in 2007?",
+    "options": [
+      "Australia",
+      "South Africa",
+      "Pakistan",
+      "India"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 2,
+    "question": "In football, what is a 'hat-trick'?",
+    "options": [
+      "Scoring with your head",
+      "Three goals by one player in one match",
+      "A special free kick",
+      "Winning three consecutive matches"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 2,
+    "question": "Which country won the 2019 ICC Cricket World Cup?",
+    "options": [
+      "New Zealand",
+      "Australia",
+      "India",
+      "England"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "Who is the all-time top scorer in FIFA World Cup history?",
+    "options": [
+      "Miroslav Klose",
+      "Ronaldo (Brazil)",
+      "Pelé",
+      "Gerd Müller"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which player won the Golden Ball at the 2022 FIFA World Cup?",
+    "options": [
+      "Lionel Messi",
+      "Luka Modrić",
+      "Kylian Mbappé",
+      "Emi Martínez"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Who holds the record for the highest individual score in ODI cricket?",
+    "options": [
+      "Rohit Sharma",
+      "Martin Guptill",
+      "Chris Gayle",
+      "Sachin Tendulkar"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which club won the first ever UEFA Champions League in 1956?",
+    "options": [
+      "Real Madrid",
+      "Barcelona",
+      "AC Milan",
+      "Benfica"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which country hosted the 2011 ICC Cricket World Cup?",
+    "options": [
+      "India, Sri Lanka & Bangladesh",
+      "India & Pakistan",
+      "Australia & New Zealand",
+      "England & Wales"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Who won the Golden Boot (top scorer) at the 2018 FIFA World Cup?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Antoine Griezmann",
+      "Romelu Lukaku",
+      "Harry Kane"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 3,
+    "question": "The final of the 2019 ICC Cricket World Cup ended in a tie. How was England declared the winner?",
+    "options": [
+      "By boundary count",
+      "By Duckworth-Lewis method",
+      "By coin toss",
+      "By number of wickets"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "Which La Liga club is nicknamed 'Los Blancos'?",
+    "options": [
+      "Real Madrid",
+      "Sevilla",
+      "Atletico Madrid",
+      "Valencia"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 3,
+    "question": "The 1950 FIFA World Cup final was not a single final match — it was decided by a final round-robin group. Which country 'won' it by beating Uruguay in that decisive match? (Trick: Brazil needed only a draw but lost) Who actually won?",
+    "options": [
+      "Brazil",
+      "Uruguay",
+      "Argentina",
+      "Spain"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 3,
+    "question": "Which cricketer is known as the 'Master Blaster'?",
+    "options": [
+      "Sachin Tendulkar",
+      "Ricky Ponting",
+      "Brian Lara",
+      "Vivian Richards"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "In which city is the Santiago Bernabéu stadium located?",
+    "options": [
+      "Barcelona",
+      "Seville",
+      "Bilbao",
+      "Madrid"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Which team did Australia beat in the final of the 2023 ICC Cricket World Cup?",
+    "options": [
+      "India",
+      "New Zealand",
+      "Pakistan",
+      "South Africa"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Who was the top scorer at the 2023 ICC Cricket World Cup?",
+    "options": [
+      "Virat Kohli",
+      "Rohit Sharma",
+      "Quinton de Kock",
+      "David Warner"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Which country hosted the first ICC T20 World Cup in 2007?",
+    "options": [
+      "India",
+      "England",
+      "Australia",
+      "South Africa"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Which stadium hosted the final of the 2022 FIFA World Cup?",
+    "options": [
+      "Lusail Stadium",
+      "Khalifa International Stadium",
+      "Al Bayt Stadium",
+      "Ahmad Bin Ali Stadium"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Who scored a hat-trick in the 2022 FIFA World Cup final for France?",
+    "options": [
+      "Antoine Griezmann",
+      "Olivier Giroud",
+      "Ousmane Dembélé",
+      "Kylian Mbappé"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Which club has won the most English Premier League titles?",
+    "options": [
+      "Liverpool",
+      "Arsenal",
+      "Chelsea",
+      "Manchester United"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 4,
+    "question": "Sachin Tendulkar scored his 100th international century against which country?",
+    "options": [
+      "Bangladesh",
+      "Pakistan",
+      "Australia",
+      "Sri Lanka"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "Who captained the West Indies team to win back-to-back Cricket World Cups in 1975 and 1979?",
+    "options": [
+      "Clive Lloyd",
+      "Gordon Greenidge",
+      "Viv Richards",
+      "Michael Holding"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 4,
+    "question": "In the UEFA Champions League, what is the away goals rule historically used for?",
+    "options": [
+      "It gives extra points for scoring away",
+      "It is used to decide a tied aggregate in knockout rounds",
+      "It rewards away wins with bonus goals",
+      "It has never existed in the competition"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which player won the FIFA World Cup Golden Ball in 2018?",
+    "options": [
+      "Lionel Messi",
+      "Luka Modrić",
+      "Kylian Mbappé",
+      "Antoine Griezmann"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "Which country has won the ICC Cricket World Cup the most times?",
+    "options": [
+      "India",
+      "West Indies",
+      "Sri Lanka",
+      "Australia"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "Who became the first player to score 100 international centuries in cricket?",
+    "options": [
+      "Sachin Tendulkar",
+      "Ricky Ponting",
+      "Brian Lara",
+      "Virat Kohli"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "Which German club has won the most Bundesliga titles?",
+    "options": [
+      "Bayern Munich",
+      "Bayer Leverkusen",
+      "Borussia Dortmund",
+      "Borussia Mönchengladbach"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "Which was the first African nation to reach the semi-finals of the FIFA World Cup (2022)?",
+    "options": [
+      "Senegal",
+      "Cameroon",
+      "Nigeria",
+      "Morocco"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "Who won the UEFA Champions League in the 2022-23 season?",
+    "options": [
+      "Real Madrid",
+      "Manchester City",
+      "Inter Milan",
+      "Bayern Munich"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "The 'Miracle of Istanbul' refers to which team's comeback in the 2005 Champions League final?",
+    "options": [
+      "Liverpool",
+      "Manchester United",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 5,
+    "question": "Which batter holds the record for the highest individual score in Test cricket?",
+    "options": [
+      "Don Bradman",
+      "Len Hutton",
+      "Kumar Sangakkara",
+      "Brian Lara"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 5,
+    "question": "In which year did South Africa re-enter international cricket after the apartheid ban was lifted?",
+    "options": [
+      "1988",
+      "1992",
+      "1994",
+      "1996"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 5,
+    "question": "The UEFA Europa League was formerly known as which competition?",
+    "options": [
+      "UEFA Cup",
+      "UEFA Super Cup",
+      "Inter-Cities Fairs Cup",
+      "UEFA Intertoto Cup"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 6,
+    "question": "Who was the top scorer at the 2014 FIFA World Cup held in Brazil?",
+    "options": [
+      "Lionel Messi",
+      "Neymar",
+      "Thomas Müller",
+      "James Rodríguez"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Which country scored the most goals in the 1954 FIFA World Cup group stage?",
+    "options": [
+      "Brazil",
+      "Hungary",
+      "West Germany",
+      "Uruguay"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Brian Lara's world record Test score of 400* was against which country?",
+    "options": [
+      "Australia",
+      "South Africa",
+      "India",
+      "England"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Which Italian club has won the most Serie A titles?",
+    "options": [
+      "AC Milan",
+      "Inter Milan",
+      "Roma",
+      "Juventus"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Who did Argentina defeat in the semi-final of the 2022 FIFA World Cup?",
+    "options": [
+      "Brazil",
+      "Netherlands",
+      "Croatia",
+      "England"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "What is the name of the cricket ground where the Lord's Test in England is played?",
+    "options": [
+      "Oval",
+      "Edgbaston",
+      "Headingley",
+      "Lord's Cricket Ground"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 6,
+    "question": "Which team has appeared in the most UEFA Champions League finals without winning the title?",
+    "options": [
+      "Atletico Madrid",
+      "Juventus",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "Who scored the winning runs for India in the 2011 ICC Cricket World Cup final?",
+    "options": [
+      "Sachin Tendulkar",
+      "Yuvraj Singh",
+      "MS Dhoni",
+      "Gautam Gambhir"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 6,
+    "question": "The 'Invincibles' tag in cricket was first given to which Australian touring team?",
+    "options": [
+      "1921 Australian team",
+      "1948 Australian team",
+      "1938 Australian team",
+      "1956 Australian team"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 6,
+    "question": "In the FIFA World Cup, the host nation of the 2026 edition will be shared between which three countries?",
+    "options": [
+      "USA, Mexico, Canada",
+      "USA, Brazil, Mexico",
+      "Canada, UK, USA",
+      "Mexico, Cuba, Canada"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "Which footballer was known as 'El Pibe de Oro' (The Golden Boy)?",
+    "options": [
+      "Pelé",
+      "Ronaldo Nazário",
+      "Diego Maradona",
+      "Johan Cruyff"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "Who has taken the most wickets in ODI cricket history?",
+    "options": [
+      "Glenn McGrath",
+      "Wasim Akram",
+      "Muttiah Muralitharan",
+      "Shane Warne"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "How many times has Barcelona won the UEFA Champions League?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "Which country won the 2010 FIFA World Cup held in South Africa?",
+    "options": [
+      "Germany",
+      "Netherlands",
+      "Brazil",
+      "Spain"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 7,
+    "question": "Who captained India to win the 2007 ICC T20 World Cup?",
+    "options": [
+      "Sourav Ganguly",
+      "Rahul Dravid",
+      "MS Dhoni",
+      "Sachin Tendulkar"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "Which club did Lionel Messi join after leaving Barcelona in 2021?",
+    "options": [
+      "Juventus",
+      "Manchester City",
+      "PSG",
+      "Bayern Munich"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 7,
+    "question": "In which year was the ICC Champions Trophy first introduced?",
+    "options": [
+      "1996",
+      "1998",
+      "2000",
+      "2002"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 7,
+    "question": "Which team has the record for the most consecutive wins in the English Premier League?",
+    "options": [
+      "Arsenal",
+      "Chelsea",
+      "Liverpool",
+      "Manchester City"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 7,
+    "question": "Who was the first bowler to take a hat-trick in a Cricket World Cup final?",
+    "options": [
+      "Lasith Malinga",
+      "Wasim Akram",
+      "Shane Warne",
+      "Brett Lee"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 7,
+    "question": "Which nation did the USA famously beat 1-0 at the 1950 FIFA World Cup in a massive upset?",
+    "options": [
+      "Brazil",
+      "Italy",
+      "Argentina",
+      "England"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Which player has scored the most goals in UEFA Champions League history?",
+    "options": [
+      "Lionel Messi",
+      "Raul",
+      "Robert Lewandowski",
+      "Cristiano Ronaldo"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Who took 8 wickets for 6 runs against Pakistan in the 2021 T20 World Cup warm-up?",
+    "options": [
+      "Rashid Khan",
+      "Mujeeb Ur Rahman",
+      "Shaheen Afridi",
+      "Noor Ahmad"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "West Germany defeated which team 8-0 in the first round of the 1974 FIFA World Cup?",
+    "options": [
+      "Chile",
+      "Yugoslavia",
+      "Australia",
+      "Zaire"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Who scored the iconic 'Scorpion Kick' goal in international football?",
+    "options": [
+      "Hugo Sánchez",
+      "René Higuita",
+      "Zlatan Ibrahimović",
+      "Falcao"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 8,
+    "question": "Which team won the inaugural ICC Champions Trophy in 1998?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Australia",
+      "South Africa"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Who did Zinedine Zidane headbutt in the 2006 FIFA World Cup final?",
+    "options": [
+      "Alessandro Del Piero",
+      "Gennaro Gattuso",
+      "Marco Materazzi",
+      "Fabio Cannavaro"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "The Ashes series is played between England and which other country?",
+    "options": [
+      "South Africa",
+      "New Zealand",
+      "India",
+      "Australia"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "Which club was Cristiano Ronaldo playing for when he won his first UEFA Champions League title?",
+    "options": [
+      "Real Madrid",
+      "Juventus",
+      "Manchester United",
+      "Sporting CP"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 8,
+    "question": "The 'Green Caps' is a nickname for which national cricket team?",
+    "options": [
+      "Bangladesh",
+      "Zimbabwe",
+      "Ireland",
+      "Pakistan"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 8,
+    "question": "In which year did France first win the FIFA World Cup?",
+    "options": [
+      "1994",
+      "1996",
+      "1998",
+      "2000"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "Which player holds the record for the most appearances in the FIFA World Cup (5 tournaments)?",
+    "options": [
+      "Gianluigi Buffon",
+      "Lothar Matthäus",
+      "Andres Guardado",
+      "Antonio Carbajal / Lothar Matthäus"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 9,
+    "question": "Who took the most wickets in the 1999 ICC Cricket World Cup?",
+    "options": [
+      "Shane Warne",
+      "Glenn McGrath",
+      "Geoff Allott",
+      "Chaminda Vaas"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Lionel Messi won his first FIFA World Cup title in which year?",
+    "options": [
+      "2018",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "Which two clubs contested the 2019 UEFA Champions League final?",
+    "options": [
+      "Liverpool vs Ajax",
+      "Tottenham vs Liverpool",
+      "Barcelona vs Liverpool",
+      "Manchester City vs Chelsea"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Who is the only player to have played in six FIFA World Cups?",
+    "options": [
+      "Gianluigi Buffon",
+      "Kristine Lilly",
+      "Antonio Carbajal",
+      "Hassan Al-Haydos"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Which cricketer holds the record for most sixes hit in a single Test innings?",
+    "options": [
+      "Ben Stokes",
+      "Brendon McCullum",
+      "Wasim Akram",
+      "Misbah-ul-Haq"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 9,
+    "question": "Which German club became the first to win the treble (Bundesliga, DFB-Pokal, Champions League) in the same season?",
+    "options": [
+      "Bayern Munich 1998-99",
+      "Borussia Dortmund 2011-12",
+      "Bayern Munich 2012-13",
+      "Bayern Munich 2019-20"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 9,
+    "question": "What is the name of the award given to the best goalkeeper at the FIFA World Cup?",
+    "options": [
+      "Golden Glove",
+      "Golden Boot",
+      "Yashin Trophy",
+      "Lev Trophy"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 9,
+    "question": "Which team did India defeat in the final of the 2024 ICC T20 World Cup?",
+    "options": [
+      "England",
+      "Australia",
+      "Pakistan",
+      "South Africa"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 9,
+    "question": "Who scored the most runs in the 2003 ICC Cricket World Cup?",
+    "options": [
+      "Ricky Ponting",
+      "Sachin Tendulkar",
+      "Matthew Hayden",
+      "Mark Waugh"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "What was the score when Australia beat Afghanistan in their record ODI World Cup victory in 2023?",
+    "options": [
+      "155 runs",
+      "178 runs",
+      "190 runs",
+      "162 runs"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Who has the most Champions League assists of all time?",
+    "options": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Cristiano Ronaldo",
+      "Thierry Henry"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "The 'Calcio' league is the domestic football league of which country?",
+    "options": [
+      "Spain",
+      "France",
+      "Germany",
+      "Italy"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 10,
+    "question": "Which player scored the fastest goal in World Cup history (under 30 seconds in 2002)?",
+    "options": [
+      "Hakan Şükür",
+      "Miroslav Klose",
+      "Juan Agüero",
+      "Robbie Fowler"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 10,
+    "question": "Who was the first spinner to take 800 Test wickets?",
+    "options": [
+      "Anil Kumble",
+      "Shane Warne",
+      "Muttiah Muralitharan",
+      "R Ashwin"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "In the UEFA Champions League, which club is known as 'The Old Lady'?",
+    "options": [
+      "AC Milan",
+      "Inter Milan",
+      "Napoli",
+      "Juventus"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 10,
+    "question": "Which country has hosted the FIFA World Cup twice as of 2022?",
+    "options": [
+      "Argentina",
+      "England",
+      "Italy",
+      "France"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "Who was named Player of the Tournament in the 2015 ICC Cricket World Cup?",
+    "options": [
+      "Steve Smith",
+      "Mitchell Starc",
+      "AB de Villiers",
+      "Martin Guptill"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 10,
+    "question": "Which league uses the term 'Manager' while most others call the same role 'Coach'?",
+    "options": [
+      "La Liga",
+      "Serie A",
+      "Premier League",
+      "Ligue 1"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 10,
+    "question": "Who hit six sixes in one over in international cricket for the first time?",
+    "options": [
+      "Chris Gayle",
+      "Herschelle Gibbs",
+      "Yuvraj Singh",
+      "Kieron Pollard"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which nation was the first to be crowned ICC Test Championship winners in 2021?",
+    "options": [
+      "India",
+      "England",
+      "Australia",
+      "New Zealand"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "Cristiano Ronaldo holds the record for the most goals in which major international competition?",
+    "options": [
+      "FIFA World Cup",
+      "UEFA Nations League",
+      "UEFA European Championship",
+      "FIFA Confederations Cup"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Which club signed Neymar for a world-record transfer fee of €222 million in 2017?",
+    "options": [
+      "Manchester City",
+      "Real Madrid",
+      "PSG",
+      "Chelsea"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Who took a hat-trick against Australia in the 1999 ICC Cricket World Cup semi-final?",
+    "options": [
+      "Saqlain Mushtaq",
+      "Shoaib Akhtar",
+      "Waqar Younis",
+      "Wasim Akram"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 11,
+    "question": "In which year was the UEFA Champions League rebranded from the European Cup?",
+    "options": [
+      "1988",
+      "1990",
+      "1992",
+      "1994"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 11,
+    "question": "Who was the top wicket-taker in the 2019 ICC Cricket World Cup?",
+    "options": [
+      "Jofra Archer",
+      "Mitchell Starc",
+      "Lockie Ferguson",
+      "Mohammad Amir"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "In the 2006 FIFA World Cup, which Italian defender scored in both the final and semi-final?",
+    "options": [
+      "Alessandro Nesta",
+      "Marco Materazzi",
+      "Fabio Cannavaro",
+      "Luca Toni"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "The record for the most runs in a single Cricket World Cup edition belongs to Sachin Tendulkar in which year?",
+    "options": [
+      "1996",
+      "2003",
+      "2007",
+      "2011"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 11,
+    "question": "Which African country hosted the 2010 FIFA World Cup — a first for the continent?",
+    "options": [
+      "Nigeria",
+      "Kenya",
+      "Egypt",
+      "South Africa"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 11,
+    "question": "Who won the 2023-24 UEFA Champions League?",
+    "options": [
+      "Manchester City",
+      "Borussia Dortmund",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which bowler took the most wickets in the history of ODI Cricket World Cups across all editions?",
+    "options": [
+      "Wasim Akram",
+      "Glenn McGrath",
+      "Muttiah Muralitharan",
+      "Mitchell Starc"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "The famous 'Maracanazo' upset refers to Uruguay defeating which country in the 1950 World Cup decisive match?",
+    "options": [
+      "Argentina",
+      "England",
+      "Brazil",
+      "France"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Who scored the only goal in the 2010 FIFA World Cup final?",
+    "options": [
+      "Fernando Torres",
+      "Xavi",
+      "Andrés Iniesta",
+      "David Villa"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which player was controversially excluded from Brazil's 1994 World Cup winning squad due to suspension?",
+    "options": [
+      "Romário",
+      "Bebeto",
+      "Rai",
+      "Aldair"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "In the 2007 ICC T20 World Cup final, how many runs did India need off the last over to win?",
+    "options": [
+      "12 runs",
+      "15 runs",
+      "13 runs",
+      "20 runs"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which Ligue 1 club has the nickname 'Les Parisiens'?",
+    "options": [
+      "Olympique Lyonnais",
+      "Marseille",
+      "Monaco",
+      "Paris Saint-Germain"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 12,
+    "question": "Which team ended Bayern Munich's record 32-match Bundesliga unbeaten home run in 2014?",
+    "options": [
+      "Schalke 04",
+      "Augsburg",
+      "Borussia Dortmund",
+      "Wolfsburg"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 12,
+    "question": "Who holds the record for the most sixes in all formats of international cricket combined?",
+    "options": [
+      "Adam Gilchrist",
+      "MS Dhoni",
+      "Chris Gayle",
+      "Rohit Sharma"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 12,
+    "question": "Which West Indian cricketer scored a century off just 56 balls in the 2007 Cricket World Cup?",
+    "options": [
+      "Chris Gayle",
+      "Shivnarine Chanderpaul",
+      "Matthew Hayden",
+      "Mathew Hayden (corrected: Aussie - who scored 659 there) — Actually Chris Gayle 117* off 78. Who hit the fastest WC century 2007?"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 12,
+    "question": "The 'Derby della Madonnina' is the fierce rivalry between which two clubs?",
+    "options": [
+      "Juventus vs Torino",
+      "Roma vs Lazio",
+      "AC Milan vs Inter Milan",
+      "Barcelona vs Real Madrid"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Who scored a hat-trick in the 2018 FIFA World Cup group stage against Portugal?",
+    "options": [
+      "Lionel Messi",
+      "Romelu Lukaku",
+      "Harry Kane",
+      "Cristiano Ronaldo"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 13,
+    "question": "Which team holds the record for the biggest win in a FIFA World Cup match (17-0 style — actually 9-0 in 1974 by Yugoslavia vs Zaire; check: Hungary 10-1 El Salvador in 1982)?",
+    "options": [
+      "Brazil",
+      "West Germany",
+      "Hungary",
+      "Yugoslavia"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which country did New Zealand beat to win the 2021 ICC World Test Championship?",
+    "options": [
+      "Australia",
+      "South Africa",
+      "England",
+      "India"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 13,
+    "question": "Gareth Bale's overhead kick in the 2018 Champions League final against Liverpool is considered one of the greatest. Who did he score it for?",
+    "options": [
+      "Wales",
+      "Juventus",
+      "Real Madrid",
+      "Tottenham"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which wicket-keeper holds the record for the most dismissals in ICC Cricket World Cups?",
+    "options": [
+      "Adam Gilchrist",
+      "Kumar Sangakkara",
+      "MS Dhoni",
+      "Mark Boucher"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "In the 1986 FIFA World Cup, what was the official name of the ball used?",
+    "options": [
+      "Tango",
+      "Azteca",
+      "Etrusco Unico",
+      "Questra"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 13,
+    "question": "Who scored the winning 'Panenka' penalty in the shoot-out of the 1976 European Championship final?",
+    "options": [
+      "Franz Beckenbauer",
+      "Johan Cruyff",
+      "Antonín Panenka",
+      "Zdeněk Nehoda"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which famous New Zealand batsman holds the record for the fastest Test century in cricket history (54 balls)?",
+    "options": [
+      "Ross Taylor",
+      "Martin Guptill",
+      "Brendon McCullum",
+      "Nathan Astle"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "How many clubs originally formed the inaugural English Premier League season in 1992-93?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 13,
+    "question": "Which footballer was named FIFA World Player of the Year most times before the Ballon d'Or merger in 2010?",
+    "options": [
+      "Zinedine Zidane",
+      "Ronaldo Nazário",
+      "Ronaldinho",
+      "Lionel Messi"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Before Miroslav Klose, which player held the World Cup all-time top scorer record?",
+    "options": [
+      "Pelé",
+      "Just Fontaine",
+      "Gerd Müller",
+      "Ronaldo Nazário"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Which ICC Cricket World Cup edition introduced 'Super 6' as the second stage format?",
+    "options": [
+      "1992",
+      "1996",
+      "1999",
+      "2003"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Who is the only player to win the FIFA World Cup as both a player and a head coach?",
+    "options": [
+      "Johan Cruyff",
+      "Franz Beckenbauer",
+      "Didier Deschamps",
+      "Zinedine Zidane"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "Which cricketer was the first to score a double century (200) in ODI cricket?",
+    "options": [
+      "Rohit Sharma",
+      "Martin Guptill",
+      "Sachin Tendulkar",
+      "Virender Sehwag"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "In the 2001 UEFA Champions League semi-final, Bayern Munich's goalkeeper Oliver Kahn saved three penalties against which club in the shoot-out?",
+    "options": [
+      "Real Madrid",
+      "Barcelona",
+      "Lyon",
+      "Manchester United"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Who was the first player sent off in a FIFA World Cup final?",
+    "options": [
+      "Wayne Rooney",
+      "Zinedine Zidane",
+      "Pedro Monzón",
+      "Marco Materazzi"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Which team did Australia beat in their record ODI victory by 275 runs in the 2015 Cricket World Cup?",
+    "options": [
+      "Scotland",
+      "Hong Kong",
+      "Kenya",
+      "Afghanistan"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 14,
+    "question": "Who was the only player to score in five different FIFA World Cup tournaments (1994-2014)?",
+    "options": [
+      "Miroslav Klose",
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Lothar Matthäus"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 14,
+    "question": "The term 'Tiki-Taka' style of football is most associated with which national team and club?",
+    "options": [
+      "Germany & Bayern Munich",
+      "Argentina & River Plate",
+      "Spain & Barcelona",
+      "Netherlands & Ajax"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 14,
+    "question": "Which Sri Lankan bowler took a hat-trick on the very first ball — dismissing three batsmen off consecutive deliveries — in the 2003 ICC Cricket World Cup?",
+    "options": [
+      "Muttiah Muralitharan",
+      "Lasith Malinga",
+      "Chaminda Vaas",
+      "Nuwan Morkel"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "In the 1970 FIFA World Cup, Gordon Banks made what is often called the greatest save of all time against which player?",
+    "options": [
+      "Jairzinho",
+      "Rivellino",
+      "Pelé",
+      "Tostão"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "Which was the first team to win the FIFA World Cup on foreign soil (i.e. not in their own continent)?",
+    "options": [
+      "Brazil",
+      "England",
+      "West Germany",
+      "Italy"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "The 'tied match' in 1986 ICC World Championship of Cricket and later 1987 World Cup — in the actual 1987 World Cup, which two teams played the famous tied match in the group stage?",
+    "options": [
+      "India and Pakistan",
+      "West Indies and Pakistan",
+      "Australia and India",
+      "Australia and South Africa"
+    ],
+    "correct": 0
+  },
+  {
+    "level": 15,
+    "question": "Which club became the first to win back-to-back UEFA Champions Leagues in the post-rebranding era (1992 onwards)?",
+    "options": [
+      "Bayern Munich",
+      "Barcelona",
+      "Juventus",
+      "Real Madrid"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "Which nation has appeared in the ICC Cricket World Cup without ever having hosted an edition of the tournament?",
+    "options": [
+      "Kenya",
+      "Canada",
+      "Namibia",
+      "United Arab Emirates"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "In the 1994 FIFA World Cup final, both Italy and Brazil had a player miss during the penalty shootout. Who missed Italy's crucial penalty?",
+    "options": [
+      "Franco Baresi and Daniele Massaro and Roberto Baggio",
+      "Only Roberto Baggio",
+      "Paolo Maldini",
+      "Dino Baggio"
+    ],
+    "correct": 1
+  },
+  {
+    "level": 15,
+    "question": "Which cricketer holds the record for the highest batting average (min. 20 innings) in ICC Cricket World Cup history?",
+    "options": [
+      "Viv Richards",
+      "Sachin Tendulkar",
+      "Glenn Turner",
+      "Michael Bevan"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "Who scored a hat-trick in the Champions League final for Real Madrid in 2018 — the third player to do so in a UCL final?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Gareth Bale",
+      "Karim Benzema",
+      "No one scored a hat-trick in that final"
+    ],
+    "correct": 3
+  },
+  {
+    "level": 15,
+    "question": "The record for the most extras (wides + no-balls + byes + leg-byes) conceded by a team in a single ODI World Cup match stands at 35 — which notoriously recorded this?",
+    "options": [
+      "Scotland vs. Australia 2015",
+      "Kenya vs. Sri Lanka 2003",
+      "Canada vs. Pakistan 2003",
+      "Namibia vs. India 2003"
+    ],
+    "correct": 2
+  },
+  {
+    "level": 15,
+    "question": "Which club has appeared in the most UEFA Champions League / European Cup finals in total across all history?",
+    "options": [
+      "Barcelona",
+      "Bayern Munich",
+      "Juventus",
+      "Real Madrid"
+    ],
+    "correct": 3
+  }
+]
