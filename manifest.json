@@ -1,0 +1,38 @@
+{
+
+  "name":"Crorepati",
+  "short_name":"WWTBM",
+  "description":"Who wants to be a millionaire",
+  "start_url":"/m/",
+  "scope":"/m/",
+  "display":"standalone",
+  "orientation":"portrait",
+  "background_color":"#111111",
+  "theme_color":"#0066cc",
+  "icons":[
+    {"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
+
+   "name":"Crorepati",
+  "short_name":"WWTBM",
+  "description":"Who wants to be a millionaire",
+  "start_url":"/m/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3",
+  "icons": [
+    {
+      "src": "/assets/gfmc.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/gfmc.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+

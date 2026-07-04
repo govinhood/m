@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who Wants to Be a Millionaire? - Pro Celebration Edition</title>
+        <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0066cc">
+
     <style>
         :root {
             --bg-dark: #07091e;
@@ -505,7 +508,9 @@
     </style>
 </head>
 <body>
-
+<!-- PWA -->
+    <button id="installBtn" style="display:none;position:fixed;bottom:20px;right:20px;padding:12px 20px;border:none;border-radius:8px;background:#2196F3;color:#fff;font-size:16px;cursor:pointer;z-index:9999;">
+📲 Install App
     <canvas id="celebrationCanvas"></canvas>
 
     <header>
@@ -1633,5 +1638,13 @@
       };
     </script>
 <script src="https://unpkg.com/accessibility-widgets@latest/widget.js"></script>
+<script>
+let deferredPrompt;
+window.addEventListener("beforeinstallprompt",(e)=>{e.preventDefault();deferredPrompt=e;setTimeout(()=>{if(deferredPrompt){deferredPrompt.prompt();deferredPrompt.userChoice.finally(()=>deferredPrompt=null)}},1500);});
+if("serviceWorker" in navigator){navigator.serviceWorker.register("service-worker.js");}
+
+
+
+</script>
 </body>
 </html>
